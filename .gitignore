@@ -1,0 +1,10 @@
+# .gitignore
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pkl
+.DS_Store
+.env
+.cache/
+poetry.lock
