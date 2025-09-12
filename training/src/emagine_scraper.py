@@ -1,4 +1,5 @@
 from src.abstract_scraper import AbstractScraper
+from src.utils import slugify_title_for_link
 import requests
 import pandas as pd
 from datetime import datetime
@@ -7,22 +8,38 @@ import json
 import ast
     
 
-class AliantScraper(AbstractScraper):
-    site = 'Aliant'
+class EmagineScraper(AbstractScraper):
+    site = 'Emagine'
 
     def request_status(self):
-        url = "https://aliant.recman.page/api/jobs?sort=newest"
-
+        url = "https://portal-api.emagine.org/api/JobAds/Search"
 
         headers = {
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
-            "Accept": "application/json, text/plain, */*",
-            "Referer": "https://aliant.recman.page/jobs?sort=newest",
-            "X-CSRF-TOKEN": "694-1334-250910123734-95bda24a27252a6ddffd471f9e57c22b8e41f4600506a059f483cbde2f2a1328b748",   # if you see this in Network, copy it too
-            "Cookie": "recman=drd5t8o7u0h47bo4sotqccb6br0951sk; organisation=aliant.recman.page%3B694%3B1334%3B1334; axe_xs=694-1334-250910123734-95bda24a27252a6ddffd471f9e57c22b8e41f4600506a059f483cbde2f2a1328b748; cookie_accept=0%3B1" #sometimes Recman requires session cookies
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+            "Accept": "application/json",
+            "Content-Type": "application/json",
+            "Referer": "https://portal.emagine.org/"
         }
 
-        response = requests.get(url, headers=headers)
+        payload = {
+            "skipCount": 0,
+            "maxResultCount": 1000,
+            "sorting": "CreationTime desc",
+            "filter": {
+                "isPartTime": None,
+                "textFilters": [],
+                "workLocationTypes": [],
+                "workLocations": [{"countryId": "SE", "city": "", "region": ""}],
+                "professionalRolesIds": [],
+                "consultantSeniorities": [],
+                "languageProficiencies": [],
+                "industriesIds": [],
+                "recordIdsToExclude": []
+            },
+            "supportedLanguageId": "EN"
+        }
+
+        response = requests.post(url, headers=headers, json=payload)
         print(f'{self.__class__.site} > Response:', response.status_code)
         return response
     
@@ -30,7 +47,7 @@ class AliantScraper(AbstractScraper):
     def return_raw_job_posts_data(self, response):
         data = response.json()   # parse till Python-dict
         # alla annonser
-        job_posts = data["data"]["job_posts"] 
+        job_posts = data["items"]
         print(f'{self.__class__.site} > Nmr of scraped adds:', len(job_posts))
         return job_posts
 
@@ -39,9 +56,9 @@ class AliantScraper(AbstractScraper):
         raw_data = pd.DataFrame(columns=['site', 'site_id','job_title', 'raw_payload', 'ingestion_ts'])
         
         for job in job_posts:
-            site = AliantScraper.site
-            site_id = job['AdID']
-            job_title = job['Name']
+            site = EmagineScraper.site
+            site_id = job['id']
+            job_title = job['title']
             ingestion_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # <--- timestamp här
             raw_data.loc[len(raw_data)] = [site, site_id, job_title, job, ingestion_ts]
          
@@ -57,16 +74,20 @@ class AliantScraper(AbstractScraper):
             job_title = row['job_title']
         
             payload = ast.literal_eval(row['raw_payload'])
-            area = None 
-            created = payload['Created']
-            start_date = None 
-            end_date = None 
-            duration = None 
-            due_date = payload['Expire']
+            try: 
+                area = payload["area"]["name"]
+            except: 
+                area = None
 
-            work_location = payload['Place']
-            work_type = payload['WorkType']
-            link = f'https://aliant.recman.page/job/{site_id}'
+            created = None 
+            start_date = payload["startDate"]
+            end_date = None 
+            duration = payload["duration"]
+            due_date = payload['applicationDate']
+
+            work_location = payload["jobAdWorkLocation"]["city"]
+            work_type = payload["jobAdWorkLocation"]["workLocationType"]
+            link = f'https://portal.emagine.org/jobs/{site_id}/{slugify_title_for_link(job_title)}' 
             ingestion_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # <--- timestamp här
 
             bronze_data.loc[len(bronze_data)] = [site, site_id, job_title, area, created, start_date, end_date, duration, due_date, work_location, work_type, link, ingestion_ts]
