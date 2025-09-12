@@ -60,8 +60,8 @@ class ASocietyScraper(AbstractScraper):
             site = row['site']
             site_id = row['site_id']
             job_title = row['job_title']
-        
             payload = ast.literal_eval(row['raw_payload'])
+            
             area = return_regex_string_match(pattern_area, payload)
 
             created = return_regex_string_match(pattern_created, payload)
@@ -72,7 +72,7 @@ class ASocietyScraper(AbstractScraper):
 
             work_location = return_regex_string_match(pattern_work_location, payload)
             work_type = return_regex_string_match(pattern_work_type, payload)
-            link = f'https://www.asocietygroup.com/sv/uppdrag/{slugify_title_for_link(job_title)}-{id}'
+            link = f'https://www.asocietygroup.com/sv/uppdrag/{slugify_title_for_link(job_title)}-{site_id}'
             ingestion_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # <--- timestamp här
 
             bronze_data.loc[len(bronze_data)] = [site, site_id, job_title, area, created, start_date, end_date, duration, due_date, work_location, work_type, link, ingestion_ts]

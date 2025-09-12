@@ -50,9 +50,9 @@ class NikitaScraper(AbstractScraper):
         for job in job_posts:
             tag_title = job.select_one("span.open-position-title")
             tag_site_id = job.select_one("a.open-position-list-link")
-
+          
             site = NikitaScraper.site
-            site_id = tag_site_id.get("onclick", "").replace("href=", "").replace("'", "") if tag_site_id else ""
+            site_id = tag_site_id.get("href") if tag_site_id else ""
             job_title = tag_title.get_text(strip=True) if tag_title else ""
             ingestion_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S") 
 
