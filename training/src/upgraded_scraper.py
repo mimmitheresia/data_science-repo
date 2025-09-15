@@ -42,6 +42,23 @@ class UpgradedScraper(AbstractScraper):
    
         print(f'{self.__class__.site} > Nmr of scraped adds:', len(job_posts))
         return job_posts
+    
+    def request_status2(self):
+        url = "https://upgraded.se/lediga-uppdrag/"
+        headers = {}
+
+        response = requests.get(url, headers=headers)
+        print(f'{self.__class__.site} > Response:', response.status_code)
+        return response
+
+
+    def return_raw_job_posts_data2(self, response):
+        soup = BeautifulSoup(response.text, "html.parser")
+        job_div_pattern = "tr.konsultuppdrag__table-row"
+        job_posts = soup.select(job_div_pattern)
+   
+        print(f'{self.__class__.site} > Nmr of scraped adds:', len(job_posts))
+        return job_posts
 
 
     def parse_raw_data(self, job_posts):

@@ -1,10 +1,7 @@
 from src.abstract_scraper import AbstractScraper
-from src.utils import slugify_title_for_link
 import requests
 import pandas as pd
 from datetime import datetime
-import os
-import json
 import ast
     
 

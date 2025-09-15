@@ -60,7 +60,7 @@ class ASocietyScraper(AbstractScraper):
             site = row['site']
             site_id = row['site_id']
             job_title = row['job_title']
-            payload = ast.literal_eval(row['raw_payload'])
+            payload = row['raw_payload']
             
             area = return_regex_string_match(pattern_area, payload)
 

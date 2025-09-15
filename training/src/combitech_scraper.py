@@ -8,37 +8,25 @@ import json, re
 import ast
 import pandas as pd
 from bs4 import BeautifulSoup
-from playwright.async_api import async_playwright
-import asyncio
     
-async def scrape_jobs():
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
-        page = await browser.new_page()
-        response = await page.goto("https://www.combitech.se/karriar/lediga-jobb/")
-        status_code = response.status
-        await page.wait_for_timeout(2000)
-        html = await page.content()
-        await browser.close()
-
-        soup = BeautifulSoup(html, "html.parser")
-        return soup, status_code
-
 
 class CombitechScraper(AbstractScraper):
     site = 'Combitech'
 
-    async def request_status(self):
-        soup, status_code = await scrape_jobs()
-        response = soup
-        print(f'{self.__class__.site} > Status code:', status_code)
+    
+    def request_status(self):
+        url = "https://www.combitech.se/karriar/lediga-jobb/"
+        headers = {}
+
+        response = requests.get(url, headers=headers)
+        print(f'{self.__class__.site} > Response:', response.status_code)
         return response
 
 
     def return_raw_job_posts_data(self, response):
-  
+        soup = BeautifulSoup(response.text, "html.parser")
         job_div_pattern = "div.block.w-full.mb-4.md\\:pb-0.md\\:mb-0.lg\\:pb-4"
-        job_posts = response.select(job_div_pattern)
+        job_posts = soup.select(job_div_pattern)
    
         print(f'{self.__class__.site} > Nmr of scraped adds:', len(job_posts))
         return job_posts
