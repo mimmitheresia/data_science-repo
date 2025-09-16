@@ -1,503 +1,535 @@
-,site,job_title,work_location,ingestion_ts,link
-501,Ework,Software Engineer,Vasteras,2025-09-16 11:57:14,https://app.verama.com/sv/job-requests/70985
-500,Upgraded,Digital Project Manager & Business Architect,Boden,2025-09-16 11:49:07,https://upgraded.se/konsultuppdrag/127695-digital-project-manager-business-architect-2/
-499,Upgraded,Software Engineer,"Göteborg, SE",2025-09-16 11:49:07,https://upgraded.se/konsultuppdrag/127696-software-engineer-119/
-498,Upgraded,Solution Architect,Boden,2025-09-16 11:49:07,https://upgraded.se/konsultuppdrag/127703-solution-architect-19/
-497,Upgraded,System Engineer,Stockholm,2025-09-16 11:49:07,https://upgraded.se/konsultuppdrag/127731-system-engineer-14/
-496,Upgraded,BI Specialist,"Copenhagen, DK",2025-09-16 11:49:07,https://upgraded.se/konsultuppdrag/127738-bi-specialist-4/
-495,Nikita,Kategoriansvarig strategiskt tekniskt inköp,,2025-09-16 11:40:10,https://www.nikita.se/lediga-uppdrag/kategoriansvarig-strategiskt-tekniskt-inkop/
-494,Nikita,Senior projektledare,,2025-09-16 11:40:10,https://www.nikita.se/lediga-uppdrag/senior-projektledare-19/
-491,Ework,Mandarin speaking Program Manager,Gothenburg,2025-09-16 11:11:10,https://app.verama.com/sv/job-requests/70982
-490,Ework,Mechanical Engineering - 2-stroke engine development ,Huskvarna,2025-09-16 11:11:10,https://app.verama.com/sv/job-requests/70983
-492,Ework,Senior Fullstack Developer,Gothenburg,2025-09-16 11:11:10,https://app.verama.com/sv/job-requests/70979
-493,Ework,Fullstack Data Engineer ,Stockholm-Arlanda,2025-09-16 11:11:10,https://app.verama.com/sv/job-requests/70978
-489,A Society,Fullstack Developer,Södertälje,2025-09-16 11:01:55,https://www.asocietygroup.com/sv/uppdrag/fullstack-developer-14167
-488,Upgraded,Senior Data Scientist,Stockholm,2025-09-16 09:49:17,https://upgraded.se/konsultuppdrag/127648-senior-data-scientist-5/
-487,Upgraded,RTE/Agil coach,Stockholm,2025-09-16 09:49:17,https://upgraded.se/konsultuppdrag/127656-rte-agil-coach/
-486,Upgraded,Digital Project Manager & Business Architect,Stockholm,2025-09-16 09:49:17,https://upgraded.se/konsultuppdrag/127660-digital-project-manager-business-architect/
-485,Upgraded,Utvecklare,Örebro,2025-09-16 09:49:17,https://upgraded.se/konsultuppdrag/127664-utvecklare-4/
-481,Ework,Lösningsarkitekt,Lulea,2025-09-16 09:49:04,https://app.verama.com/sv/job-requests/70968
-478,Ework,Uppdrag inom säkerhets- och beredskapsområdet,Sundsvall,2025-09-16 09:49:04,https://app.verama.com/sv/job-requests/70974
-480,Ework,Integrationsspecialist,Stockholm,2025-09-16 09:49:04,https://app.verama.com/sv/job-requests/70970
-479,Ework,Supply Chain Manager,Vasteras,2025-09-16 09:49:04,https://app.verama.com/sv/job-requests/70971
-482,Ework,Solution Architect - SAP PS,Vasteras,2025-09-16 09:49:04,https://app.verama.com/sv/job-requests/70967
-483,Ework,Lösningsarkitekt Kafka,Stockholm,2025-09-16 09:49:04,https://app.verama.com/sv/job-requests/70964
-484,Ework,Machine Learning Engineer ,Stockholm,2025-09-16 09:49:04,https://app.verama.com/sv/job-requests/70963
-477,Emagine,Junior Accountant,Stockholm Metropolitan Area,2025-09-16 09:48:59,https://portal.emagine.org/jobs/170566/junior-accountant
-476,Emagine,Expert Business Analyst – Identity & Access Management RACF ,Stockholm Metropolitan Area,2025-09-16 09:48:59,https://portal.emagine.org/jobs/170567/expert-business-analyst-identity-and-access-management-racf
-475,Combitech,Teknikinformatör,Frösön,2025-09-16 09:48:57,https://www.combitech.se/karriar/lediga-jobb/teknikinformator/
-474,A Society,Machine Learning Engineer,Stockholm,2025-09-16 09:48:54,https://www.asocietygroup.com/sv/uppdrag/machine-learning-engineer-14163
-473,A Society,Software Engineer,Stockholm,2025-09-16 09:48:54,https://www.asocietygroup.com/sv/uppdrag/software-engineer-14164
-472,A Society,Experienced Java developer,Stockholm,2025-09-16 09:48:54,https://www.asocietygroup.com/sv/uppdrag/experienced-java-developer-14165
-471,A Society,Teknikinformatör inom elektronik,Linköping,2025-09-16 09:48:54,https://www.asocietygroup.com/sv/uppdrag/teknikinformatr-inom-elektronik-14166
-467,Afry,Senior Project Manager,Stockholms län,2025-09-16 09:48:47,https://portal.afry.com/available-assignments/search/7d065434-f383-46c8-9b37-674a65132f44
-468,Afry,Digital konstruktör,Västra Götalands län,2025-09-16 09:48:47,https://portal.afry.com/available-assignments/search/67d4b01b-8e9c-4553-9872-81bdea9b545d
-469,Afry,Continuous Integration and Delivery,Stockholms län,2025-09-16 09:48:47,https://portal.afry.com/available-assignments/search/ccab421f-bdf3-4620-93e0-ffb035a69164
-470,Afry,Electrical HW designer,Stockholms län,2025-09-16 09:48:47,https://portal.afry.com/available-assignments/search/0db08d19-ae4b-472a-abc5-0e3e206b2947
-466,Upgraded,Security Engineer,"Älmhult, SE",2025-09-15 16:37:05,https://upgraded.se/konsultuppdrag/127525-security-engineer-4/
-465,Upgraded,Verksamhetsutvecklare Hemtjänst – Ersättningar och avgifter,"Solna, SE",2025-09-15 16:37:05,https://upgraded.se/konsultuppdrag/127551-utvecklare-hemtjanst-ersattningar-och-avgifter/
-464,Ework,ServiceNow/DevOps utvecklare,Stockholm,2025-09-15 16:36:48,https://app.verama.com/sv/job-requests/70957
-463,Ework,Fullstack Data Engineer,Stockholm-Arlanda,2025-09-15 16:36:48,https://app.verama.com/sv/job-requests/70958
-462,Ework,Testare - Göteborg (kort anbudsdag 16/9),Gothenburg,2025-09-15 16:36:48,https://app.verama.com/sv/job-requests/70959
-461,Emagine,Digital project manager and business architect,Stockholm Metropolitan Area,2025-09-15 16:36:40,https://portal.emagine.org/jobs/170562/digital-project-manager-and-business-architect
-460,A Society,System Verification and Validation Engineer,Stockholm,2025-09-15 16:36:33,https://www.asocietygroup.com/sv/uppdrag/system-verification-and-validation-engineer-14157
-459,A Society,Project manager/System Verification and Validation Engineer,Stockholm,2025-09-15 16:36:33,https://www.asocietygroup.com/sv/uppdrag/project-managersystem-verification-and-validation-engineer-14158
-458,A Society,"Systemutvecklare till E-hälsomyndigheten, 100%, Kalmar ",Stockholm,2025-09-15 16:36:33,https://www.asocietygroup.com/sv/uppdrag/systemutvecklare-till-e-hlsomyndigheten-100-kalmar-14160
-457,A Society,Digital project manager and business architect,Boden,2025-09-15 16:36:33,https://www.asocietygroup.com/sv/uppdrag/digital-project-manager-and-business-architect-14161
-456,Aliant,Systemutveckling - Uppbyggnad Historik-databas,Gävleborgs län,2025-09-15 16:36:30,https://aliant.recman.page/job/450008
-455,Afry,Arkitekt nationellt register för medicintekniska produkter,Stockholms län Kalmar län,2025-09-15 16:31:38,https://portal.afry.com/available-assignments/search/47ef4db3-e6a8-4916-a890-5ce9bd966124
-454,Combitech,Mekanikkonstruktörer sökes,Malmö,2025-09-15 15:38:09,https://www.combitech.se/karriar/lediga-jobb/mekanikkonstruktorer-sokes/
-453,Combitech,Exjobb: Beräkning och analys,Trollhättan,2025-09-15 15:38:09,https://www.combitech.se/karriar/lediga-jobb/exjobb-berakning-och-analys/
-452,Emagine,Software Engineer - Backstage development,Stockholm Metropolitan Area,2025-09-15 15:27:04,https://portal.emagine.org/jobs/170559/software-engineer-backstage-development
-451,Ework,Electronics Hardware Design Engineer,Gothenburg,2025-09-15 15:25:22,https://app.verama.com/sv/job-requests/70953
-450,Ework,ServiceNow-lösningsarkitekt,Stockholm,2025-09-15 15:25:22,https://app.verama.com/sv/job-requests/70956
-449,Upgraded,IT-supporttekniker,Stockholm,2025-09-15 14:57:17,https://upgraded.se/konsultuppdrag/127444-it-supporttekniker-3/
-448,Upgraded,EMC PCB designer,"Remote, Södertälje",2025-09-15 14:57:17,https://upgraded.se/konsultuppdrag/127451-emc-pcb-designer/
-447,Upgraded,Infraarkitekt med Inriktning Brandvägg,Stockholm,2025-09-15 14:57:17,https://upgraded.se/konsultuppdrag/127467-infraarkitekt-med-inriktning-brandvagg/
-446,Regent,Senior ServiceNow Lösningsarkitekt,Stockholm,2025-09-15 14:51:21,https://regent.se/uppdrag/926
-445,Nikita,Systemförvaltare,,2025-09-15 14:47:49,https://www.nikita.se/lediga-uppdrag/systemforvaltare-6/
-395,Upgraded,Functional Safety Expert,Göteborg,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126729-functional-safety-expert-3/
-394,Upgraded,Projektledare för ledningssystem,"Göteborg, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126736-projektledare-for-ledningssystem/
-393,Upgraded,Data Engineer,Växjö,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126737-data-engineer-42/
-407,Upgraded,Expertstöd Matomo,Göteborg,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126313-expertstod-matomo-2/
-392,Upgraded,Senior Build Engineer C++/Bazel,Stockholm/Remote,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126738-senior-build-engineer-c-bazel/
-391,Upgraded,Delprojektledare,Växjö,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126743-delprojektledare-4/
-390,Upgraded,Project Leader APQP,"Göteborg, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126750-project-leader-apqp/
-397,Upgraded,Tech Lead/Lösningsarkitekt – Logistik/Tillverkning,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126665-tech-lead-losningsarkitekt-logistik-tillverkning-2/
-396,Upgraded,IT-Specialist,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126717-it-specialist-3/
-402,Upgraded,Arkitekt (Tåg),Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126521-arkitekt-tag-2/
-398,Upgraded,Senior Kravanalytiker/Product Manager,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126655-senior-kravanalytiker-product-manager-2/
-399,Upgraded,Data Information/Scientist,Södertälje,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126635-data-information-scientist/
-400,Upgraded,Fullstackutvecklare,Södertälje,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126631-bi-developer-3/
-401,Upgraded,Data Engineer Informatica,Nearshore,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126593-data-engineer-informatica-4/
-388,Upgraded,Analytics Engineer – Scenförståelse & Sensorfusion,"Lund, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126840-analytics-engineer-scenforstaelse-sensorfusion-2/
-403,Upgraded,.NET-utvecklare med fokus på DevOps & molnlösningar,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126511-net-utvecklare-med-fokus-pa-devops-molnlosningar/
-404,Upgraded,Redovisningscontroller med erfarenhet av kvalificerat redovisningsarbete och ekonomistyrning.,"Solna, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126504-redovisningscontroller-med-erfarenhet-av-kvalificerat-redovisningsarbete-och-ekonomistyrning/
-405,Upgraded,Pega-utvecklare,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126395-pega-utvecklare-2/
-389,Upgraded,Business Analyst,"Copenhagen, DK",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126787-business-analyst-48/
-383,Upgraded,DevOps Engineer,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127013-devops-engineer-29/
-387,Upgraded,Manager/Project Manager,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126870-manager-project-manager/
-386,Upgraded,AI Development Engineer,Lund,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126877-ai-development-engineer-3/
-369,Upgraded,Lime utvecklare,"Landskrona, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127399-lime-utvecklare/
-370,Upgraded,"Expert inom Digitaliseringssamordning till Framtidens ortopedi i Hässleholm, Region Skåne avrop 1823",Hässleholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127359-expert-inom-digitaliseringssamordning-till-framtidens-ortopedi-i-hassleholm-region-skane-avrop-1823-3/
-371,Upgraded,DevOps Engineer,Södertälje,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127325-devops-engineer-30/
-372,Upgraded,Business Change Management Strategy and framework (CAD/vPDM),Södertälje,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127297-business-change-management-strategy-and-framework/
-373,Upgraded,Project Manager,Södertälje,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127266-project-manager-26/
-374,Upgraded,DBA PostgreSQL,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127226-dba-postgresql-5/
-375,Upgraded,Penntest,Uppsala,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127216-penntest/
-376,Upgraded,"Senior förändringsledare, Region Skåne / Skånetrafiken avrop 1831","Malmö, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127196-senior-forandringsledare-region-skane-skanetrafiken-avrop-1831-2/
-378,Upgraded,Scrum Master,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127061-scrum-master-26/
-379,Upgraded,Fullstackutvecklare (.Net & Azure-cloud),Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127053-fullstackutvecklare-15/
-380,Upgraded,"Senior Projektledare SDV Utbildning, Region Skåne avrop 1807",Lund,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127027-senior-projektledare-sdv-utbildning-region-skane-avrop-1807-2/
-381,Upgraded,Senior SalesForce-konsult,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127022-senior-salesforce-konsult/
-382,Upgraded,Embedded Developer,"Malmö, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127020-embedded-developer-5/
-384,Upgraded,Backend Developer,Lund,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126933-backend-developer-12/
-385,Upgraded,Serviceinriktad Firstline tekniker till Servicedesk,"Haninge, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126925-serviceinriktad-firstline-tekniker-till-var-servicedesk/
-406,Upgraded,Security Engineer,Stockholm/Katowice,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126349-security-engineer-3/
-377,Upgraded,PLM Consultant,"Malmö, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127094-plm-consultant-3/
-408,Upgraded,Senior C++/.NET Developer,Göteborg,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126233-senior-c-net-developer/
-436,Upgraded,Android apputvecklare,Göteborg,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/124537-android-apputvecklare/
-429,Upgraded,Senior Data Scientist,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125576-senior-data-scientist-4/
-430,Upgraded,Utbildare inom CMS,Göteborg,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125495-utbildare-inom-cms/
-431,Upgraded,Uppdragsledare,"Eskilstuna, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125471-uppgradsledare/
-432,Upgraded,Safety Subject Matter Expert (SME),Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125358-safety-subject-matter-expert-sme/
-433,Upgraded,Senior Tech Lead,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125250-senior-tech-lead-3/
-434,Upgraded,Embedded Software Engineer,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125175-embedded-software-engineer-7/
-435,Upgraded,Projektledare,Örebro,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125135-projektledare-114/
-437,Upgraded,Senior projektledare,Göteborg,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/124308-senior-projektledare-18/
-427,Upgraded,Embedded applikationsingenjör,Göteborg,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125599-embedded-applikationsingenjor/
-438,Upgraded,Test Automation Engineer (spetskompetens: Python),Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/124110-test-automation-engineer-spetskompetens-python/
-439,Upgraded,"Senior Utvecklare/Applikationskonsult, Region Skåne/Skånetrafiken avrop 1749",,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/124108-senior-utvecklare-applikationskonsult-region-skane-skanetrafiken-avrop-1749-3/
-440,Upgraded,Power Drive System Engineer,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/123996-power-drive-system-engineer/
-441,Upgraded,Siebel-utvecklare,Sundsvall,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/123834-siebel-utvecklare/
-443,Upgraded,Kravanalytiker,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/122795-kravanalytiker-33/
-444,Upgraded,Lösningsarkitekt inom Apputveckling,Norrköping,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/122542-losningsarkitekt-inom-apputveckling/
-409,Upgraded,Embedded Software Product Owner,Göteborg,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126099-embedded-software-product-owner-2/
-428,Upgraded,Senior Machine Learning Engineering,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125586-senior-machine-learning-engineering/
-442,Upgraded,Testare/Testdesigner,Göteborg,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/123178-testare-testdesigner/
-426,Upgraded,Senior 3D Software Developer,,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125722-senior-3d-software-developer/
-410,Upgraded,Lösningsarkitekt,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126092-losningsarkitekt-51/
-425,Upgraded,Fastighetscontroller,"Järfälla, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125727-fastighetscontroller/
-411,Upgraded,Chefshandledning till Täby kommun,"Täby, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126090-chefshandledning-till-taby-kommun/
-412,Upgraded,Software Developer – Embedded & Automation,"Lund, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126062-software-developer-embedded-automation/
-413,Upgraded,Handledare till MiniMaria/Ungdomsbehandling,"Täby, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126052-handledare-till-minimaria-ungdomsbehandling/
-414,Upgraded,Säkerhetskonsult / PLC-programmering,Lund,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125969-sakerhetskonsult-plc-programmering/
-415,Upgraded,Digital ASIC Designer / Technical Lead,Lund,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125946-digital-asic-designer-technical-lead/
-417,Upgraded,"Utvecklare, inriktning test av javasystem",Umeå,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125890-utvecklare-inriktning-test-av-javasystem/
-416,Upgraded,Testare SAP EAM och UiPath,Remote,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125938-testare-sap-eam-och-uipath/
-418,Upgraded,Förändringsledning till Täby kommun,"Täby, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125880-forandringsledning/
-419,Upgraded,Senior Technical Project Manager,Lund,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125879-senior-technical-project-manager-2/
-420,Upgraded,Testspecialist,Stockholm/Kalmar,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125875-testspecialist-2/
-421,Upgraded,Agentic AI och automation,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125838-agentic-ai-och-automation/
-422,Upgraded,Release Manager,Remote,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125777-release-manager-3/
-423,Upgraded,"Senior Teknisk dokumentatör (Mjukvara), Region Skåne/Skånetrafiken avrop 1828",Malmö,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125751-senior-teknisk-dokumentator-mjukvara-region-skane-avrop-1828/
-424,Upgraded,"Projektadministratör, Region Skåne/Skånetrafiken avrop 1827",Malmö,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125744-senior-projektadministrator-region-skane-skanetrafiken-avrop-1827/
-350,Regent,Senior Interimschef Masteradata,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/919
-354,Regent,Lead Business Architect (LBA) – PEGA-Arbetsförmedligen,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/915
-353,Regent,7 .net utvecklare till Kammarkollegiet-Transpprtstyrelsen,Örebro/Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/916
-352,Regent,2 Testare till Kammarkollegiet - Transportstyrelsen,Örebro/Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/917
-351,Regent,Kravanalytiker till Transportstyrelsen,Örebro/Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/918
-344,Regent,Senior IT-arkitekt,Sundsvall,2025-09-15 13:52:46,https://regent.se/uppdrag/925
-349,Regent,Hands-on Test Coach-Lumera,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/920
-348,Regent,Senior Data Scientist,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/921
-347,Regent,ML engineer,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/922
-346,Regent,IAM/Azure-arkitekt,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/923
-345,Regent,Game Engineer UI/UX,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/924
-356,Regent,Systemutvecklare – Lead ServiceNow Developer,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/913
-355,Regent,Principal System Architect (PSA)-Pega-Arbetsförmedlingen,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/914
-361,Regent,Analytics Engineer / Data Engineer,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/903
-357,Regent,Senior ServiceNow Developer,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/912
-364,Regent,En Senior Site Reliability Engineer,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/900
-368,Regent,Senior Frontendutvecklare sökes till uppdrag hos kund i Sundsvall,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/892
-358,Regent,Senior Frontendutvecklare med Appkompetens,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/911
-366,Regent,Data Analytics/Business Translator,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/896
-365,Regent,Dynamics 365 CE / Power Platform-expert,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/899
-367,Regent,Pega-utvecklare,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/895
-363,Regent,Tech lead-Senior Node.js/Typescript,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/901
-362,Regent,Android Utvecklare,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/902
-360,Regent,Senior Javautvecklare,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/908
-359,Regent,AML/CTF Utredare,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/909
-335,Nikita,Upphandlingskonsult,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/upphandlingscontroller/
-328,Nikita,API-integrations specialist,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/api-integrations-specialist/
-327,Nikita,Integrationsutvecklare Azure,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/integrationsutvecklare-azure-2/
-330,Nikita,Senior projektledande VVS-konsult,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/senior-projektledande-vvs-konsult/
-331,Nikita,AI-konsult till kund inom bygg,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/ai-konsult-till-kund-inom-bygg/
-332,Nikita,Senior konsult inom B2B Lending – Product and Credit,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/senior-konsult-inom-b2b-lending-product-and-credit/
-333,Nikita,IT-arkitekt till CSN,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/it-arkitekt-till-csn/
-334,Nikita,Applikationskonsult/integrationsspecialist,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/9476/
-329,Nikita,Project Manager – Financial Market,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/project-manager-financial-market/
-336,Nikita,VMware Engineer – Migrering och Infrastruktur,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/vmware-engineer-migrering-och-infrastruktur/
-338,Nikita,Kravanalytiker/Business Analyst,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/kravanalytiker-business-analyst/
-339,Nikita,Safety Subject Matter Expert (SME) Lead,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/9471/
-340,Nikita,Projektledare AML,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/projektledare-aml/
-341,Nikita,Elektronikkonstruktör,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/elektronikkonstruktor-2/
-342,Nikita,Senior Teknisk Projektledare T&T,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/senior-teknisk-projektledare-tt/
-343,Nikita,AI Integration Specialist / Machine Learning Engineer,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/ai-integration-specialist-machine-learning-engineer/
-337,Nikita,IT-arkitekt/Systemutvecklare,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/it-arkitekt-systemutvecklare/
-281,Ework,Data Analyst - Logistics,Jonsered,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70840
-274,Ework,Projektledare ledningssystem (NMI),Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70866
-275,Ework,FEA Engineer,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70863
-276,Ework,Automation Engineer,Lund,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70861
-277,Ework,Global Project Operations Manager,Vasteras,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70859
-278,Ework,Geoteknisk utredning för ny detaljplan för Bro torg,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70855
-279,Ework,Project Manager,Vasteras,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70854
-280,Ework,Associate Project Manager,Vasteras,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70848
-285,Ework,IT-specialist,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70823
-282,Ework,.NET-utvecklare med fokus på DevOps & molnlösningar,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70832
-283,Ework,Project Manager ,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70829
-284,Ework,Grupputveckling inom ledningsgrupp,Malmo,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70826
-272,Ework,Business Analyst,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70871
-286,Ework,Customer Support Engineer,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70822
-287,Ework,Utvärdering av Lunds kommuns mötes och evenemangstrategi,Lund,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70819
-288,Ework,Senior Service Designer,Kista,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70818
-273,Ework,Data Engineer / Full Stack Consultant – Digital Twin Project,Södertälje,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70870
-268,Ework,Handräckning värmeanläggningar Visingsö,Visingsö,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70880
-271,Ework,Application Developer / Full Stack Consultant – Digital Twin,Södertälje,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70872
-261,Ework,MDP Non-Retail Data Analyst,"Helsinki, Stockholm",2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70894
-254,Ework,Cybersecurity Expert (Vehicle Platform),Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70906
-255,Ework,"Release Train Engineer, Coach",Solna,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70904
-256,Ework,R&D Engineer within mechanical design,Vasteras,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70903
-257,Ework,Senior Cybersecurity Expert,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70902
-258,Ework,Solution Architect with PKI Expertise,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70900
-259,Ework,Kvalitetsspecialist i anläggningsprojekt,Sundbyberg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70898
-260,Ework,Informationsarkitekt,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70895
-262,Ework,Project Support – Review of the customer support,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70893
-270,Ework,IT Business Analyst,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70873
-263,Ework,JD Edwards (JDE) Specialist,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70891
-264,Ework,Organisationskonsulter - Ledarskapsutveckling,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70889
-265,Ework,Vetenskaplig studie-Likvärdig kvalitet i Malmös förskolor,Malmo,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70884
-266,Ework,Technical Lead - Splunk UBA ,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70883
-267,Ework,Machine Learning Engineer ,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70881
-290,Ework,Analytiker inom effektmätning och projektuppföljning,Malmo,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70809
-269,Ework,M365 konsult,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70877
-289,Ework,Coachning/utveckling av chef på exekutiv nivå ,Malmo,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70810
-294,Ework,Exchange uppgradering 2016-SE,Helsingborg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70797
-291,Ework,Stadsautomationskonsult,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70808
-311,Ework,"Strategi för energieffektivisering, Upplands-Bro kommun",Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70719
-313,Ework,Konstruktör - Motordetaljer,Huskvarna,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70714
-314,Ework,Delprojektledare Kontrollprogram Anneberg Skanstull,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70713
-315,Ework,Dokumentationskonsult/ Dokumenteringsingenjör,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70706
-316,Ework,Teknisk Projektledare,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70692
-317,Ework,Uppdragsledare,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70677
-318,Ework,Provningsingenjör - mekanisk provning,Huskvarna,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70655
-319,Ework,Kulturintressemätning i Malmö,Malmo,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70654
-320,Ework,Projektledare HRM,Lund,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70652
-321,Ework,Senior Functional Consultant- D365 FnO,Malmo,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70649
-322,Ework,Fältinventering av alléer i Nacka kommun,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70594
-323,Ework,Senior Apputvecklare - Android,Mölndal,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70593
-324,Ework,"Underhållsplan IT/OT-säkerhet – Cer-direktivet , VA",Söderköping,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70561
-325,Ework,Broms Delprojektledare Livslängdssäkring Contessa & Regina,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70542
-326,Ework,Dagvattenutredning Parkering - Älvboda 1:113,"Gavle, Skutskär",2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70541
-252,Ework,Brandkonsult,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70909
-312,Ework,"Java AWS (Docker, Kubernetes, Lambda, Cloudformation) - JKPG",Huskvarna,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70715
-310,Ework,AML/CTF Utredare,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70722
-292,Ework,Business Controller,Vasteras,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70803
-309,Ework,Antikvarisk förundersökning och konsekvensbeskrivning,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70726
-293,Ework,SAP Senior Project Lead for Successfactors ,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70798
-295,Ework,Data Engineer,Solna,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70795
-296,Ework,Systemförvaltare -MET,Stockholm-Arlanda,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70789
-297,Ework,Ekolog till Förstudie Kafé Sjöstugan ,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70783
-298,Ework,Junior People & Culture Business Partner (Try and hire),Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70781
-299,Ework,Package Development Engineer ,Lund,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70777
-300,Ework,Mechanical Design Engineer,Huskvarna,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70772
-301,Ework,Senior Machine Learning Engineer & Data Engineer ,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70769
-302,Ework,IL-Kurs (Indirekt Ledarskap) ,Malmo,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70764
-303,Ework,Statistiker till befolkningsprognos,Söderhamn,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70759
-304,Ework,Dagvattenutredning på Väsjö torg,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70747
-305,Ework,Trafikutredning för ny detaljplan ”Nya Härneviskolan”,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70734
-306,Ework,Erbjudandeansvarig och Programledare Fjärrvärme2.0,Jonkoping,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70733
-307,Ework,Konsultstöd parkplan för Nacka kommun,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70731
-308,Ework,Buller- och vibrationsutredning för ny detaljplan,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70732
-253,Ework,Arkitekttjänster för kommersiella lokaler ,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70907
-251,Ework,R&D Support Specialist,Vasteras,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70910
-238,Ework,Projektledare för upphandling av nytt lönesystem,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70942
-243,Ework,Teknisk projektledare Larm- och trygghetsområde,Lulea,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70928
-250,Ework,Expert underhåll högvärdeskomponenter tåg,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70912
-236,Ework,Projektledare,Södertälje,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70947
-237,Ework,Senior .Net Developer,Lund,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70946
-239,Ework,Chefshandledning för chef med utmaningar i arbetsgrupp,Malmo,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70940
-240,Ework,Handläggare BAS-U - KVV2,Lund,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70931
-241,Ework,Fullstackutvecklare - .NET och Azure cloud,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70930
-242,Ework,"Projektledare, utveckling och utrullning Lime CRM",Helsingborg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70929
-244,Ework,Projektledare ERP,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70926
-245,Ework, IT-driftkonsult för Digital Examensplanering ,Helsingborg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70921
-246,Ework,Databricks Platform Lead,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70920
-247,Ework,ICT Network & Security Consultant,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70919
-248,Ework,Projektledare,Södertälje,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70916
-249,Ework,Scrum master & Agil coach,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70914
-207,Emagine,.Net/AWS developer,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170447/netaws-developer
-204,Emagine,RFP - Datamigrering - Teamleverans,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170473/rfp-datamigrering-teamleverans
-205,Emagine,Senior Frontend Expert (React Native),Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170467/senior-frontend-expert-react-native
-206,Emagine,Backend Architect/Tech Lead (Python + AI),Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170466/backend-architecttech-lead-python-+-ai
-198,Emagine,Platform Engineer (AI Engineering),Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170484/platform-engineer-ai-engineering
-208,Emagine,New request- Atlassian Technical Engineer,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170446/new-request-atlassian-technical-engineer
-209,Emagine,Senior Machine Learning Engineer,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170410/senior-machine-learning-engineer
-210,Emagine,Advanced Data Analysts (Credit Risk Focus),Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170388/advanced-data-analysts-credit-risk-focus
-211,Emagine,Machine Learning Engineer,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170382/machine-learning-engineer
-202,Emagine,Technical lead for Splunk UBA project track,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170479/technical-lead-for-splunk-uba-project-track
-203,Emagine,Solution Architect / Lead Developer - Digital Procurement,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170477/solution-architect-lead-developer-digital-procurement
-194,Emagine,Machine Learning Engineer,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170504/machine-learning-engineer
-201,Emagine,Fullstack-utvecklare (Node/TS/React),Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170480/fullstack-utvecklare-nodetsreact
-200,Emagine,Backend-utvecklare (Go),Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170482/backend-utvecklare-go
-199,Emagine,Platform Engineer (Node.js/TS),Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170483/platform-engineer-nodejsts
-197,Emagine,Site Reliability Engineer,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170485/site-reliability-engineer
-196,Emagine,Data and Analytics Engineer with Backend - Digital Procurement ,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170492/data-and-analytics-engineer-with-backend-digital-procurement
-195,Emagine,Engineering Manager,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170502/engineering-manager
-213,Emagine,Produkt Designer,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170321/produkt-designer
-193,Emagine,Senior Web developer,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170514/senior-web-developer
-192,Emagine,Data Analysts ,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170519/data-analysts
-191,Emagine,Talent Acquisition Data & Systems Admin/Coordinator,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170533/talent-acquisition-data-and-systems-admincoordinator
-212,Emagine,Test Automation Engineer,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170372/test-automation-engineer
-215,Emagine,Backend Engineer - Infrastructure / Platform / Cloud Native,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170316/backend-engineer-infrastructure-platform-cloud-native
-214,Emagine,"Azure DevOps Consultant (Infrastructure, Automation & AWS Migration)",Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170319/azure-devops-consultant-infrastructure-automation-and-aws-migration
-225,Emagine,Fullstackutvecklare React/Kotlin,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/169853/fullstackutvecklare-reactkotlin
-235,Emagine,IT Operations Manager,Linkoping,2025-09-15 13:50:58,https://portal.emagine.org/jobs/155965/it-operations-manager
-234,Emagine,Swift Developer with strong computer science foundations,Malmö Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/167241/swift-developer-with-strong-computer-science-foundations
-233,Emagine,Software Engineer (C++),,2025-09-15 13:50:58,https://portal.emagine.org/jobs/167370/software-engineer-c++
-232,Emagine,QA Engineer (automation experience Objective-C or equivalent),,2025-09-15 13:50:58,https://portal.emagine.org/jobs/167889/qa-engineer-automation-experience-objective-c-or-equivalent
-230,Emagine,Payroll Specialist - EMEA,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/168254/payroll-specialist-emea
-229,Emagine,Quality Engineer (Web),,2025-09-15 13:50:58,https://portal.emagine.org/jobs/168728/quality-engineer-web
-228,Emagine,Business Architect,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/169296/business-architect
-227,Emagine,Data Scientist (Within AI),Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/169322/data-scientist-within-ai
-226,Emagine,AI Governance Manager,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/169327/ai-governance-manager
-231,Emagine,Strong Java Developer with Golang Experience,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/168064/strong-java-developer-with-golang-experience
-224,Emagine,3 X Senior AI Engineers,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/169889/3-x-senior-ai-engineers
-222,Emagine,Machine Learning Engineer,Malmö Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170116/machine-learning-engineer
-221,Emagine,"Fullstack Web Engineer (Javascript, React) (Bonus Java)",Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170138/fullstack-web-engineer-javascript-react-bonus-java
-220,Emagine,Data Engineer for Business Analytics Developments,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170168/data-engineer-for-business-analytics-developments
-219,Emagine,Product/Engineering Leader,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170174/productengineering-leader
-218,Emagine,Databricks Consultant,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170209/databricks-consultant
-217,Emagine,Senior Network Security Engineer,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170233/senior-network-security-engineer
-216,Emagine,SAP BTP Integration,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170237/sap-btp-integration
-223,Emagine,2 * Senior Test Automation Engineer IFRS9,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/169949/2-*-senior-test-automation-engineer-ifrs9
-170,Combitech,Mjukvaruutvecklare,Trollhättan,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/mjukvaruutvecklare2/
-175,Combitech,Software Quality Expert,"Linköping, Stockholm, Göteborg, Jönköping, Umeå",2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/software-quality-expert/
-174,Combitech,Konsult inom militär IT till Combitech,"Växjö, Skövde",2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/konsult-inom-militar-it-till-combitech/
-173,Combitech,Systems Engineer till vårt utvecklingscenter,Trollhättan,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/systems-engineer-till-vart-utvecklingscenter/
-172,Combitech,Projektör inom kommunikationslösningar,Arboga,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/projektor-inom-kommunikationslosningar/
-171,Combitech,System Analyst,Linköping,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/system-analyst/
-166,Combitech,Konsult med inriktning mot regelefterlevnad och flygsäkerhet,"Stockholm, Norrköping",2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/konsult-med-inriktning-mot-regelefterlevnad-och-flygsakerhet/
-169,Combitech,Detaljberedare sökes,"Karlskrona, Växjö",2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/detaljberedare-sokes/
-168,Combitech,Lösningsarkitekt,Stockholm,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/losningsarkitekt/
-167,Combitech,Javautvecklare,Luleå,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/javautvecklare/
-165,Combitech,Elkonstruktör,"Malmö, Växjö",2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/elkonstruktor/
-177,Combitech,Erfaren Elektronikkonstruktör,"Norrköping, Linköping",2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/erfaren-elektronikkonstruktor/
-176,Combitech,Senior mjukvarutestare till in-houseprojekt inom telecom,Linköping,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/senior-mjukvarutestare-till-in-houseprojekt-inom-telecom/
-186,Combitech,Erfaren mjukvaru-/ systemutvecklare till våra utvecklingsteam,Linköping,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/erfaren-mjukvaru--systemutvecklare-till-vara-utvecklingsteam/
-178,Combitech,Produktutvecklare inom mekanik,Trollhättan,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/produktutvecklare-inom-mekanik/
-185,Combitech,Systemansvarig inom försvarsindustrin,Arboga,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/systemansvarig-inom-forsvarsindustrin/
-179,Combitech,Tekniker inom väderradar,Arboga,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/tekniker-inom-vaderradar/
-190,Combitech,Senior Systemingenjör,Västerås,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/senior-systemingenjor/
-188,Combitech,Konsult inom safety / Systemsäkerhet,Linköping,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/konsult-inom-safety--systemsakerhet/
-187,Combitech,Erfaren systemingenjör,Linköping,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/erfaren-systemingenjor/
-189,Combitech,Senior Mjukvaruutvecklare,Västerås,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/senior-mjukvaruutvecklare/
-184,Combitech,Erfaren Embeddedutvecklare,Jönköping,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/erfaren-embeddedutvecklare/
-183,Combitech,Systemingenjör,Linköping,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/systemingenjor/
-182,Combitech,Mjukvaruutvecklare,Linköping,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/mjukvaruutvecklare/
-181,Combitech,Underhållsingenjör inom försvarsindustrin,"Arboga, Enköping, Frösön, Västerås",2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/underhallsingenjor-inom-forsvarsindustrin/
-180,Combitech,Linux och Cloud Native entusiast,Göteborg,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/linux-och-cloud-native-entusiast/
-101,A Society,Lumera Kravanalytiker/Product Manager Pension \u0026 Försäkring,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/lumera-kravanalytikerproduct-manager-pension-\u0026-frskring-14130
-110,A Society,Senior Database Specialist,Malmö/Lund,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-database-specialist-14119
-102,A Society,Embedded utvecklare,Jönköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/embedded-utvecklare-14057
-103,A Society,Architect Application and visualization solution,Södertälje,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/architect-application-and-visualization-solution-14129
-104,A Society,PLM-konsult med senior erfarenhet,Linköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/plm-konsult-med-senior-erfarenhet-14127
-105,A Society,Project Management (Delivery Projects) ,Västerås,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/project-management-delivery-projects-14124
-106,A Society,Civil Design Engineering – Senior Principal Engineer (Level 5) ,Västerås,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/civil-design-engineering-senior-principal-engineer-level-5-14125
-107,A Society,Shipping \u0026 Export Specialist – Consultant Assignment,Ludvika,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/shipping-\u0026-export-specialist-consultant-assignment-14126
-108,A Society,Lösningsarkitekt E-hälsomyndigheten Stockholm/Kalmar 50%,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/lsningsarkitekt-e-hlsomyndigheten-stockholmkalmar-50-14123
-109,A Society,Erfaren Business Controller,Göteborg,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/erfaren-business-controller-14121
-116,A Society,Hållfasthetsingenjör – Rörberäkning | Finspång,Finspång,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/hllfasthetsingenjr-rrberkning-|-finspng-14108
-111,A Society,Systemingenjör (Framdrivningssystem),Karlskrona,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/systemingenjr-framdrivningssystem-14118
-112,A Society,"Testare Mjukvara, nivå 3",Jönköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/testare-mjukvara-niv-3-14115
-113,A Society,Elektronikkonstruktör - kretskort,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/elektronikkonstruktr-kretskort-14114
-114,A Society,Elektronikkonstruktör,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/elektronikkonstruktr-14113
-115,A Society,Systemutvecklare inom oceanografi SMHI Norrköping 100%,Norrköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/systemutvecklare-inom-oceanografi-smhi-norrkping-100-14111
-99,A Society,Senior Embedded utvecklare,Jönköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-embedded-utvecklare-14133
-117,A Society,Testspecialist E-hälsomyndigheten Stockholm/Kalmar 100%,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/testspecialist-e-hlsomyndigheten-stockholmkalmar-100-14107
-118,A Society,R\u0026D Projektledare – Konsultuppdrag inom gasturbinutveckling,Finspång,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/r\u0026d-projektledare-konsultuppdrag-inom-gasturbinutveckling-14105
-119,A Society,Senior Machine Learning Engineering,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-machine-learning-engineering-14103
-100,A Society,Senior mjukvarukonsult till försvarsindustrin,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-mjukvarukonsult-till-frsvarsindustrin-14132
-126,A Society,"Systemutvecklare till UBM, Sthlm, 100%",Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/systemutvecklare-till-ubm-sthlm-100-14095
-98,A Society,Machine Learning Engineer,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/machine-learning-engineer-14135
-97,A Society,Senior Mjukvaruutvecklare - Frontend,Växjö,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-mjukvaruutvecklare-frontend-13617
-121,A Society,Agile Program Coach FF,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/agile-program-coach-ff-14100
-79,A Society,Scrum master / Team Lead,Malmö/Lund,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/scrum-master-team-lead-14156
-80,A Society,DevOps Engineer,Södertälje,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/devops-engineer-14155
-81,A Society,Senior Produktionstekniker,Linköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-produktionstekniker-14154
-82,A Society,Business Change Management Strategy and framework,Södertälje,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/business-change-management-strategy-and-framework-14153
-83,A Society,Project Manager – Product Development,Södertälje,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/project-manager-product-development-14152
-84,A Society,Senior Systemingenjör – Digitala produkter och smarta ekosystem,Jönköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-systemingenjr-digitala-produkter-och-smarta-ekosystem-14151
-85,A Society,Lead Project Cost Controller,Boden,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/lead-project-cost-controller-14150
-86,A Society,DBA PostgreSQL Linux,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/dba-postgresql-linux-14149
-87,A Society,Teknisk delprojektledare till tillväxtprojekt,Karlskoga,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/teknisk-delprojektledare-till-tillvxtprojekt-14148
-88,A Society,Arkitekt nationellt register för medicintekniska produkter E-hälsomyndigheten Stockholm/Kalmar 100%,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/arkitekt-nationellt-register-fr-medicintekniska-produkter-e-hlsomyndigheten-stockholmkalmar-100-14147
-89,A Society,Production engineer - PCBA,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/production-engineer-pcba-14146
-90,A Society,Testingenjör med fordonserfarenhet,Göteborg,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/testingenjr-med-fordonserfarenhet-14144
-91,A Society,Testledare med utvecklarbakgrund - Trafikverket,Linköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/testledare-med-utvecklarbakgrund-trafikverket-14143
-92,A Society,Scrum Master,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/scrum-master-14141
-93,A Society, Erfaren UX-designer ,Jönköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/erfaren-ux-designer-14140
-94,A Society,Systemingenjör inom Automation,Karlskrona,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/systemingenjr-inom-automation-14139
-95,A Society,"Förändringsledare inom PEGA (Consulting Manager) till Arbetsförmedlingen, 50%, Sthlm ",Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/frndringsledare-inom-pega-consulting-manager-till-arbetsfrmedlingen-50-sthlm-14137
-96,A Society,"Scrum Master till Arbetsförmedlingen, 100%, Sthlm ",Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/scrum-master-till-arbetsfrmedlingen-100-sthlm-14136
-120,A Society,Senior Data Scientist,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-data-scientist-14102
-127,A Society,Senior Software Engineer,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-software-engineer-14094
-122,A Society,Project Health \u0026 Safety Manager,Uppsala,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/project-health-\u0026-safety-manager-14099
-155,A Society,Systemsäkerhetsingenjör – avancerade försvarssystem ,Karlskoga,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/systemskerhetsingenjr-avancerade-frsvarssystem-13742
-147,A Society, RF- och Mätteknikingenjör till avancerat underhåll av radarsystem,Arboga,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/rf-och-mtteknikingenjr-till-avancerat-underhll-av-radarsystem-13786
-148,A Society,Senior Network Security Engineer ,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-network-security-engineer-14037
-149,A Society,"Systemingenjör inom Guidance, Navigation and Control (GNC)",Linköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/systemingenjr-inom-guidance-navigation-and-control-gnc-14034
-150,A Society,Data Scientist,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/data-scientist-14033
-151,A Society,"Senior konsult inom kraftelektronik – Saab, Göteborg",Göteborg,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-konsult-inom-kraftelektronik-saab-gteborg-14030
-152,A Society,ILS Ingenjör ,Jönköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/ils-ingenjr-13999
-153,A Society,Elektronikingenjör Layout,Karlskoga,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/elektronikingenjr-layout-13580
-154,A Society,Elektronikkonstruktör för analog och digital konstruktion ,Karlskoga,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/elektronikkonstruktr-fr-analog-och-digital-konstruktion-13740
-156,A Society,Senior Systemingenjör – verifiering och systemutveckling inom missilsystem ,Karlskoga,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-systemingenjr-verifiering-och-systemutveckling-inom-missilsystem-13743
-145,A Society,Senior Lean SME konsult,Jönköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-lean-sme-konsult-14049
-157,A Society,Elektronikingenjör inom avioniksystem,Arboga,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/elektronikingenjr-inom-avioniksystem-13787
-158,A Society,Senior elektronikkonstruktör till Power Design,Göteborg,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-elektronikkonstruktr-till-power-design-13992
-159,A Society,Komponentingenjör ,Karlskrona,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/komponentingenjr-13964
-160,A Society,Vill du återvända till SAAB?,Jönköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/vill-du-tervnda-till-saab?-12218
-161,A Society,Senior teknisk specialist inom samband – remote med placering i Järfälla/Solna,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-teknisk-specialist-inom-samband-remote-med-placering-i-jrfllasolna-13729
-163,A Society,Systemingenjör inom fordonsintegration Hybrid Arboga/Järfälla/Solna,Arboga,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/systemingenjr-inom-fordonsintegration-hybrid-arbogajrfllasolna-13725
-164,A Society,Systemingenjör – kommunikationssystem och nätverk inom försvarsindustrin,Arboga,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/systemingenjr-kommunikationssystem-och-ntverk-inom-frsvarsindustrin-13702
-123,A Society,Construction Supervisor (Civil Works),Boden,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/construction-supervisor-civil-works-14098
-146,A Society,Systemingenjör – försvarssystem ,Karlskoga,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/systemingenjr-frsvarssystem-13744
-162,A Society,Tekniskt säljstöd inom kommunikationssystem – hybrid,Arboga,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/tekniskt-sljstd-inom-kommunikationssystem-hybrid-13728
-144,A Society,Front-end utvecklare ,Helsingborg,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/front-end-utvecklare-14054
-134,A Society,Mjukvaruutvecklare - Embedded,Jönköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/mjukvaruutvecklare-embedded-14082
-124,A Society,Senior Konstruktör – Konsultuppdrag inom flygplattformar,Linköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-konstruktr-konsultuppdrag-inom-flygplattformar-14097
-143,A Society,Mjukvarulösningsarkitekt ,Helsingborg,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/mjukvarulsningsarkitekt-14055
-128,A Society,Androidutvecklare,Göteborg,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/androidutvecklare-14093
-129,A Society,Stakeholder Requirement Manager - Linköping,Linköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/stakeholder-requirement-manager-linkping-14092
-130,A Society,"Projektledare Strategi och ledning till Transportstyrelsen, Örebro, 100% ",Örebro,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/projektledare-strategi-och-ledning-till-transportstyrelsen-rebro-100-14091
-131,A Society,Technical writer ,Helsingborg,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/technical-writer-14089
-132,A Society,We're looking for 2 AI/ML Engineers ,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/we're-looking-for-2-aiml-engineers-14085
-133,A Society,It-lösningsarkitekt Transportstyrelsen Örebro 100%,Örebro,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/it-lsningsarkitekt-transportstyrelsen-rebro-100-14083
-125,A Society,Senior Hållfasthetsingenjör – Konsultuppdrag inom flygplattformar,Linköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-hllfasthetsingenjr-konsultuppdrag-inom-flygplattformar-14096
-135,A Society,Systemingenjör - kravhantering HW,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/systemingenjr-kravhantering-hw-14078
-141,A Society,Embedded C++ Developer,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/embedded-c++-developer-14064
-137,A Society,Förvaltningsledare D365 Finance till Malmö,Malmö/Lund,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/frvaltningsledare-d365-finance-till-malm-14058
-138,A Society,Elektronikkonstruktör,Linköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/elektronikkonstruktr-14068
-139,A Society,Systemingenjörer (Hårdvara),Helsingborg,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/systemingenjrer-hrdvara-13860
-140,A Society,Elektronikarkitekt,Linköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/elektronikarkitekt-14067
-142,A Society,"Elkonstruktör (EK4), Arboga",Arboga,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/elkonstruktr-ek4-arboga-14063
-136,A Society,Konsultuppdrag: Ingenjörer och ledare inom avancerad plattformsutveckling,Linköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/konsultuppdrag:-ingenjrer-och-ledare-inom-avancerad-plattformsutveckling-14070
-78,Aliant,Elektronikkonstruktör (Altium Designer),Stockholm,2025-09-15 13:45:24,https://aliant.recman.page/job/449555
-24,Afry,Gruppchef underhåll med inriktning på El och Automation,Västernorrlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/0a2ca2be-1372-4163-b185-5a2e64aafc91
-25,Afry,Senior Projektledare Försvarsindustrin,,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/33d6d463-67cc-4fdd-b256-28d1ad0c6ec6
-26,Afry,Design engineer transmission development ,Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/ef5f36f5-ab9d-4497-a335-6bd128c2c78d
-27,Afry,"Systemingenjör System & Kravhantering HW, Miljökrav - Försvarsindustrin Stockholm",Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/23582659-da50-4af9-8c35-06e694d046e8
-28,Afry,Power Systems Engineering - Principal Engineer,Västmanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/2105cd07-f996-4244-bb60-62a246c997d9
-29,Afry,Business Architect Automotive,Södermanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/076bf696-221c-4601-92dc-e6449a5a121d
-30,Afry,Assignment manager complete vehicle testing,Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/a1681c4b-e217-4fe8-b858-9ceb8bebedc5
-34,Afry,Elkonstruktör,Östergötlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/71b222dc-057a-4761-b00d-f1dc5e859085
-31,Afry,Associate Engineer - Product Support ,Västra Götalands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/ab9057e5-7e99-44ef-a594-c7016cd99347
-32,Afry,Arbetsmiljöspecialist Stockholm [2025/4817] (OPP-0264351),Västmanlands län Stockholms län Uppsala län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/3f2131be-bc2e-4810-a1f7-80251dab7ece
-33,Afry,Power Systems Engineering - Senior Principal Engineer,Dalarnas län Västra Götalands län Västmanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/9ff6cf99-5bb6-4a91-91f7-a1e4a41f5148
-35,Afry,Montageledare EL,Västernorrlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/4332eace-e29d-4018-b29c-c3da613b7c1a
-36,Afry,software Architect Automotive,Södermanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/2df92058-f3f5-42d1-b429-a5716817c6c4
-37,Afry,Projekt-/tidplanerare läkemedelsindustrin,Södermanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/b88c5a0e-23cc-4823-bafd-b2c5376c1801
-22,Afry,Projekingenjör - Trycksatta anordningar och pannor,Västernorrlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/805bd2b8-7408-4b72-972d-86acc3fa2e4f
-38,Afry,Senior Technical Lead,Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/ebfffbad-c1b9-4357-ac74-3ec2225afe95
-39,Afry,Systemutvecklare - integrationsspecialist,Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/c569cb72-8427-4588-ac58-70c08d593a6f
-23,Afry,Gruppchef Teknik,Västernorrlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/75cbd42c-e7ec-4ae7-8dd8-4fdcafaf13fd
-13,Afry,BPM008226 HFI system designer (sys4),Västra Götalands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/d9be7662-8ed0-429a-bd35-7c99a4303679
-21,Afry,Technical Writer,Blekinge län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/8a3a16e9-f5a9-478c-9887-0b5445af912d
-20,Afry,CAE Engineer Durability,Västra Götalands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/c89809ca-8d41-4c85-8092-b408973c2830
-41,Afry,BPM008370  Mjukvaruarkitekt Java (PRO4),Västra Götalands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/2c7d4eab-f905-4baf-a3e3-62830f88399f
-5,Afry,Automotive Senior konstruktör Oskarshamn,Kalmar län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/23d6e07e-94c1-41ee-a3e5-7bb5c60e9c6b
-6,Afry,Senior Konstruktör inom Gjutning,Södermanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/587cd899-aff5-42b9-9cd8-302a09876a18
-7,Afry,Senior Mechanical Designer - Automotive,Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/6429e1c5-ce4e-4af8-8398-3943ea32a520
-8,Afry,Senior designer whole vehicle development,Södermanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/49a8e978-7aaf-4ad7-b58a-e17324fa8090
-9,Afry,Senior Scala/Java developer,Skåne län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/df648343-a1f5-4347-9d6c-f5b6495d91a2
-10,Afry,Search ML Engineer,Skåne län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/b836865a-62f6-4b81-97f7-db3187a454f3
-11,Afry,Embedded SW developer,Västra Götalands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/241c2b7c-2bb9-4ec1-89ef-9532bed6ec9d
-12,Afry,Test Environment SW developer,Västra Götalands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/5db1303c-62bb-489b-a9fa-6e4e94b131ca
-14,Afry,Retrofitberedare,Västernorrlands län Västerbottens län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/bd0eae92-caad-4381-800d-48295fcde127
-15,Afry,Provledare,Västerbottens län Västernorrlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/7d29449d-7690-4f46-8c81-bd3f953e7156
-16,Afry,Designingenjör rymd,Västra Götalands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/d304940d-bf64-4f1d-9b80-713cf771caa7
-17,Afry,BPM008262 Teknisk delprojektledare (PRO3),Västra Götalands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/e4eefaab-499c-4589-9e86-8ee20e0bcabe
-18,Afry,Aerospace Engineer (Product Support),Västra Götalands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/1cb263c6-a365-482a-ad22-5beb0ed2171d
-19,Afry,SQM - Supplier Quality Manager,Östergötlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/933dfc5b-ff66-4159-a3a5-5b6ae69d0fe8
-40,Afry,Test Engineer (Testingenjör),Norrbottens län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/fcd8c788-5377-4351-9696-85d34dd2141a
-62,Afry,Lasersvetsningskompetens till fordonsindustrin,,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/8b9503d6-833c-492a-89a8-53bceb42ab56
-42,Afry,Projektledning / Samordning UX Projekt Ledningsstödssystem - Försvaret Stockholm,Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/67af5e1d-56c6-4a12-9577-22506e6f92e5
-43,Afry,SQM - Elektronik & System,Örebro län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/a4b7b29d-ec9a-43a6-bd90-d5cec4727bae
-63,Afry,Application and Data Management,Södermanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/16d65f46-44ab-44f1-8014-8f7ea185965c
-64,Afry,Application and visualization solution,Södermanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/e4aa4423-468e-42b2-8343-54e9c9a66d6d
-65,Afry,Simulation of rollforming process,,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/473e12c2-8774-4342-9947-8c1053f3db8a
-66,Afry,Scrum Master chassis front,Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/3f865484-4c78-40ce-8091-bea5f16a75f9
-67,Afry,Projektledare/Manager – Ombyggnation & Produktionsanläggningar - Life Science,Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/cf5f0fd7-3647-4335-bf64-0abc2956223b
-68,Afry,Systemförvaltare Heroma,Östergötlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/e4e544b0-f88c-40e7-b105-47acb2ed1b78
-69,Afry,Projektingenjör anläggningsprojekt 4658 (OPP-0265817),Stockholms län Norrbottens län Västernorrlands län Västra Götalands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/fde2d10c-942d-4ab7-bb29-3c954116a10e
-70,Afry,Projektledare ledningsprojekt 4651 (OPP-0265773),Västmanlands län Västernorrlands län Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/cec74887-ac01-4b35-9fda-c79dd6f51679
-71,Afry,BPM008401 Vibrationsexpert (SYS4),Västra Götalands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/72ba7893-5606-4060-b44a-70bd5dc0bfd6
-72,Afry,Scrum Master till HW-nära Mjukvaruteam - Försvarsindustrin Stockholm,Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/0a4e8c31-054a-4e9f-90be-cf2ffbff5640
-73,Afry,"Project Manager, Engineering ",Västmanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/46d37366-7ae3-4740-b0a8-2e5e8fe01e03
-74,Afry,Scrum Master,Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/66c14569-1866-4138-a852-b32c6653d820
-75,Afry,Senior Embedded SW-Utvecklare - Försvarsindustrin Stockholm,Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/c3f1692f-9993-40c4-98d9-32d96e423132
-76,Afry,Testledare,Östergötlands län Gävleborgs län Dalarnas län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/82f7f920-a0e7-437d-b2c4-fa8dd90bed13
-77,Afry,"Process/Valideringsingenjör (kemiska processer), validering av ny produktionslina läkemedel",Stockholms län Södermanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/76c50f6f-435c-4d0f-8573-48e188a92c52
-61,Afry,Lösningsarkitekt,Kalmar län Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/0f39e41e-3b60-4a13-9ef2-4219fa76c998
-60,Afry,Teknisk Projektledare Life Science,Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/f8727e98-7c5d-4288-88b4-a5c553ee2db7
-59,Afry,Projektledare till kunds PMO,Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/6c93b85f-2df5-487f-8e4d-ce7d73a17726
-58,Afry,Kvalitetsingenjör industrialisering,Örebro län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/dca60be0-7fbb-4980-b636-945f04f99222
-44,Afry,Senior Development Electrical Engineer,Östergötlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/d9323cfe-c8f2-4512-87da-e5e8e2f5b772
-45,Afry,Testspecialist,Stockholms län Kalmar län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/f2d70afa-fa9c-41b7-937a-445566ebeab1
-46,Afry,"Systemutvecklare C#, Azure",Östergötlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/311ef4d4-f9c4-49bd-a1ae-17521ebcaeda
-47,Afry,Senior Teknisk QA Betalaflödet inom Bank,Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/caf4b967-1b09-4592-8836-22804e37a599
-48,Afry,SW Test & Integration ,Västra Götalands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/65a008cf-9542-43ba-aab3-1c1bb6805bec
-49,Afry,Product owner/Business IT analyst Automotive,Södermanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/ea8b469e-5d78-4674-b74f-647792d44cd8
-50,Afry,Developer .Net AWS,Södermanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/8b3e1efc-2643-4364-b0b5-e5a33d80dc2c
-51,Afry,Verifiering/Validering av Transportabel MarkRadio,Stockholms län Uppsala län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/90592614-e4f2-4cc6-9c27-e59bb32f39ac
-52,Afry,Purchaser,,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/f024c473-3cc4-47ad-abca-cf958ca21c6d
-53,Afry,Data Engineer AWS,Skåne län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/8daabeda-53ed-4368-a9b1-ca655b5eab17
-54,Afry,Data Engineer Informatica,Skåne län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/a89efa57-08df-4046-86ed-bf8337ad546b
-55,Afry,R&D projektledare till Service,Östergötlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/0b0c3fdd-9a5c-4415-a057-feb5fbc949ac
-56,Afry,Kvalitetsingenjör - Additiv Tillverkning,Östergötlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/d6f99ed0-cab2-4fda-9fb7-4136068f80c5
-57,Afry,Service Application Engineer,Östergötlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/28d81dab-a5ea-4053-8f62-0f0180775860
-3,Aliant,Utvecklare - MES-system,Jönköping,2025-09-15 13:40:39,https://aliant.recman.page/job/448170
-2,Aliant,Computer Vision - Android Automotive,Göteborg,2025-09-15 13:40:39,https://aliant.recman.page/job/448256
-1,Aliant,Medior Project Manager,Göteborg,2025-09-15 13:40:39,https://aliant.recman.page/job/449546
-4,Aliant,Sitecore-utvecklare,Göteborg,2025-09-15 13:40:39,https://aliant.recman.page/job/432534
-0,Aliant,Scala-utvecklare,Göteborg,2025-09-15 13:40:39,https://aliant.recman.page/job/449553
+,site,job_title,area,work_location,ingestion_ts,link
+533,Upgraded,Java-utvecklare,Java-utvecklare,Stockholm/Karlstad,2025-09-16 16:16:55,Upgraded-https://upgraded.se/konsultuppdrag/127815-java-utvecklare-10/
+532,Regent,Team på 2-4 penetrationstestare,Uppdrag för 2–4 penetrationstestare att utföra tester och ev. Red Team-insatser.,Stockholm,2025-09-16 16:16:30,https://regent.seRegent-/uppdrag/930
+531,Ework,Expert System Engineer,Devops,Stockholm,2025-09-16 16:15:58,https://app.verama.com/sv/job-requests/Ework-71013
+530,A Society,Arkitekt till Malmö,IT,Malmö/Lund,2025-09-16 16:15:04,https://www.asocietygroup.com/sv/uppdrag/arkitekt-till-malm-A Society-14177
+529,A Society,Senior Mechanical Engineer – Components and Products (Level 3),Engineering,Ludvika,2025-09-16 16:15:04,https://www.asocietygroup.com/sv/uppdrag/senior-mechanical-engineer-components-and-products-level-3-A Society-14176
+528,Afry,Senior Engineer R&D - Codes and Standards,"CE MDD - Regulatory Software Engineering and Test Quality Assurance, Test and Validation",Norrbottens län,2025-09-16 16:13:48,https://portal.afry.com/available-assignments/search/c2949f65-d3ac-4663-b33a-e44b4ce86918
+527,Regent,Senior System Engineer – DevSecOps & Utvecklingsportaler,Vi söker en Senior System Engineer med expertis inom DevSecOps och CI/CD som vill utveckla en strategisk utvecklingsportal i en komplex och reglerad miljö.,Stockholm,2025-09-16 15:40:50,https://regent.seRegent-/uppdrag/928
+526,Regent,En IT Support tekniker nivå 2- ASAP,"ASAP! Vi söker en IT-supporttekniker med erfarenhet av AV, arbetsplatser och Win11 som vill bidra i ett flytt- och utrullningsprojekt. 2 mån med möjlighet till förlängning.",Stockholm,2025-09-16 15:40:50,https://regent.seRegent-/uppdrag/929
+525,Ework,Test Engineer,"Test Enginer, Electronics",Huskvarna,2025-09-16 15:40:44,https://app.verama.com/sv/job-requests/Ework-71004
+524,Ework,Senior Platform Engineer ,Backstage,Stockholm,2025-09-16 15:40:44,https://app.verama.com/sv/job-requests/Ework-71005
+523,Ework,Senior Apputvecklare - Android,"Kotlin, Android",Mölndal,2025-09-16 15:40:44,https://app.verama.com/sv/job-requests/Ework-71007
+522,Ework,Electronics Designer,"OrCAD, PTS, design och electronics board",Huskvarna,2025-09-16 15:40:44,https://app.verama.com/sv/job-requests/Ework-71011
+521,Ework,Electronics Hardware Engineer,"Emc, Catia Electric, OrCAD Cadence",Huskvarna,2025-09-16 15:40:44,https://app.verama.com/sv/job-requests/Ework-71012
+519,A Society,Software Engineer (Mobile Networks),Engineering,Göteborg,2025-09-16 15:40:28,https://www.asocietygroup.com/sv/uppdrag/software-engineer-mobile-networks-A Society-13979
+518,A Society,Senior backendutvecklare (.Net) med erfarenhet av mentorskap Arbetsförmedlingen Stockholm 100%,IT,Stockholm,2025-09-16 15:40:28,https://www.asocietygroup.com/sv/uppdrag/senior-backendutvecklare-net-med-erfarenhet-av-mentorskap-arbetsfrmedlingen-stockholm-100-A Society-14175
+520,A Society,Technical Procurement Category Leader EU (Europe),IT,Göteborg,2025-09-16 15:40:28,https://www.asocietygroup.com/sv/uppdrag/technical-procurement-category-leader-eu-europe-A Society-14173
+517,Afry,Projektledare -Förstudie Industrialisering ny produkt Karlskoga,"Project Management and Management Mechanical Engineering (Product and Machine Design) Process and Production Engineering Supply Chain, Procurement and Technical Documentation",,2025-09-16 15:37:22,https://portal.afry.com/available-assignments/search/46b801ea-3d60-45e6-9bb1-48237b2d1fbe
+516,Upgraded,Embedded Software Application Engineer,Software Engineer,"Göteborg, SE",2025-09-16 14:45:27,https://upgraded.se/konsultuppdrag/127742-embedded-software-application-engineer-3/
+515,Regent,Senior Projektledare,"Vi söker en senior projektledare som vill leda ett tvärfunktionellt team inom IT och fordonsutveckling. Fokus på leverans, kvalitet och samarbete i en komplex miljö",Stockholm,2025-09-16 14:45:23,https://regent.se/uppdrag/927
+514,Ework,Byggprojektledare till förnyelseområde,Se  bifogad beställningsblankett,Stockholm,2025-09-16 14:45:22,https://app.verama.com/sv/job-requests/70988
+513,Ework,Konstruktionsbyggnadsunderhåll Norrtälje kommun år 2026-2027,Se  bifogad beställningsblankett,Stockholm,2025-09-16 14:45:22,https://app.verama.com/sv/job-requests/70989
+512,Ework,"Besiktningar Järnvägsfordon, komponenter och depåer",Besiktning,"Vasteras, Eskilstuna",2025-09-16 14:45:22,https://app.verama.com/sv/job-requests/70994
+511,Ework,Senior systemutvecklare,Java,Stockholm,2025-09-16 14:45:22,https://app.verama.com/sv/job-requests/70996
+510,Ework,Marketing and Communications Assistant ,"Canva, Adobe",Gothenburg,2025-09-16 14:45:22,https://app.verama.com/sv/job-requests/70999
+509,Combitech,Utvecklare inom C/C++,Information Technology Services,Stockholm,2025-09-16 14:45:18,https://www.combitech.se/karriar/lediga-jobb/utvecklare-inom-cc/
+506,A Society,"Två Systemutvecklare till Team Ostron till Lantmäteriet, Gävle, 100% ",IT,Gävle,2025-09-16 14:45:17,https://www.asocietygroup.com/sv/uppdrag/tv-systemutvecklare-till-team-ostron-till-lantmteriet-gvle-100-14171
+503,Aliant,HubSpot-konsult,,Göteborg,2025-09-16 14:45:17,https://aliant.recman.page/job/450221
+505,A Society,Senior projektledare – Förstudie inom industrialisering och produktionssystem,Engineering,Karlskoga,2025-09-16 14:45:17,https://www.asocietygroup.com/sv/uppdrag/senior-projektledare-frstudie-inom-industrialisering-och-produktionssystem-14168
+504,A Society,Senior Bazel-konsult till modernisering av build-infrastruktur,Engineering,Göteborg,2025-09-16 14:45:17,https://www.asocietygroup.com/sv/uppdrag/senior-bazel-konsult-till-modernisering-av-build-infrastruktur-14172
+507,A Society,"Projektledare Fastighetssystem till SPSM, Remote, 50-100% ",IT,Stockholm,2025-09-16 14:45:17,https://www.asocietygroup.com/sv/uppdrag/projektledare-fastighetssystem-till-spsm-remote-50-100-14170
+508,A Society,Kompositkonstruktör - Nivå 3,Engineering,Göteborg,2025-09-16 14:45:17,https://www.asocietygroup.com/sv/uppdrag/kompositkonstruktr-niv-3-14169
+502,Afry,Project Manager – R&D Turbine Development,Project Management and Management,Östergötlands län,2025-09-16 14:37:55,https://portal.afry.com/available-assignments/search/4d5df8b1-4dda-431e-a9a6-1154e16aae5d
+501,Ework,Software Engineer,"XML, WPF, C#",Vasteras,2025-09-16 11:57:14,https://app.verama.com/sv/job-requests/70985
+500,Upgraded,Digital Project Manager & Business Architect,Project Manager,Boden,2025-09-16 11:49:07,https://upgraded.se/konsultuppdrag/127695-digital-project-manager-business-architect-2/
+499,Upgraded,Software Engineer,Software Engineer,"Göteborg, SE",2025-09-16 11:49:07,https://upgraded.se/konsultuppdrag/127696-software-engineer-119/
+498,Upgraded,Solution Architect,Solution Architect,Boden,2025-09-16 11:49:07,https://upgraded.se/konsultuppdrag/127703-solution-architect-19/
+497,Upgraded,System Engineer,Systemingenjör,Stockholm,2025-09-16 11:49:07,https://upgraded.se/konsultuppdrag/127731-system-engineer-14/
+496,Upgraded,BI Specialist,BI-specialist,"Copenhagen, DK",2025-09-16 11:49:07,https://upgraded.se/konsultuppdrag/127738-bi-specialist-4/
+495,Nikita,Kategoriansvarig strategiskt tekniskt inköp,,,2025-09-16 11:40:10,https://www.nikita.se/lediga-uppdrag/kategoriansvarig-strategiskt-tekniskt-inkop/
+494,Nikita,Senior projektledare,,,2025-09-16 11:40:10,https://www.nikita.se/lediga-uppdrag/senior-projektledare-19/
+490,Ework,Mechanical Engineering - 2-stroke engine development ,"Aluminum, PLM Teamcenter, steel, Smartteam, CatiaV5",Huskvarna,2025-09-16 11:11:10,https://app.verama.com/sv/job-requests/70983
+493,Ework,Fullstack Data Engineer ,"DBT-ramverk, SQLServer, Azure Databricks",Stockholm-Arlanda,2025-09-16 11:11:10,https://app.verama.com/sv/job-requests/70978
+492,Ework,Senior Fullstack Developer,"AWS, React, Java 11, Typescript, Microservices, Spring Boot, Javascript",Gothenburg,2025-09-16 11:11:10,https://app.verama.com/sv/job-requests/70979
+491,Ework,Mandarin speaking Program Manager,"Manufacturing, Program Manager",Gothenburg,2025-09-16 11:11:10,https://app.verama.com/sv/job-requests/70982
+489,A Society,Fullstack Developer,IT,Södertälje,2025-09-16 11:01:55,https://www.asocietygroup.com/sv/uppdrag/fullstack-developer-14167
+488,Upgraded,Senior Data Scientist,Data Scientist,Stockholm,2025-09-16 09:49:17,https://upgraded.se/konsultuppdrag/127648-senior-data-scientist-5/
+487,Upgraded,RTE/Agil coach,Agile Coach,Stockholm,2025-09-16 09:49:17,https://upgraded.se/konsultuppdrag/127656-rte-agil-coach/
+486,Upgraded,Digital Project Manager & Business Architect,Project Manager,Stockholm,2025-09-16 09:49:17,https://upgraded.se/konsultuppdrag/127660-digital-project-manager-business-architect/
+485,Upgraded,Utvecklare,Systemutvecklare,Örebro,2025-09-16 09:49:17,https://upgraded.se/konsultuppdrag/127664-utvecklare-4/
+484,Ework,Machine Learning Engineer ,,Stockholm,2025-09-16 09:49:04,https://app.verama.com/sv/job-requests/70963
+483,Ework,Lösningsarkitekt Kafka,,Stockholm,2025-09-16 09:49:04,https://app.verama.com/sv/job-requests/70964
+482,Ework,Solution Architect - SAP PS,,Vasteras,2025-09-16 09:49:04,https://app.verama.com/sv/job-requests/70967
+481,Ework,Lösningsarkitekt,,Lulea,2025-09-16 09:49:04,https://app.verama.com/sv/job-requests/70968
+480,Ework,Integrationsspecialist,,Stockholm,2025-09-16 09:49:04,https://app.verama.com/sv/job-requests/70970
+479,Ework,Supply Chain Manager,,Vasteras,2025-09-16 09:49:04,https://app.verama.com/sv/job-requests/70971
+478,Ework,Uppdrag inom säkerhets- och beredskapsområdet,,Sundsvall,2025-09-16 09:49:04,https://app.verama.com/sv/job-requests/70974
+477,Emagine,Junior Accountant,Other roles,Stockholm Metropolitan Area,2025-09-16 09:48:59,https://portal.emagine.org/jobs/170566/junior-accountant
+476,Emagine,Expert Business Analyst – Identity & Access Management RACF ,"Risk, Security & Compliance",Stockholm Metropolitan Area,2025-09-16 09:48:59,https://portal.emagine.org/jobs/170567/expert-business-analyst-identity-and-access-management-racf
+475,Combitech,Teknikinformatör,Customer Service,Frösön,2025-09-16 09:48:57,https://www.combitech.se/karriar/lediga-jobb/teknikinformator/
+473,A Society,Software Engineer,IT,Stockholm,2025-09-16 09:48:54,https://www.asocietygroup.com/sv/uppdrag/software-engineer-14164
+472,A Society,Experienced Java developer,IT,Stockholm,2025-09-16 09:48:54,https://www.asocietygroup.com/sv/uppdrag/experienced-java-developer-14165
+471,A Society,Teknikinformatör inom elektronik,Engineering,Linköping,2025-09-16 09:48:54,https://www.asocietygroup.com/sv/uppdrag/teknikinformatr-inom-elektronik-14166
+474,A Society,Machine Learning Engineer,IT,Stockholm,2025-09-16 09:48:54,https://www.asocietygroup.com/sv/uppdrag/machine-learning-engineer-14163
+470,Afry,Electrical HW designer,"Electronics System and Communication technology  IT and Industrial IT Software Engineering and Test Automation, Electrical and Robotics Engineering",Stockholms län,2025-09-16 09:48:47,https://portal.afry.com/available-assignments/search/0db08d19-ae4b-472a-abc5-0e3e206b2947
+469,Afry,Continuous Integration and Delivery,Electronics System and Communication technology  IT and Industrial IT Software Engineering and Test,Stockholms län,2025-09-16 09:48:47,https://portal.afry.com/available-assignments/search/ccab421f-bdf3-4620-93e0-ffb035a69164
+468,Afry,Digital konstruktör,Electronics System and Communication technology ,Västra Götalands län,2025-09-16 09:48:47,https://portal.afry.com/available-assignments/search/67d4b01b-8e9c-4553-9872-81bdea9b545d
+467,Afry,Senior Project Manager,Project Management and Management,Stockholms län,2025-09-16 09:48:47,https://portal.afry.com/available-assignments/search/7d065434-f383-46c8-9b37-674a65132f44
+466,Upgraded,Security Engineer,Security Engineer,"Älmhult, SE",2025-09-15 16:37:05,https://upgraded.se/konsultuppdrag/127525-security-engineer-4/
+465,Upgraded,Verksamhetsutvecklare Hemtjänst – Ersättningar och avgifter,Verksamhetsutvecklare,"Solna, SE",2025-09-15 16:37:05,https://upgraded.se/konsultuppdrag/127551-utvecklare-hemtjanst-ersattningar-och-avgifter/
+463,Ework,Fullstack Data Engineer,,Stockholm-Arlanda,2025-09-15 16:36:48,https://app.verama.com/sv/job-requests/70958
+462,Ework,Testare - Göteborg (kort anbudsdag 16/9),,Gothenburg,2025-09-15 16:36:48,https://app.verama.com/sv/job-requests/70959
+464,Ework,ServiceNow/DevOps utvecklare,,Stockholm,2025-09-15 16:36:48,https://app.verama.com/sv/job-requests/70957
+461,Emagine,Digital project manager and business architect,Project Delivery,Stockholm Metropolitan Area,2025-09-15 16:36:40,https://portal.emagine.org/jobs/170562/digital-project-manager-and-business-architect
+460,A Society,System Verification and Validation Engineer,Engineering,Stockholm,2025-09-15 16:36:33,https://www.asocietygroup.com/sv/uppdrag/system-verification-and-validation-engineer-14157
+459,A Society,Project manager/System Verification and Validation Engineer,Engineering,Stockholm,2025-09-15 16:36:33,https://www.asocietygroup.com/sv/uppdrag/project-managersystem-verification-and-validation-engineer-14158
+458,A Society,"Systemutvecklare till E-hälsomyndigheten, 100%, Kalmar ",IT,Stockholm,2025-09-15 16:36:33,https://www.asocietygroup.com/sv/uppdrag/systemutvecklare-till-e-hlsomyndigheten-100-kalmar-14160
+457,A Society,Digital project manager and business architect,Business Functions,Boden,2025-09-15 16:36:33,https://www.asocietygroup.com/sv/uppdrag/digital-project-manager-and-business-architect-14161
+456,Aliant,Systemutveckling - Uppbyggnad Historik-databas,,Gävleborgs län,2025-09-15 16:36:30,https://aliant.recman.page/job/450008
+455,Afry,Arkitekt nationellt register för medicintekniska produkter,IT and Industrial IT Software Engineering and Test,Stockholms län Kalmar län,2025-09-15 16:31:38,https://portal.afry.com/available-assignments/search/47ef4db3-e6a8-4916-a890-5ce9bd966124
+454,Combitech,Mekanikkonstruktörer sökes,Engineering,Malmö,2025-09-15 15:38:09,https://www.combitech.se/karriar/lediga-jobb/mekanikkonstruktorer-sokes/
+453,Combitech,Exjobb: Beräkning och analys,Engineering,Trollhättan,2025-09-15 15:38:09,https://www.combitech.se/karriar/lediga-jobb/exjobb-berakning-och-analys/
+452,Emagine,Software Engineer - Backstage development,Software Development,Stockholm Metropolitan Area,2025-09-15 15:27:04,https://portal.emagine.org/jobs/170559/software-engineer-backstage-development
+451,Ework,Electronics Hardware Design Engineer,,Gothenburg,2025-09-15 15:25:22,https://app.verama.com/sv/job-requests/70953
+450,Ework,ServiceNow-lösningsarkitekt,,Stockholm,2025-09-15 15:25:22,https://app.verama.com/sv/job-requests/70956
+448,Upgraded,EMC PCB designer,Design Engineer,"Remote, Södertälje",2025-09-15 14:57:17,https://upgraded.se/konsultuppdrag/127451-emc-pcb-designer/
+447,Upgraded,Infraarkitekt med Inriktning Brandvägg,Arkitekt,Stockholm,2025-09-15 14:57:17,https://upgraded.se/konsultuppdrag/127467-infraarkitekt-med-inriktning-brandvagg/
+449,Upgraded,IT-supporttekniker,IT-support,Stockholm,2025-09-15 14:57:17,https://upgraded.se/konsultuppdrag/127444-it-supporttekniker-3/
+446,Regent,Senior ServiceNow Lösningsarkitekt,"Vi söker en erfaren ServiceNow Lösningsarkitekt för heltid, ledande roll i teamet, stödja juniora, förklara för stakeholders och bidra till strategi för plattformen.",Stockholm,2025-09-15 14:51:21,https://regent.se/uppdrag/926
+445,Nikita,Systemförvaltare,,,2025-09-15 14:47:49,https://www.nikita.se/lediga-uppdrag/systemforvaltare-6/
+387,Upgraded,Manager/Project Manager,Project Manager,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126870-manager-project-manager/
+396,Upgraded,IT-Specialist,IT-Specialist,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126717-it-specialist-3/
+389,Upgraded,Business Analyst,Business Analyst,"Copenhagen, DK",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126787-business-analyst-48/
+390,Upgraded,Project Leader APQP,Project Leader,"Göteborg, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126750-project-leader-apqp/
+391,Upgraded,Delprojektledare,Projektledare,Växjö,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126743-delprojektledare-4/
+392,Upgraded,Senior Build Engineer C++/Bazel,Ingenjör,Stockholm/Remote,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126738-senior-build-engineer-c-bazel/
+393,Upgraded,Data Engineer,Data Engineer,Växjö,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126737-data-engineer-42/
+394,Upgraded,Projektledare för ledningssystem,Projektledare,"Göteborg, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126736-projektledare-for-ledningssystem/
+395,Upgraded,Functional Safety Expert,System Architect,Göteborg,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126729-functional-safety-expert-3/
+399,Upgraded,Data Information/Scientist,Data Scientist,Södertälje,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126635-data-information-scientist/
+397,Upgraded,Tech Lead/Lösningsarkitekt – Logistik/Tillverkning,Tech Lead,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126665-tech-lead-losningsarkitekt-logistik-tillverkning-2/
+398,Upgraded,Senior Kravanalytiker/Product Manager,Kravanalytiker,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126655-senior-kravanalytiker-product-manager-2/
+400,Upgraded,Fullstackutvecklare,Fullstackutvecklare,Södertälje,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126631-bi-developer-3/
+402,Upgraded,Arkitekt (Tåg),Arkitekt,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126521-arkitekt-tag-2/
+403,Upgraded,.NET-utvecklare med fokus på DevOps & molnlösningar,.NET-utvecklare,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126511-net-utvecklare-med-fokus-pa-devops-molnlosningar/
+404,Upgraded,Redovisningscontroller med erfarenhet av kvalificerat redovisningsarbete och ekonomistyrning.,Controller,"Solna, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126504-redovisningscontroller-med-erfarenhet-av-kvalificerat-redovisningsarbete-och-ekonomistyrning/
+405,Upgraded,Pega-utvecklare,Utvecklare,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126395-pega-utvecklare-2/
+388,Upgraded,Analytics Engineer – Scenförståelse & Sensorfusion,Analytics Engineer,"Lund, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126840-analytics-engineer-scenforstaelse-sensorfusion-2/
+373,Upgraded,Project Manager,Project Manager,Södertälje,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127266-project-manager-26/
+386,Upgraded,AI Development Engineer,AI Engineer,Lund,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126877-ai-development-engineer-3/
+376,Upgraded,"Senior förändringsledare, Region Skåne / Skånetrafiken avrop 1831",Processutvecklare,"Malmö, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127196-senior-forandringsledare-region-skane-skanetrafiken-avrop-1831-2/
+369,Upgraded,Lime utvecklare,Lime utvecklare,"Landskrona, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127399-lime-utvecklare/
+370,Upgraded,"Expert inom Digitaliseringssamordning till Framtidens ortopedi i Hässleholm, Region Skåne avrop 1823",,Hässleholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127359-expert-inom-digitaliseringssamordning-till-framtidens-ortopedi-i-hassleholm-region-skane-avrop-1823-3/
+371,Upgraded,DevOps Engineer,DevOps Engineer,Södertälje,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127325-devops-engineer-30/
+372,Upgraded,Business Change Management Strategy and framework (CAD/vPDM),Change Manager,Södertälje,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127297-business-change-management-strategy-and-framework/
+407,Upgraded,Expertstöd Matomo,Matomo specialist,Göteborg,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126313-expertstod-matomo-2/
+374,Upgraded,DBA PostgreSQL,Utvecklare,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127226-dba-postgresql-5/
+375,Upgraded,Penntest,Penntest,Uppsala,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127216-penntest/
+377,Upgraded,PLM Consultant,System Developer,"Malmö, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127094-plm-consultant-3/
+385,Upgraded,Serviceinriktad Firstline tekniker till Servicedesk,Firstline tekniker,"Haninge, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126925-serviceinriktad-firstline-tekniker-till-var-servicedesk/
+378,Upgraded,Scrum Master,Scrum Master,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127061-scrum-master-26/
+379,Upgraded,Fullstackutvecklare (.Net & Azure-cloud),Fullstackutvecklare,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127053-fullstackutvecklare-15/
+380,Upgraded,"Senior Projektledare SDV Utbildning, Region Skåne avrop 1807",Projektledare,Lund,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127027-senior-projektledare-sdv-utbildning-region-skane-avrop-1807-2/
+381,Upgraded,Senior SalesForce-konsult,Ingenjör,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127022-senior-salesforce-konsult/
+382,Upgraded,Embedded Developer,System Developer,"Malmö, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127020-embedded-developer-5/
+383,Upgraded,DevOps Engineer,DevOps Engineer,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/127013-devops-engineer-29/
+384,Upgraded,Backend Developer,Mjukvaruutvecklare,Lund,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126933-backend-developer-12/
+406,Upgraded,Security Engineer,Security Engineer,Stockholm/Katowice,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126349-security-engineer-3/
+401,Upgraded,Data Engineer Informatica,Data Engineer,Nearshore,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126593-data-engineer-informatica-4/
+408,Upgraded,Senior C++/.NET Developer,System Developer,Göteborg,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126233-senior-c-net-developer/
+436,Upgraded,Android apputvecklare,Apputvecklare,Göteborg,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/124537-android-apputvecklare/
+429,Upgraded,Senior Data Scientist,Data Scientist,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125576-senior-data-scientist-4/
+430,Upgraded,Utbildare inom CMS,Utbildare,Göteborg,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125495-utbildare-inom-cms/
+431,Upgraded,Uppdragsledare,Uppdragsledare,"Eskilstuna, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125471-uppgradsledare/
+432,Upgraded,Safety Subject Matter Expert (SME),Safety Engineer,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125358-safety-subject-matter-expert-sme/
+433,Upgraded,Senior Tech Lead,Tech Lead,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125250-senior-tech-lead-3/
+434,Upgraded,Embedded Software Engineer,Embedded-utvecklare,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125175-embedded-software-engineer-7/
+435,Upgraded,Projektledare,IT Projektledare,Örebro,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125135-projektledare-114/
+437,Upgraded,Senior projektledare,Projektledare,Göteborg,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/124308-senior-projektledare-18/
+427,Upgraded,Embedded applikationsingenjör,Applikationsingenjör,Göteborg,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125599-embedded-applikationsingenjor/
+438,Upgraded,Test Automation Engineer (spetskompetens: Python),Test Automation Engineer,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/124110-test-automation-engineer-spetskompetens-python/
+439,Upgraded,"Senior Utvecklare/Applikationskonsult, Region Skåne/Skånetrafiken avrop 1749",Systemutvecklare,,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/124108-senior-utvecklare-applikationskonsult-region-skane-skanetrafiken-avrop-1749-3/
+440,Upgraded,Power Drive System Engineer,Engineer,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/123996-power-drive-system-engineer/
+441,Upgraded,Siebel-utvecklare,Siebel-utvecklare,Sundsvall,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/123834-siebel-utvecklare/
+443,Upgraded,Kravanalytiker,Kravanalytiker,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/122795-kravanalytiker-33/
+444,Upgraded,Lösningsarkitekt inom Apputveckling,Lösningsarkitekt,Norrköping,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/122542-losningsarkitekt-inom-apputveckling/
+409,Upgraded,Embedded Software Product Owner,Product Owner,Göteborg,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126099-embedded-software-product-owner-2/
+428,Upgraded,Senior Machine Learning Engineering,Machine Learning Engineer,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125586-senior-machine-learning-engineering/
+442,Upgraded,Testare/Testdesigner,Testare,Göteborg,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/123178-testare-testdesigner/
+426,Upgraded,Senior 3D Software Developer,Software Developer,,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125722-senior-3d-software-developer/
+417,Upgraded,"Utvecklare, inriktning test av javasystem",Java-utvecklare,Umeå,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125890-utvecklare-inriktning-test-av-javasystem/
+425,Upgraded,Fastighetscontroller,Controller,"Järfälla, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125727-fastighetscontroller/
+411,Upgraded,Chefshandledning till Täby kommun,Organisationautveckling,"Täby, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126090-chefshandledning-till-taby-kommun/
+412,Upgraded,Software Developer – Embedded & Automation,Software Developer,"Lund, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126062-software-developer-embedded-automation/
+410,Upgraded,Lösningsarkitekt,Lösningsarkitekt,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126092-losningsarkitekt-51/
+413,Upgraded,Handledare till MiniMaria/Ungdomsbehandling,Handledare,"Täby, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/126052-handledare-till-minimaria-ungdomsbehandling/
+414,Upgraded,Säkerhetskonsult / PLC-programmering,PLC programming consultant,Lund,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125969-sakerhetskonsult-plc-programmering/
+416,Upgraded,Testare SAP EAM och UiPath,Testare,Remote,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125938-testare-sap-eam-och-uipath/
+415,Upgraded,Digital ASIC Designer / Technical Lead,System Developer,Lund,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125946-digital-asic-designer-technical-lead/
+418,Upgraded,Förändringsledning till Täby kommun,Förändringsledare,"Täby, SE",2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125880-forandringsledning/
+419,Upgraded,Senior Technical Project Manager,Project Manager,Lund,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125879-senior-technical-project-manager-2/
+420,Upgraded,Testspecialist,Testspecialist,Stockholm/Kalmar,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125875-testspecialist-2/
+421,Upgraded,Agentic AI och automation,Automationsingenjör,Stockholm,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125838-agentic-ai-och-automation/
+422,Upgraded,Release Manager,Release Manager,Remote,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125777-release-manager-3/
+423,Upgraded,"Senior Teknisk dokumentatör (Mjukvara), Region Skåne/Skånetrafiken avrop 1828",Systemutvecklare,Malmö,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125751-senior-teknisk-dokumentator-mjukvara-region-skane-avrop-1828/
+424,Upgraded,"Projektadministratör, Region Skåne/Skånetrafiken avrop 1827",Projektadministratör,Malmö,2025-09-15 13:53:36,https://upgraded.se/konsultuppdrag/125744-senior-projektadministrator-region-skane-skanetrafiken-avrop-1827/
+350,Regent,Senior Interimschef Masteradata,Vi söker en interimschef masterdata med kompetensnivå 4.,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/919
+354,Regent,Lead Business Architect (LBA) – PEGA-Arbetsförmedligen,"Vi söker en erfaren Pega LBA (expert) för heltid i Solna. Du leder krav- och designarbete, driver affärsnytta och coachar teamet i Pega Express och agila metoder.",Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/915
+353,Regent,7 .net utvecklare till Kammarkollegiet-Transpprtstyrelsen,"Systemutvecklare nivå 3 med erfarenhet av .NET, MS SQL och agilt arbetssätt. Mervärde ges för MVC/Blazor, RabbitMQ, Web API, nServiceBus samt offentlig sektor. Start 12 jan. Utgår från Örebro.",Örebro/Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/916
+352,Regent,2 Testare till Kammarkollegiet - Transportstyrelsen,"Transportstyrelsen söker 2 Testare. Start 12 jan 2026. Uppdrag på plats, helst i Örebro. Säkerhetsklassning krävs.",Örebro/Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/917
+351,Regent,Kravanalytiker till Transportstyrelsen,"Kravanalytiker nivå 3 till Transportstyrelsen, start 12 jan 2026. Uppdrag på plats, helst i Örebro. Säkerhetsklassning krävs.",Örebro/Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/918
+344,Regent,Senior IT-arkitekt,"Vi söker Senior IT-arkitekt, med 10+ års erfarenhet. Uppdrag i Sundsvall, 3 dagar/vecka på plats, resterande distans.",Sundsvall,2025-09-15 13:52:46,https://regent.se/uppdrag/925
+349,Regent,Hands-on Test Coach-Lumera,"Vi söker en hands-on Test Coach till Lumera Delivery. Fokus: stärka testfallshantering i Jira (XRAY) genom coaching, samarbete och strukturering för både manuella och automatiserade tester.",Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/920
+348,Regent,Senior Data Scientist,"Vi söker en AI-konsult med GCP- och Pythonexpertis för att bygga AI-infrastruktur, träna HR-teamet och migrera modeller. Fokus: kunskapsöverföring, GenAI och operativ självständighet",Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/921
+347,Regent,ML engineer,"ML Engineer ska bygga AI-infrastruktur inom HR på GCP, ge träning och mentorskap, stärka interna förmågor samt migrera befintliga AI-modeller till en ny skalbar miljö.",Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/922
+346,Regent,IAM/Azure-arkitekt,"Vi söker en erfaren konsult till ett långsiktigt uppdrag inom IAM, Azure och Microsoft-miljöer.",Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/923
+345,Regent,Game Engineer UI/UX,"Vi söker en kreativ och nyfiken utvecklare med djup erfarenhet från spelindustrin, stark teknisk bakgrund i C++ och djup förståelse för UI/UX inom spel.",Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/924
+356,Regent,Systemutvecklare – Lead ServiceNow Developer,Senior Lead ServiceNow Developer för 50% uppdrag. Ansvar för utveckling och förvaltning av äldre ServiceNow-miljö samt handledning av juniora resurser,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/913
+355,Regent,Principal System Architect (PSA)-Pega-Arbetsförmedlingen,"Vi söker en Pega PSA (expert) på ca 10 h/månad. En rådgivande roll för att stötta utvecklingsteamet och coacha inom metodik, arkitektur och Pega Constellation.",Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/914
+361,Regent,Analytics Engineer / Data Engineer,"Vi söker en lösningsdriven Data/Analytics Engineer med erfarenhet av Snowflake, datamodellering och pipelines. Fokus på skalbara datalösningar för analys och machine learning.",Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/903
+357,Regent,Senior ServiceNow Developer,"Senior ServiceNow Developer (Systemutvecklare) för ett deltidsuppdrag (50%). Uppdraget avser utveckling och förvaltning av en äldre, lokalt installerad ServiceNow-miljö.",Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/912
+364,Regent,En Senior Site Reliability Engineer,"Senior SRE sökes för ledande roll – etablera arbetssätt, bygga robusta system och driva molninfrastruktur, CI/CD och observability. Placering 3 dgr/v på huvudkontoret i Stockholm",Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/900
+358,Regent,Senior Frontendutvecklare med Appkompetens,"Senior frontendutvecklare med appkompetens sökes till uppdrag i Stockholm. Fokus på komponentbaserad utveckling, Android (Kotlin), meriterande iOS, React, GraphQL, Microfrontends. Start sept 2025.",Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/911
+367,Regent,Pega-utvecklare,"Tjänsten omfattar heltidsutveckling inom Pega, teamarbete med backloghantering och en sekundär uppgift med förvaltning och utveckling av API:er (REST-tjänster).",Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/895
+366,Regent,Data Analytics/Business Translator,Vi söker en erfaren Business Translator konsult inom data och marknadsanalys. Rollen innebär att översätta affärsbehov till analytiska use cases och säkerställa att data blir användbara för beslut,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/896
+365,Regent,Dynamics 365 CE / Power Platform-expert,"Erfaren Dynamics 365 CE/Power Platform-konsult sökes. Fokus på utveckling, integrationer i .Net och tekniskt stöd inom plattformen.",Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/899
+368,Regent,Senior Frontendutvecklare sökes till uppdrag hos kund i Sundsvall,Erfaren Frontendutvecklare med Angular-kompetens till uppdrag i Sundsvall. Start 1 oktober,Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/892
+363,Regent,Tech lead-Senior Node.js/Typescript,"Senior NodeJS/TypeScript-utvecklare sökes för tech-lead roll. Etablera kodstandarder, driva best practice och leda team. Placering Stockholm, 4 dagar/vecka på kontoret.",Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/901
+362,Regent,Android Utvecklare,"Vi söker en erfaren Android-utvecklare med Kotlin & Jetpack Compose för att bygga native appar i ett agilt team. Fokus på samarbete, innovation och förstklassig användarupplevelse.",Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/902
+360,Regent,Senior Javautvecklare,"Senior Javautvecklare sökes för att utveckla moderna backend-tjänster och API:er i en mikrotjänstarkitektur med Java Spring Boot, Kafka och OpenShift för en digital plattform.",Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/908
+359,Regent,AML/CTF Utredare,"Vi söker en erfaren AML/CTF-utredare med minst 3 års erfarenhet av penningtvättsutredningar, bolagsstrukturer och sanktioner. Rollen kräver integritet, analysförmåga och flytande svenska/engelska.",Stockholm,2025-09-15 13:52:46,https://regent.se/uppdrag/909
+335,Nikita,Upphandlingskonsult,,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/upphandlingscontroller/
+328,Nikita,API-integrations specialist,,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/api-integrations-specialist/
+329,Nikita,Project Manager – Financial Market,,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/project-manager-financial-market/
+330,Nikita,Senior projektledande VVS-konsult,,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/senior-projektledande-vvs-konsult/
+331,Nikita,AI-konsult till kund inom bygg,,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/ai-konsult-till-kund-inom-bygg/
+332,Nikita,Senior konsult inom B2B Lending – Product and Credit,,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/senior-konsult-inom-b2b-lending-product-and-credit/
+333,Nikita,IT-arkitekt till CSN,,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/it-arkitekt-till-csn/
+327,Nikita,Integrationsutvecklare Azure,,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/integrationsutvecklare-azure-2/
+334,Nikita,Applikationskonsult/integrationsspecialist,,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/9476/
+337,Nikita,IT-arkitekt/Systemutvecklare,,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/it-arkitekt-systemutvecklare/
+336,Nikita,VMware Engineer – Migrering och Infrastruktur,,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/vmware-engineer-migrering-och-infrastruktur/
+339,Nikita,Safety Subject Matter Expert (SME) Lead,,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/9471/
+340,Nikita,Projektledare AML,,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/projektledare-aml/
+341,Nikita,Elektronikkonstruktör,,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/elektronikkonstruktor-2/
+342,Nikita,Senior Teknisk Projektledare T&T,,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/senior-teknisk-projektledare-tt/
+343,Nikita,AI Integration Specialist / Machine Learning Engineer,,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/ai-integration-specialist-machine-learning-engineer/
+338,Nikita,Kravanalytiker/Business Analyst,,,2025-09-15 13:52:08,https://www.nikita.se/lediga-uppdrag/kravanalytiker-business-analyst/
+291,Ework,Stadsautomationskonsult,,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70808
+286,Ework,Customer Support Engineer,,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70822
+287,Ework,Utvärdering av Lunds kommuns mötes och evenemangstrategi,,Lund,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70819
+288,Ework,Senior Service Designer,,Kista,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70818
+289,Ework,Coachning/utveckling av chef på exekutiv nivå ,,Malmo,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70810
+290,Ework,Analytiker inom effektmätning och projektuppföljning,,Malmo,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70809
+294,Ework,Exchange uppgradering 2016-SE,,Helsingborg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70797
+292,Ework,Business Controller,,Vasteras,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70803
+293,Ework,SAP Senior Project Lead for Successfactors ,,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70798
+284,Ework,Grupputveckling inom ledningsgrupp,,Malmo,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70826
+295,Ework,Data Engineer,,Solna,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70795
+296,Ework,Systemförvaltare -MET,,Stockholm-Arlanda,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70789
+285,Ework,IT-specialist,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70823
+281,Ework,Data Analyst - Logistics,,Jonsered,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70840
+283,Ework,Project Manager ,,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70829
+282,Ework,.NET-utvecklare med fokus på DevOps & molnlösningar,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70832
+298,Ework,Junior People & Culture Business Partner (Try and hire),,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70781
+280,Ework,Associate Project Manager,,Vasteras,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70848
+279,Ework,Project Manager,,Vasteras,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70854
+278,Ework,Geoteknisk utredning för ny detaljplan för Bro torg,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70855
+277,Ework,Global Project Operations Manager,,Vasteras,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70859
+276,Ework,Automation Engineer,,Lund,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70861
+275,Ework,FEA Engineer,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70863
+274,Ework,Projektledare ledningssystem (NMI),,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70866
+273,Ework,Data Engineer / Full Stack Consultant – Digital Twin Project,,Södertälje,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70870
+272,Ework,Business Analyst,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70871
+271,Ework,Application Developer / Full Stack Consultant – Digital Twin,,Södertälje,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70872
+270,Ework,IT Business Analyst,,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70873
+297,Ework,Ekolog till Förstudie Kafé Sjöstugan ,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70783
+301,Ework,Senior Machine Learning Engineer & Data Engineer ,,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70769
+299,Ework,Package Development Engineer ,,Lund,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70777
+315,Ework,Dokumentationskonsult/ Dokumenteringsingenjör,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70706
+268,Ework,Handräckning värmeanläggningar Visingsö,,Visingsö,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70880
+326,Ework,Dagvattenutredning Parkering - Älvboda 1:113,,"Gavle, Skutskär",2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70541
+325,Ework,Broms Delprojektledare Livslängdssäkring Contessa & Regina,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70542
+324,Ework,"Underhållsplan IT/OT-säkerhet – Cer-direktivet , VA",,Söderköping,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70561
+323,Ework,Senior Apputvecklare - Android,,Mölndal,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70593
+322,Ework,Fältinventering av alléer i Nacka kommun,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70594
+321,Ework,Senior Functional Consultant- D365 FnO,,Malmo,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70649
+320,Ework,Projektledare HRM,,Lund,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70652
+319,Ework,Kulturintressemätning i Malmö,,Malmo,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70654
+318,Ework,Provningsingenjör - mekanisk provning,,Huskvarna,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70655
+317,Ework,Uppdragsledare,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70677
+316,Ework,Teknisk Projektledare,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70692
+314,Ework,Delprojektledare Kontrollprogram Anneberg Skanstull,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70713
+300,Ework,Mechanical Design Engineer,,Huskvarna,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70772
+313,Ework,Konstruktör - Motordetaljer,,Huskvarna,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70714
+312,Ework,"Java AWS (Docker, Kubernetes, Lambda, Cloudformation) - JKPG",,Huskvarna,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70715
+311,Ework,"Strategi för energieffektivisering, Upplands-Bro kommun",,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70719
+310,Ework,AML/CTF Utredare,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70722
+309,Ework,Antikvarisk förundersökning och konsekvensbeskrivning,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70726
+308,Ework,Buller- och vibrationsutredning för ny detaljplan,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70732
+307,Ework,Konsultstöd parkplan för Nacka kommun,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70731
+306,Ework,Erbjudandeansvarig och Programledare Fjärrvärme2.0,,Jonkoping,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70733
+305,Ework,Trafikutredning för ny detaljplan ”Nya Härneviskolan”,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70734
+304,Ework,Dagvattenutredning på Väsjö torg,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70747
+303,Ework,Statistiker till befolkningsprognos,,Söderhamn,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70759
+302,Ework,IL-Kurs (Indirekt Ledarskap) ,,Malmo,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70764
+269,Ework,M365 konsult,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70877
+267,Ework,Machine Learning Engineer ,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70881
+241,Ework,Fullstackutvecklare - .NET och Azure cloud,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70930
+251,Ework,R&D Support Specialist,,Vasteras,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70910
+266,Ework,Technical Lead - Splunk UBA ,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70883
+236,Ework,Projektledare,,Södertälje,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70947
+237,Ework,Senior .Net Developer,,Lund,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70946
+238,Ework,Projektledare för upphandling av nytt lönesystem,,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70942
+239,Ework,Chefshandledning för chef med utmaningar i arbetsgrupp,,Malmo,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70940
+240,Ework,Handläggare BAS-U - KVV2,,Lund,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70931
+242,Ework,"Projektledare, utveckling och utrullning Lime CRM",,Helsingborg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70929
+243,Ework,Teknisk projektledare Larm- och trygghetsområde,,Lulea,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70928
+244,Ework,Projektledare ERP,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70926
+245,Ework, IT-driftkonsult för Digital Examensplanering ,,Helsingborg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70921
+246,Ework,Databricks Platform Lead,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70920
+248,Ework,Projektledare,,Södertälje,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70916
+249,Ework,Scrum master & Agil coach,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70914
+250,Ework,Expert underhåll högvärdeskomponenter tåg,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70912
+247,Ework,ICT Network & Security Consultant,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70919
+252,Ework,Brandkonsult,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70909
+259,Ework,Kvalitetsspecialist i anläggningsprojekt,,Sundbyberg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70898
+265,Ework,Vetenskaplig studie-Likvärdig kvalitet i Malmös förskolor,,Malmo,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70884
+264,Ework,Organisationskonsulter - Ledarskapsutveckling,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70889
+263,Ework,JD Edwards (JDE) Specialist,,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70891
+253,Ework,Arkitekttjänster för kommersiella lokaler ,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70907
+261,Ework,MDP Non-Retail Data Analyst,,"Helsinki, Stockholm",2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70894
+260,Ework,Informationsarkitekt,,Stockholm,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70895
+262,Ework,Project Support – Review of the customer support,,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70893
+258,Ework,Solution Architect with PKI Expertise,,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70900
+257,Ework,Senior Cybersecurity Expert,,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70902
+256,Ework,R&D Engineer within mechanical design,,Vasteras,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70903
+255,Ework,"Release Train Engineer, Coach",,Solna,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70904
+254,Ework,Cybersecurity Expert (Vehicle Platform),,Gothenburg,2025-09-15 13:51:51,https://app.verama.com/sv/job-requests/70906
+211,Emagine,Machine Learning Engineer,Data & Analytics,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170382/machine-learning-engineer
+201,Emagine,Fullstack-utvecklare (Node/TS/React),Software Development,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170480/fullstack-utvecklare-nodetsreact
+210,Emagine,Advanced Data Analysts (Credit Risk Focus),Data & Analytics,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170388/advanced-data-analysts-credit-risk-focus
+209,Emagine,Senior Machine Learning Engineer,Data & Analytics,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170410/senior-machine-learning-engineer
+208,Emagine,New request- Atlassian Technical Engineer,IT Infrastructure & Operations,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170446/new-request-atlassian-technical-engineer
+207,Emagine,.Net/AWS developer,Software Development,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170447/netaws-developer
+205,Emagine,Senior Frontend Expert (React Native),Software Development,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170467/senior-frontend-expert-react-native
+204,Emagine,RFP - Datamigrering - Teamleverans,Software Development,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170473/rfp-datamigrering-teamleverans
+203,Emagine,Solution Architect / Lead Developer - Digital Procurement,Software Development,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170477/solution-architect-lead-developer-digital-procurement
+202,Emagine,Technical lead for Splunk UBA project track,Project Delivery,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170479/technical-lead-for-splunk-uba-project-track
+194,Emagine,Machine Learning Engineer,Data & Analytics,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170504/machine-learning-engineer
+200,Emagine,Backend-utvecklare (Go),Software Development,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170482/backend-utvecklare-go
+199,Emagine,Platform Engineer (Node.js/TS),Software Development,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170483/platform-engineer-nodejsts
+198,Emagine,Platform Engineer (AI Engineering),Data & Analytics,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170484/platform-engineer-ai-engineering
+197,Emagine,Site Reliability Engineer,IT Infrastructure & Operations,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170485/site-reliability-engineer
+196,Emagine,Data and Analytics Engineer with Backend - Digital Procurement ,Data & Analytics,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170492/data-and-analytics-engineer-with-backend-digital-procurement
+195,Emagine,Engineering Manager,Software Development,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170502/engineering-manager
+193,Emagine,Senior Web developer,Software Development,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170514/senior-web-developer
+192,Emagine,Data Analysts ,Data & Analytics,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170519/data-analysts
+191,Emagine,Talent Acquisition Data & Systems Admin/Coordinator,Other roles,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170533/talent-acquisition-data-and-systems-admincoordinator
+213,Emagine,Produkt Designer,"UX, UI & Visual Design",Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170321/produkt-designer
+212,Emagine,Test Automation Engineer,Test & QA,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170372/test-automation-engineer
+206,Emagine,Backend Architect/Tech Lead (Python + AI),Software Development,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170466/backend-architecttech-lead-python-+-ai
+214,Emagine,"Azure DevOps Consultant (Infrastructure, Automation & AWS Migration)",IT Infrastructure & Operations,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170319/azure-devops-consultant-infrastructure-automation-and-aws-migration
+224,Emagine,3 X Senior AI Engineers,Data & Analytics,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/169889/3-x-senior-ai-engineers
+234,Emagine,Swift Developer with strong computer science foundations,Software Development,Malmö Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/167241/swift-developer-with-strong-computer-science-foundations
+233,Emagine,Software Engineer (C++),Software Development,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/167370/software-engineer-c++
+232,Emagine,QA Engineer (automation experience Objective-C or equivalent),Test & QA,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/167889/qa-engineer-automation-experience-objective-c-or-equivalent
+231,Emagine,Strong Java Developer with Golang Experience,Software Development,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/168064/strong-java-developer-with-golang-experience
+229,Emagine,Quality Engineer (Web),Test & QA,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/168728/quality-engineer-web
+228,Emagine,Business Architect,Strategy & Transformation,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/169296/business-architect
+227,Emagine,Data Scientist (Within AI),Data & Analytics,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/169322/data-scientist-within-ai
+226,Emagine,AI Governance Manager,"Risk, Security & Compliance",Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/169327/ai-governance-manager
+225,Emagine,Fullstackutvecklare React/Kotlin,Software Development,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/169853/fullstackutvecklare-reactkotlin
+230,Emagine,Payroll Specialist - EMEA,Other roles,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/168254/payroll-specialist-emea
+223,Emagine,2 * Senior Test Automation Engineer IFRS9,Test & QA,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/169949/2-*-senior-test-automation-engineer-ifrs9
+219,Emagine,Product/Engineering Leader,Strategy & Transformation,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170174/productengineering-leader
+222,Emagine,Machine Learning Engineer,Data & Analytics,Malmö Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170116/machine-learning-engineer
+216,Emagine,SAP BTP Integration,ERP & CRM,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170237/sap-btp-integration
+217,Emagine,Senior Network Security Engineer,IT Infrastructure & Operations,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170233/senior-network-security-engineer
+218,Emagine,Databricks Consultant,Data & Analytics,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170209/databricks-consultant
+215,Emagine,Backend Engineer - Infrastructure / Platform / Cloud Native,Software Development,,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170316/backend-engineer-infrastructure-platform-cloud-native
+220,Emagine,Data Engineer for Business Analytics Developments,Data & Analytics,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170168/data-engineer-for-business-analytics-developments
+235,Emagine,IT Operations Manager,,Linkoping,2025-09-15 13:50:58,https://portal.emagine.org/jobs/155965/it-operations-manager
+221,Emagine,"Fullstack Web Engineer (Javascript, React) (Bonus Java)",Software Development,Stockholm Metropolitan Area,2025-09-15 13:50:58,https://portal.emagine.org/jobs/170138/fullstack-web-engineer-javascript-react-bonus-java
+165,Combitech,Elkonstruktör,Engineering,"Malmö, Växjö",2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/elkonstruktor/
+177,Combitech,Erfaren Elektronikkonstruktör,Engineering,"Norrköping, Linköping",2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/erfaren-elektronikkonstruktor/
+167,Combitech,Javautvecklare,Information Technology Services,Luleå,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/javautvecklare/
+168,Combitech,Lösningsarkitekt,Information Technology Services,Stockholm,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/losningsarkitekt/
+169,Combitech,Detaljberedare sökes,Engineering,"Karlskrona, Växjö",2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/detaljberedare-sokes/
+170,Combitech,Mjukvaruutvecklare,Information Technology Services,Trollhättan,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/mjukvaruutvecklare2/
+171,Combitech,System Analyst,Information Technology Services,Linköping,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/system-analyst/
+172,Combitech,Projektör inom kommunikationslösningar,Customer Service,Arboga,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/projektor-inom-kommunikationslosningar/
+173,Combitech,Systems Engineer till vårt utvecklingscenter,Engineering,Trollhättan,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/systems-engineer-till-vart-utvecklingscenter/
+174,Combitech,Konsult inom militär IT till Combitech,Engineering,"Växjö, Skövde",2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/konsult-inom-militar-it-till-combitech/
+175,Combitech,Software Quality Expert,Information Technology Services,"Linköping, Stockholm, Göteborg, Jönköping, Umeå",2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/software-quality-expert/
+176,Combitech,Senior mjukvarutestare till in-houseprojekt inom telecom,Information Technology Services,Linköping,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/senior-mjukvarutestare-till-in-houseprojekt-inom-telecom/
+166,Combitech,Konsult med inriktning mot regelefterlevnad och flygsäkerhet,Engineering,"Stockholm, Norrköping",2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/konsult-med-inriktning-mot-regelefterlevnad-och-flygsakerhet/
+179,Combitech,Tekniker inom väderradar,Customer Service,Arboga,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/tekniker-inom-vaderradar/
+178,Combitech,Produktutvecklare inom mekanik,Engineering,Trollhättan,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/produktutvecklare-inom-mekanik/
+186,Combitech,Erfaren mjukvaru-/ systemutvecklare till våra utvecklingsteam,Information Technology Services,Linköping,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/erfaren-mjukvaru--systemutvecklare-till-vara-utvecklingsteam/
+180,Combitech,Linux och Cloud Native entusiast,Information Technology Services,Göteborg,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/linux-och-cloud-native-entusiast/
+189,Combitech,Senior Mjukvaruutvecklare,Information Technology Services,Västerås,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/senior-mjukvaruutvecklare/
+188,Combitech,Konsult inom safety / Systemsäkerhet,Engineering,Linköping,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/konsult-inom-safety--systemsakerhet/
+187,Combitech,Erfaren systemingenjör,Engineering,Linköping,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/erfaren-systemingenjor/
+190,Combitech,Senior Systemingenjör,Engineering,Västerås,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/senior-systemingenjor/
+185,Combitech,Systemansvarig inom försvarsindustrin,Engineering,Arboga,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/systemansvarig-inom-forsvarsindustrin/
+184,Combitech,Erfaren Embeddedutvecklare,Information Technology Services,Jönköping,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/erfaren-embeddedutvecklare/
+183,Combitech,Systemingenjör,Engineering,Linköping,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/systemingenjor/
+182,Combitech,Mjukvaruutvecklare,Information Technology Services,Linköping,2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/mjukvaruutvecklare/
+181,Combitech,Underhållsingenjör inom försvarsindustrin,Engineering,"Arboga, Enköping, Frösön, Västerås",2025-09-15 13:49:56,https://www.combitech.se/karriar/lediga-jobb/underhallsingenjor-inom-forsvarsindustrin/
+109,A Society,Erfaren Business Controller,Business Functions,Göteborg,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/erfaren-business-controller-14121
+101,A Society,Lumera Kravanalytiker/Product Manager Pension \u0026 Försäkring,IT,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/lumera-kravanalytikerproduct-manager-pension-\u0026-frskring-14130
+102,A Society,Embedded utvecklare,Engineering,Jönköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/embedded-utvecklare-14057
+103,A Society,Architect Application and visualization solution,IT,Södertälje,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/architect-application-and-visualization-solution-14129
+104,A Society,PLM-konsult med senior erfarenhet,IT,Linköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/plm-konsult-med-senior-erfarenhet-14127
+105,A Society,Project Management (Delivery Projects) ,Engineering,Västerås,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/project-management-delivery-projects-14124
+106,A Society,Civil Design Engineering – Senior Principal Engineer (Level 5) ,Engineering,Västerås,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/civil-design-engineering-senior-principal-engineer-level-5-14125
+107,A Society,Shipping \u0026 Export Specialist – Consultant Assignment,Engineering,Ludvika,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/shipping-\u0026-export-specialist-consultant-assignment-14126
+108,A Society,Lösningsarkitekt E-hälsomyndigheten Stockholm/Kalmar 50%,IT,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/lsningsarkitekt-e-hlsomyndigheten-stockholmkalmar-50-14123
+99,A Society,Senior Embedded utvecklare,Engineering,Jönköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-embedded-utvecklare-14133
+115,A Society,Systemutvecklare inom oceanografi SMHI Norrköping 100%,IT,Norrköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/systemutvecklare-inom-oceanografi-smhi-norrkping-100-14111
+110,A Society,Senior Database Specialist,IT,Malmö/Lund,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-database-specialist-14119
+111,A Society,Systemingenjör (Framdrivningssystem),Engineering,Karlskrona,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/systemingenjr-framdrivningssystem-14118
+112,A Society,"Testare Mjukvara, nivå 3",Engineering,Jönköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/testare-mjukvara-niv-3-14115
+113,A Society,Elektronikkonstruktör - kretskort,Engineering,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/elektronikkonstruktr-kretskort-14114
+114,A Society,Elektronikkonstruktör,Engineering,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/elektronikkonstruktr-14113
+116,A Society,Hållfasthetsingenjör – Rörberäkning | Finspång,Engineering,Finspång,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/hllfasthetsingenjr-rrberkning-|-finspng-14108
+117,A Society,Testspecialist E-hälsomyndigheten Stockholm/Kalmar 100%,IT,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/testspecialist-e-hlsomyndigheten-stockholmkalmar-100-14107
+118,A Society,R\u0026D Projektledare – Konsultuppdrag inom gasturbinutveckling,Engineering,Finspång,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/r\u0026d-projektledare-konsultuppdrag-inom-gasturbinutveckling-14105
+119,A Society,Senior Machine Learning Engineering,IT,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-machine-learning-engineering-14103
+100,A Society,Senior mjukvarukonsult till försvarsindustrin,Engineering,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-mjukvarukonsult-till-frsvarsindustrin-14132
+134,A Society,Mjukvaruutvecklare - Embedded,IT,Jönköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/mjukvaruutvecklare-embedded-14082
+98,A Society,Machine Learning Engineer,IT,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/machine-learning-engineer-14135
+97,A Society,Senior Mjukvaruutvecklare - Frontend,Engineering,Växjö,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-mjukvaruutvecklare-frontend-13617
+121,A Society,Agile Program Coach FF,IT,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/agile-program-coach-ff-14100
+79,A Society,Scrum master / Team Lead,IT,Malmö/Lund,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/scrum-master-team-lead-14156
+80,A Society,DevOps Engineer,IT,Södertälje,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/devops-engineer-14155
+81,A Society,Senior Produktionstekniker,Engineering,Linköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-produktionstekniker-14154
+82,A Society,Business Change Management Strategy and framework,IT,Södertälje,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/business-change-management-strategy-and-framework-14153
+83,A Society,Project Manager – Product Development,Engineering,Södertälje,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/project-manager-product-development-14152
+84,A Society,Senior Systemingenjör – Digitala produkter och smarta ekosystem,Engineering,Jönköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-systemingenjr-digitala-produkter-och-smarta-ekosystem-14151
+85,A Society,Lead Project Cost Controller,Engineering,Boden,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/lead-project-cost-controller-14150
+86,A Society,DBA PostgreSQL Linux,IT,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/dba-postgresql-linux-14149
+87,A Society,Teknisk delprojektledare till tillväxtprojekt,Engineering,Karlskoga,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/teknisk-delprojektledare-till-tillvxtprojekt-14148
+88,A Society,Arkitekt nationellt register för medicintekniska produkter E-hälsomyndigheten Stockholm/Kalmar 100%,IT,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/arkitekt-nationellt-register-fr-medicintekniska-produkter-e-hlsomyndigheten-stockholmkalmar-100-14147
+89,A Society,Production engineer - PCBA,Engineering,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/production-engineer-pcba-14146
+90,A Society,Testingenjör med fordonserfarenhet,Engineering,Göteborg,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/testingenjr-med-fordonserfarenhet-14144
+91,A Society,Testledare med utvecklarbakgrund - Trafikverket,IT,Linköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/testledare-med-utvecklarbakgrund-trafikverket-14143
+92,A Society,Scrum Master,IT,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/scrum-master-14141
+93,A Society, Erfaren UX-designer ,IT,Jönköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/erfaren-ux-designer-14140
+94,A Society,Systemingenjör inom Automation,Engineering,Karlskrona,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/systemingenjr-inom-automation-14139
+95,A Society,"Förändringsledare inom PEGA (Consulting Manager) till Arbetsförmedlingen, 50%, Sthlm ",IT,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/frndringsledare-inom-pega-consulting-manager-till-arbetsfrmedlingen-50-sthlm-14137
+96,A Society,"Scrum Master till Arbetsförmedlingen, 100%, Sthlm ",IT,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/scrum-master-till-arbetsfrmedlingen-100-sthlm-14136
+120,A Society,Senior Data Scientist,IT,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-data-scientist-14102
+135,A Society,Systemingenjör - kravhantering HW,Engineering,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/systemingenjr-kravhantering-hw-14078
+122,A Society,Project Health \u0026 Safety Manager,Engineering,Uppsala,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/project-health-\u0026-safety-manager-14099
+155,A Society,Systemsäkerhetsingenjör – avancerade försvarssystem ,Engineering,Karlskoga,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/systemskerhetsingenjr-avancerade-frsvarssystem-13742
+147,A Society, RF- och Mätteknikingenjör till avancerat underhåll av radarsystem,Engineering,Arboga,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/rf-och-mtteknikingenjr-till-avancerat-underhll-av-radarsystem-13786
+148,A Society,Senior Network Security Engineer ,IT,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-network-security-engineer-14037
+149,A Society,"Systemingenjör inom Guidance, Navigation and Control (GNC)",Engineering,Linköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/systemingenjr-inom-guidance-navigation-and-control-gnc-14034
+150,A Society,Data Scientist,IT,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/data-scientist-14033
+151,A Society,"Senior konsult inom kraftelektronik – Saab, Göteborg",Engineering,Göteborg,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-konsult-inom-kraftelektronik-saab-gteborg-14030
+152,A Society,ILS Ingenjör ,Engineering,Jönköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/ils-ingenjr-13999
+153,A Society,Elektronikingenjör Layout,Engineering,Karlskoga,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/elektronikingenjr-layout-13580
+154,A Society,Elektronikkonstruktör för analog och digital konstruktion ,Engineering,Karlskoga,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/elektronikkonstruktr-fr-analog-och-digital-konstruktion-13740
+156,A Society,Senior Systemingenjör – verifiering och systemutveckling inom missilsystem ,Engineering,Karlskoga,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-systemingenjr-verifiering-och-systemutveckling-inom-missilsystem-13743
+145,A Society,Senior Lean SME konsult,Business Functions,Jönköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-lean-sme-konsult-14049
+157,A Society,Elektronikingenjör inom avioniksystem,Engineering,Arboga,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/elektronikingenjr-inom-avioniksystem-13787
+158,A Society,Senior elektronikkonstruktör till Power Design,Engineering,Göteborg,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-elektronikkonstruktr-till-power-design-13992
+159,A Society,Komponentingenjör ,Engineering,Karlskrona,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/komponentingenjr-13964
+160,A Society,Vill du återvända till SAAB?,Engineering,Jönköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/vill-du-tervnda-till-saab?-12218
+161,A Society,Senior teknisk specialist inom samband – remote med placering i Järfälla/Solna,Engineering,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-teknisk-specialist-inom-samband-remote-med-placering-i-jrfllasolna-13729
+163,A Society,Systemingenjör inom fordonsintegration Hybrid Arboga/Järfälla/Solna,Engineering,Arboga,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/systemingenjr-inom-fordonsintegration-hybrid-arbogajrfllasolna-13725
+164,A Society,Systemingenjör – kommunikationssystem och nätverk inom försvarsindustrin,Engineering,Arboga,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/systemingenjr-kommunikationssystem-och-ntverk-inom-frsvarsindustrin-13702
+123,A Society,Construction Supervisor (Civil Works),Engineering,Boden,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/construction-supervisor-civil-works-14098
+146,A Society,Systemingenjör – försvarssystem ,Engineering,Karlskoga,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/systemingenjr-frsvarssystem-13744
+162,A Society,Tekniskt säljstöd inom kommunikationssystem – hybrid,Business Functions,Arboga,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/tekniskt-sljstd-inom-kommunikationssystem-hybrid-13728
+144,A Society,Front-end utvecklare ,IT,Helsingborg,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/front-end-utvecklare-14054
+132,A Society,We're looking for 2 AI/ML Engineers ,IT,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/we're-looking-for-2-aiml-engineers-14085
+124,A Society,Senior Konstruktör – Konsultuppdrag inom flygplattformar,Engineering,Linköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-konstruktr-konsultuppdrag-inom-flygplattformar-14097
+143,A Society,Mjukvarulösningsarkitekt ,Engineering,Helsingborg,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/mjukvarulsningsarkitekt-14055
+126,A Society,"Systemutvecklare till UBM, Sthlm, 100%",IT,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/systemutvecklare-till-ubm-sthlm-100-14095
+127,A Society,Senior Software Engineer,IT,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-software-engineer-14094
+128,A Society,Androidutvecklare,Engineering,Göteborg,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/androidutvecklare-14093
+129,A Society,Stakeholder Requirement Manager - Linköping,Engineering,Linköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/stakeholder-requirement-manager-linkping-14092
+130,A Society,"Projektledare Strategi och ledning till Transportstyrelsen, Örebro, 100% ",IT,Örebro,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/projektledare-strategi-och-ledning-till-transportstyrelsen-rebro-100-14091
+131,A Society,Technical writer ,Engineering,Helsingborg,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/technical-writer-14089
+125,A Society,Senior Hållfasthetsingenjör – Konsultuppdrag inom flygplattformar,Engineering,Linköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/senior-hllfasthetsingenjr-konsultuppdrag-inom-flygplattformar-14096
+133,A Society,It-lösningsarkitekt Transportstyrelsen Örebro 100%,IT,Örebro,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/it-lsningsarkitekt-transportstyrelsen-rebro-100-14083
+141,A Society,Embedded C++ Developer,Engineering,Stockholm,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/embedded-c++-developer-14064
+136,A Society,Konsultuppdrag: Ingenjörer och ledare inom avancerad plattformsutveckling,Engineering,Linköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/konsultuppdrag:-ingenjrer-och-ledare-inom-avancerad-plattformsutveckling-14070
+137,A Society,Förvaltningsledare D365 Finance till Malmö,IT,Malmö/Lund,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/frvaltningsledare-d365-finance-till-malm-14058
+138,A Society,Elektronikkonstruktör,Engineering,Linköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/elektronikkonstruktr-14068
+139,A Society,Systemingenjörer (Hårdvara),Engineering,Helsingborg,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/systemingenjrer-hrdvara-13860
+142,A Society,"Elkonstruktör (EK4), Arboga",Engineering,Arboga,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/elkonstruktr-ek4-arboga-14063
+140,A Society,Elektronikarkitekt,Engineering,Linköping,2025-09-15 13:48:33,https://www.asocietygroup.com/sv/uppdrag/elektronikarkitekt-14067
+78,Aliant,Elektronikkonstruktör (Altium Designer),,Stockholm,2025-09-15 13:45:24,https://aliant.recman.page/job/449555
+24,Afry,Gruppchef underhåll med inriktning på El och Automation,"Project Management and Management Automation, Electrical and Robotics Engineering",Västernorrlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/0a2ca2be-1372-4163-b185-5a2e64aafc91
+25,Afry,Senior Projektledare Försvarsindustrin,"Project Management and Management Mechanical Engineering (Product and Machine Design) Process and Production Engineering Supply Chain, Procurement and Technical Documentation",,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/33d6d463-67cc-4fdd-b256-28d1ad0c6ec6
+26,Afry,Design engineer transmission development ,Mechanical Engineering (Product and Machine Design),Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/ef5f36f5-ab9d-4497-a335-6bd128c2c78d
+27,Afry,"Systemingenjör System & Kravhantering HW, Miljökrav - Försvarsindustrin Stockholm",Electronics System and Communication technology  Software Engineering and Test Mechanical Engineering (Product and Machine Design),Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/23582659-da50-4af9-8c35-06e694d046e8
+28,Afry,Power Systems Engineering - Principal Engineer,"Project Management and Management Electronics System and Communication technology  IT and Industrial IT Software Engineering and Test Energy (Power generation, T&D and Renewables) Automation, Electrical and Robotics Engineering",Västmanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/2105cd07-f996-4244-bb60-62a246c997d9
+29,Afry,Business Architect Automotive,Project Management and Management IT and Industrial IT,Södermanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/076bf696-221c-4601-92dc-e6449a5a121d
+30,Afry,Assignment manager complete vehicle testing,Project Management and Management Mechanical Engineering (Product and Machine Design),Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/a1681c4b-e217-4fe8-b858-9ceb8bebedc5
+34,Afry,Elkonstruktör,"Automation, Electrical and Robotics Engineering",Östergötlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/71b222dc-057a-4761-b00d-f1dc5e859085
+31,Afry,Associate Engineer - Product Support ,"Mechanical Engineering (Product and Machine Design) Quality Assurance, Test and Validation",Västra Götalands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/ab9057e5-7e99-44ef-a594-c7016cd99347
+32,Afry,Arbetsmiljöspecialist Stockholm [2025/4817] (OPP-0264351),"BAS-U Environmental permit ESA (Electrical Safety Instructions) BAS-P Energy (Power generation, T&D and Renewables) Health, Safety and Environment",Västmanlands län Stockholms län Uppsala län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/3f2131be-bc2e-4810-a1f7-80251dab7ece
+33,Afry,Power Systems Engineering - Senior Principal Engineer,"Electronics System and Communication technology  Automation, Electrical and Robotics Engineering",Dalarnas län Västra Götalands län Västmanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/9ff6cf99-5bb6-4a91-91f7-a1e4a41f5148
+39,Afry,Systemutvecklare - integrationsspecialist,IT and Industrial IT Software Engineering and Test,Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/c569cb72-8427-4588-ac58-70c08d593a6f
+35,Afry,Montageledare EL,"Project Management and Management Urban Planning, Civil and Structural Engineering Energy (Power generation, T&D and Renewables) Automation, Electrical and Robotics Engineering",Västernorrlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/4332eace-e29d-4018-b29c-c3da613b7c1a
+36,Afry,software Architect Automotive,Software Engineering and Test,Södermanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/2df92058-f3f5-42d1-b429-a5716817c6c4
+37,Afry,Projekt-/tidplanerare läkemedelsindustrin,Other,Södermanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/b88c5a0e-23cc-4823-bafd-b2c5376c1801
+22,Afry,Projekingenjör - Trycksatta anordningar och pannor,Project Management and Management,Västernorrlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/805bd2b8-7408-4b72-972d-86acc3fa2e4f
+38,Afry,Senior Technical Lead,IT and Industrial IT Software Engineering and Test,Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/ebfffbad-c1b9-4357-ac74-3ec2225afe95
+23,Afry,Gruppchef Teknik,Project Management and Management,Västernorrlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/75cbd42c-e7ec-4ae7-8dd8-4fdcafaf13fd
+13,Afry,BPM008226 HFI system designer (sys4),Human Factors Engineering IT and Industrial IT System Design,Västra Götalands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/d9be7662-8ed0-429a-bd35-7c99a4303679
+21,Afry,Technical Writer,Agile Buildings Services Systems Communication JIRA Confluence Design: Adobe  Illustrator SolidWorks Maintenance instructions User Manual - Technical Documentation teknisk skribent,Blekinge län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/8a3a16e9-f5a9-478c-9887-0b5445af912d
+20,Afry,CAE Engineer Durability,Computer Aided Engineering (CAE),Västra Götalands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/c89809ca-8d41-4c85-8092-b408973c2830
+5,Afry,Automotive Senior konstruktör Oskarshamn,Mechanical Engineering (Product and Machine Design),Kalmar län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/23d6e07e-94c1-41ee-a3e5-7bb5c60e9c6b
+41,Afry,BPM008370  Mjukvaruarkitekt Java (PRO4),Mjukvaruutveckling Java,Västra Götalands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/2c7d4eab-f905-4baf-a3e3-62830f88399f
+6,Afry,Senior Konstruktör inom Gjutning,Metal - Casting Mechanical Engineering (Product and Machine Design),Södermanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/587cd899-aff5-42b9-9cd8-302a09876a18
+7,Afry,Senior Mechanical Designer - Automotive,Project Management and Management Mechanical Engineering (Product and Machine Design),Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/6429e1c5-ce4e-4af8-8398-3943ea32a520
+8,Afry,Senior designer whole vehicle development,Mechanical Engineering (Product and Machine Design),Södermanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/49a8e978-7aaf-4ad7-b58a-e17324fa8090
+9,Afry,Senior Scala/Java developer,"Akka Search engine optimization (SEO) Big data IT and Industrial IT Scala Spark, Scala  ML Search Engine",Skåne län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/df648343-a1f5-4347-9d6c-f5b6495d91a2
+10,Afry,Search ML Engineer,Search engine optimization (SEO) IT and Industrial IT Java Scala Natural Language Processing (NLP) ML Search Engine,Skåne län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/b836865a-62f6-4b81-97f7-db3187a454f3
+11,Afry,Embedded SW developer,GIT IT and Industrial IT Docker Yocto Jenkins Python C Embedded Linux,Västra Götalands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/241c2b7c-2bb9-4ec1-89ef-9532bed6ec9d
+12,Afry,Test Environment SW developer,PC Raspberry Pi Electronics System and Communication technology  IT and Industrial IT GUI CAN Python C Embedded Linux,Västra Götalands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/5db1303c-62bb-489b-a9fa-6e4e94b131ca
+14,Afry,Retrofitberedare,"Project Management and Management Mechanical Engineering (Product and Machine Design) Process and Production Engineering Supply Chain, Procurement and Technical Documentation",Västernorrlands län Västerbottens län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/bd0eae92-caad-4381-800d-48295fcde127
+15,Afry,Provledare,"Project Management and Management Mechanical Engineering (Product and Machine Design) Quality Assurance, Test and Validation Process and Production Engineering Supply Chain, Procurement and Technical Documentation",Västerbottens län Västernorrlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/7d29449d-7690-4f46-8c81-bd3f953e7156
+16,Afry,Designingenjör rymd,"Project Management and Management Electronics System and Communication technology  Mechanical Engineering (Product and Machine Design) Automation, Electrical and Robotics Engineering",Västra Götalands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/d304940d-bf64-4f1d-9b80-713cf771caa7
+17,Afry,BPM008262 Teknisk delprojektledare (PRO3),Agil mjukvaruutveckling Försvarsmakten Teknisk projektledare,Västra Götalands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/e4eefaab-499c-4589-9e86-8ee20e0bcabe
+18,Afry,Aerospace Engineer (Product Support),Electronics System and Communication technology  Software Engineering and Test Mechanical Engineering (Product and Machine Design),Västra Götalands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/1cb263c6-a365-482a-ad22-5beb0ed2171d
+19,Afry,SQM - Supplier Quality Manager,"Quality kvalitetssäkring Supplier evaluation, Quality Assurance QA/SQA Quality Control - QC Quality Assurance, Test and Validation Kvalitetssäkrare",Östergötlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/933dfc5b-ff66-4159-a3a5-5b6ae69d0fe8
+40,Afry,Test Engineer (Testingenjör),"Quality Assurance, Test and Validation Test Engineering Process and Production Engineering",Norrbottens län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/fcd8c788-5377-4351-9696-85d34dd2141a
+62,Afry,Lasersvetsningskompetens till fordonsindustrin,"Project Management and Management Mechanical Engineering (Product and Machine Design) Energy (Power generation, T&D and Renewables) Quality Assurance, Test and Validation Health, Safety and Environment Process and Production Engineering Supply Chain, Procurement and Technical Documentation Automation, Electrical and Robotics Engineering",,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/8b9503d6-833c-492a-89a8-53bceb42ab56
+42,Afry,Projektledning / Samordning UX Projekt Ledningsstödssystem - Försvaret Stockholm,Project Management and Management IT and Industrial IT Software Engineering and Test,Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/67af5e1d-56c6-4a12-9577-22506e6f92e5
+43,Afry,SQM - Elektronik & System,"Quality kvalitetssäkring Quality Control - QC Component Samples - Electronics  Quality Assurance, Test and Validation kvalitetsansvarig  Kvalitetssäkrare System Verification - Electronics",Örebro län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/a4b7b29d-ec9a-43a6-bd90-d5cec4727bae
+63,Afry,Application and Data Management,IT and Industrial IT Management Consulting Software Engineering and Test,Södermanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/16d65f46-44ab-44f1-8014-8f7ea185965c
+64,Afry,Application and visualization solution,Project Management and Management IT and Industrial IT Management Consulting Software Engineering and Test,Södermanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/e4aa4423-468e-42b2-8343-54e9c9a66d6d
+65,Afry,Simulation of rollforming process,Computer Aided Engineering (CAE),,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/473e12c2-8774-4342-9947-8c1053f3db8a
+66,Afry,Scrum Master chassis front,Project Management and Management,Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/3f865484-4c78-40ce-8091-bea5f16a75f9
+67,Afry,Projektledare/Manager – Ombyggnation & Produktionsanläggningar - Life Science,"LEAN Kaizen Project Management and Management GMP Projektledare Construction Manager Validation Other Lean Manufacturing Project Coordination Ventilation Buildings Services Systems Quality Assurance, Test and Validation Process and Production Engineering Cleanroom qualification",Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/cf5f0fd7-3647-4335-bf64-0abc2956223b
+68,Afry,Systemförvaltare Heroma,"Project Management and Management IT and Industrial IT Other Buildings Services Systems IT Support - Windows - DHCP Software Engineering and Test AFRY Internal competence ERP Utveckling Supply Chain, Procurement and Technical Documentation",Östergötlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/e4e544b0-f88c-40e7-b105-47acb2ed1b78
+69,Afry,Projektingenjör anläggningsprojekt 4658 (OPP-0265817),"PMI Project Management and Management IPMA A AB04 ESA (Electrical Safety Instructions) Besiktning AB/ABT Energy (Power generation, T&D and Renewables) PPS ProjectCoordinator",Stockholms län Norrbottens län Västernorrlands län Västra Götalands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/fde2d10c-942d-4ab7-bb29-3c954116a10e
+70,Afry,Projektledare ledningsprojekt 4651 (OPP-0265773),"BAS-U Project Management and Management ESA (Electrical Safety Instructions) BAS-P AFRY Internal competence Energy (Power generation, T&D and Renewables) ABK 09 ProjectCoordinator",Västmanlands län Västernorrlands län Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/cec74887-ac01-4b35-9fda-c79dd6f51679
+71,Afry,BPM008401 Vibrationsexpert (SYS4),Vibrations (Industrial),Västra Götalands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/72ba7893-5606-4060-b44a-70bd5dc0bfd6
+72,Afry,Scrum Master till HW-nära Mjukvaruteam - Försvarsindustrin Stockholm,Project Management and Management IT and Industrial IT Software Engineering and Test,Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/0a4e8c31-054a-4e9f-90be-cf2ffbff5640
+73,Afry,"Project Manager, Engineering ","GIS Teknisk projektledning Elkraft Project Management and Management Buildings Services Systems Construction Work Coordination (Planning) Energy (Power generation, T&D and Renewables) Quality Assurance, Test and Validation Health, Safety and Environment Substation",Västmanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/46d37366-7ae3-4740-b0a8-2e5e8fe01e03
+74,Afry,Scrum Master,IT and Industrial IT Software Engineering and Test,Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/66c14569-1866-4138-a852-b32c6653d820
+75,Afry,Senior Embedded SW-Utvecklare - Försvarsindustrin Stockholm,Software Engineering and Test,Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/c3f1692f-9993-40c4-98d9-32d96e423132
+76,Afry,Testledare,IT and Industrial IT Software Engineering and Test,Östergötlands län Gävleborgs län Dalarnas län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/82f7f920-a0e7-437d-b2c4-fa8dd90bed13
+77,Afry,"Process/Valideringsingenjör (kemiska processer), validering av ny produktionslina läkemedel","Kemiteknik Quality Assurance, Test and Validation Process and Production Engineering",Stockholms län Södermanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/76c50f6f-435c-4d0f-8573-48e188a92c52
+61,Afry,Lösningsarkitekt,IT and Industrial IT Software Engineering and Test,Kalmar län Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/0f39e41e-3b60-4a13-9ef2-4219fa76c998
+60,Afry,Teknisk Projektledare Life Science,Life Science Plant Engineering and Piping Design Process Engineering Technical Project Manager,Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/f8727e98-7c5d-4288-88b4-a5c553ee2db7
+59,Afry,Projektledare till kunds PMO,Project Management and Management,Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/6c93b85f-2df5-487f-8e4d-ce7d73a17726
+58,Afry,Kvalitetsingenjör industrialisering,Quality kvalitetssäkring kvalitetskontroll,Örebro län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/dca60be0-7fbb-4980-b636-945f04f99222
+44,Afry,Senior Development Electrical Engineer,"Automation, Electrical and Robotics Engineering",Östergötlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/d9323cfe-c8f2-4512-87da-e5e8e2f5b772
+45,Afry,Testspecialist,IT and Industrial IT Software Engineering and Test,Stockholms län Kalmar län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/f2d70afa-fa9c-41b7-937a-445566ebeab1
+46,Afry,"Systemutvecklare C#, Azure",IT and Industrial IT,Östergötlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/311ef4d4-f9c4-49bd-a1ae-17521ebcaeda
+47,Afry,Senior Teknisk QA Betalaflödet inom Bank,"IT and Industrial IT Software Engineering and Test Quality Assurance, Test and Validation",Stockholms län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/caf4b967-1b09-4592-8836-22804e37a599
+48,Afry,SW Test & Integration ,Software Engineering and Test,Västra Götalands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/65a008cf-9542-43ba-aab3-1c1bb6805bec
+49,Afry,Product owner/Business IT analyst Automotive,Project Management and Management IT and Industrial IT Management Consulting Software Engineering and Test,Södermanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/ea8b469e-5d78-4674-b74f-647792d44cd8
+50,Afry,Developer .Net AWS,IT and Industrial IT Software Engineering and Test,Södermanlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/8b3e1efc-2643-4364-b0b5-e5a33d80dc2c
+51,Afry,Verifiering/Validering av Transportabel MarkRadio,"Electronics System and Communication technology  Quality Assurance, Test and Validation Supply Chain, Procurement and Technical Documentation",Stockholms län Uppsala län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/90592614-e4f2-4cc6-9c27-e59bb32f39ac
+52,Afry,Purchaser,"Purchasing Supply Chain, Procurement and Technical Documentation",,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/f024c473-3cc4-47ad-abca-cf958ca21c6d
+53,Afry,Data Engineer AWS,Software Engineering and Test,Skåne län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/8daabeda-53ed-4368-a9b1-ca655b5eab17
+54,Afry,Data Engineer Informatica,Software Engineering and Test,Skåne län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/a89efa57-08df-4046-86ed-bf8337ad546b
+55,Afry,R&D projektledare till Service,Project Management and Management,Östergötlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/0b0c3fdd-9a5c-4415-a057-feb5fbc949ac
+56,Afry,Kvalitetsingenjör - Additiv Tillverkning,"Quality Assurance, Test and Validation",Östergötlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/d6f99ed0-cab2-4fda-9fb7-4136068f80c5
+57,Afry,Service Application Engineer,"Mechanical Engineering (Product and Machine Design) Automation, Electrical and Robotics Engineering",Östergötlands län,2025-09-15 13:41:53,https://portal.afry.com/available-assignments/search/28d81dab-a5ea-4053-8f62-0f0180775860
+3,Aliant,Utvecklare - MES-system,,Jönköping,2025-09-15 13:40:39,https://aliant.recman.page/job/448170
+2,Aliant,Computer Vision - Android Automotive,,Göteborg,2025-09-15 13:40:39,https://aliant.recman.page/job/448256
+1,Aliant,Medior Project Manager,,Göteborg,2025-09-15 13:40:39,https://aliant.recman.page/job/449546
+4,Aliant,Sitecore-utvecklare,,Göteborg,2025-09-15 13:40:39,https://aliant.recman.page/job/432534
+0,Aliant,Scala-utvecklare,,Göteborg,2025-09-15 13:40:39,https://aliant.recman.page/job/449553
