@@ -24,13 +24,22 @@ class CombitechScraper(AbstractScraper):
 
 
     def return_raw_job_posts_data(self, response):
-        soup = BeautifulSoup(response.text, "html.parser")
-        job_div_pattern = "div.block.w-full.mb-4.md\\:pb-0.md\\:mb-0.lg\\:pb-4"
-        job_posts = soup.select(job_div_pattern)
-   
+        scraped_html = BeautifulSoup(response.text, "html.parser")
+        tag_job_div = "div.block.w-full.mb-4.md\\:pb-0.md\\:mb-0.lg\\:pb-4"
+        
+        job_posts = scraped_html.select(tag_job_div)
         print(f'{self.__class__.site} > Nmr of scraped adds:', len(job_posts))
-        return job_posts
 
+        raw_data = pd.DataFrame(columns=['site', 'site_id', 'raw_payload'])
+        for job in job_posts: 
+            tag_site_id = job.select_one("a.cursor-pointer")
+            site = CombitechScraper.site
+            site_id = tag_site_id.get("onclick","").replace("location.href=", "").replace("'", "")
+            raw_data.loc[len(raw_data)] = [site, site_id, job]
+        
+        return raw_data
+        
+        
 
     def parse_raw_data(self, job_posts):
         raw_data = pd.DataFrame(columns=['site', 'site_id','job_title', 'raw_payload', 'ingestion_ts'])
@@ -49,22 +58,21 @@ class CombitechScraper(AbstractScraper):
     
 
     def parse_bronze_data(self, last_raw_data):
-        bronze_data = pd.DataFrame(columns=['site', 'site_id','job_title', 'area', 'created', 'start_date', 'end_date', 'duration', 'due_date', 'work_location', 'work_type', 'link', 'ingestion_ts'])
+        bronze_data = pd.DataFrame(columns=['site', 'site_id','job_title', 'area', 'created', 'start_date', 'end_date', 'duration', 'due_date', 'work_location', 'work_type', 'link', 'raw_payload', 'ingestion_ts'])
         
         for idx, row in last_raw_data.iterrows():
             site = row['site']
             site_id = row['site_id']
-            job_title = row['job_title']
         
             payload = row['raw_payload']
             payload = BeautifulSoup(payload, "html.parser")
             
+            tag_title = payload.select_one("#job-title")
             tag_area = payload.select_one("#job-type")
             tag_due_date = payload.select_one("h5.font-normal")
             tag_location = payload.select_one("#job-locations")
 
-            # Job area
-            
+            job_title = tag_title.get_text(strip=True) if tag_title else ""
             area = tag_area.get("data-value", "").strip() if tag_area else ""
 
             created = None 
@@ -85,7 +93,7 @@ class CombitechScraper(AbstractScraper):
 
 
 
-            bronze_data.loc[len(bronze_data)] = [site, site_id, job_title, area, created, start_date, end_date, duration, due_date, work_location, work_type, link, ingestion_ts]
+            bronze_data.loc[len(bronze_data)] = [site, site_id, job_title, area, created, start_date, end_date, duration, due_date, work_location, work_type, link, payload, ingestion_ts]
         
         print(f'{self.__class__.site} > Parsing bronze data:', len(bronze_data))
         return bronze_data

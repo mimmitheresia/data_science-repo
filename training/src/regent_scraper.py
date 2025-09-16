@@ -19,49 +19,42 @@ class RegentScraper(AbstractScraper):
         response = requests.get(url, headers=headers)
         print(f'{self.__class__.site} > Response:', response.status_code)
         return response
-
-
+    
     def return_raw_job_posts_data(self, response):
-        soup = BeautifulSoup(response.text, "html.parser")
-        job_div_pattern = "div.assignment-item"
-        job_posts = soup.select(job_div_pattern)
-   
-        print(f'{self.__class__.site} > Nmr of scraped adds:', len(job_posts))
-        return job_posts
-
-
-    def parse_raw_data(self, job_posts):
-        raw_data = pd.DataFrame(columns=['site', 'site_id','job_title', 'raw_payload', 'ingestion_ts'])
+        scraped_html = BeautifulSoup(response.text, "html.parser")
+        tag_job_div = "div.assignment-item"
         
-        for job in job_posts:
-            tag_title = job.select_one("a.blue > strong")
-            tag_site_id = job.select_one("a.btn.btn-warning.visa-desktop")
+        job_posts = scraped_html.select(tag_job_div)
+        print(f'{self.__class__.site} > Nmr of scraped adds:', len(job_posts))
 
+        raw_data = pd.DataFrame(columns=['site', 'site_id', 'raw_payload'])
+        for job in job_posts: 
+            tag_site_id = job.select_one("a.btn.btn-warning.visa-desktop")
             site = RegentScraper.site
             site_id = tag_site_id.get("href") if tag_site_id else ""
-            job_title = tag_title.get_text(strip=True) if tag_title else ""
-            ingestion_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S") 
-
-            raw_data.loc[len(raw_data)] = [site, site_id, job_title, str(job), ingestion_ts]  
+         
+            raw_data.loc[len(raw_data)] = [site, site_id, str(job)]
+        
         return raw_data
     
 
     def parse_bronze_data(self, last_raw_data):
-        bronze_data = pd.DataFrame(columns=['site', 'site_id','job_title', 'area', 'created', 'start_date', 'end_date', 'duration', 'due_date', 'work_location', 'work_type', 'link', 'ingestion_ts'])
+        bronze_data = pd.DataFrame(columns=['site', 'site_id','job_title', 'area', 'created', 'start_date', 'end_date', 'duration', 'due_date', 'work_location', 'work_type', 'link', 'raw_payload', 'ingestion_ts'])
         
         for idx, row in last_raw_data.iterrows():
             site = row['site']
             site_id = row['site_id']
-            job_title = row['job_title']
         
             payload = row['raw_payload']
             payload = BeautifulSoup(payload, "html.parser")
             
+            tag_title = payload.select_one("a.blue > strong")
             tag_area = payload.select_one("div.summary")
             div_start_date = payload.find("strong", string="Startdatum:").find_next_sibling("div")
             div_end_date = payload.find("strong", string="Slutdatum:").find_next_sibling("div")
             div_location = payload.find("strong", string="Ort:").find_next_sibling("div")
             
+            job_title = tag_title.get_text(strip=True) if tag_title else ""
             area = tag_area.get_text(strip=True) if tag_area else ""
             created = None
             start_date = div_start_date.get_text(strip=True) if div_start_date else ""
@@ -76,7 +69,7 @@ class RegentScraper(AbstractScraper):
             link = 'https://regent.se' + site_id
             ingestion_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-            bronze_data.loc[len(bronze_data)] = [site, site_id, job_title, area, created, start_date, end_date, duration, due_date, work_location, work_type, link, ingestion_ts]
+            bronze_data.loc[len(bronze_data)] = [site, site_id, job_title, area, created, start_date, end_date, duration, due_date, work_location, work_type, link, payload, ingestion_ts]
         
         print(f'{self.__class__.site} > Parsing bronze data:', len(bronze_data))
         return bronze_data

@@ -28,35 +28,30 @@ class AfryScraper(AbstractScraper):
     
 
     def return_raw_job_posts_data(self, response):
-        data = response.json()   # parse till Python-dict
-        # alla annonser
-        job_posts = data["Adverts"]
-        print(f'{self.__class__.site} > Nmr of scraped adds:', len(job_posts))
-        return job_posts
-
-
-    def parse_raw_data(self, job_posts):
-        raw_data = pd.DataFrame(columns=['site', 'site_id','job_title', 'raw_payload', 'ingestion_ts'])
+        scraped_data = response.json()   # parse till Python-dict
         
+        # alla annonser
+        job_posts = scraped_data["Adverts"]
+        print(f'{self.__class__.site} > Nmr of scraped adds:', len(job_posts))
+
+        raw_data = pd.DataFrame(columns=['site', 'site_id', 'raw_payload'])
         for job in job_posts:
             site = AfryScraper.site
-            site_id = job['Id']
-            job_title = job['Title']
-            ingestion_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S") 
-            raw_data.loc[len(raw_data)] = [site, site_id, job_title, job, ingestion_ts]
-         
+            site_id = str(job['Id'])
+            raw_data.loc[len(raw_data)] = [site, site_id, job]
         return raw_data
-    
 
+    
     def parse_bronze_data(self, last_raw_data):
-        bronze_data = pd.DataFrame(columns=['site', 'site_id','job_title', 'area', 'created', 'start_date', 'end_date', 'duration', 'due_date', 'work_location', 'work_type', 'link', 'ingestion_ts'])
+        bronze_data = pd.DataFrame(columns=['site', 'site_id','job_title', 'area', 'created', 'start_date', 'end_date', 'duration', 'due_date', 'work_location', 'work_type', 'link', 'raw_payload', 'ingestion_ts'])
         
         for idx, row in last_raw_data.iterrows():
             site = row['site']
             site_id = row['site_id']
-            job_title = row['job_title']
         
             payload = ast.literal_eval(row['raw_payload'])
+            
+            job_title = payload['Title']
             areas = []
             for skill in payload['CompetenceAreas']:
                 areas.append(skill['Name'])
@@ -77,7 +72,7 @@ class AfryScraper(AbstractScraper):
             link = payload['DetailUrl']
             ingestion_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # <--- timestamp här
 
-            bronze_data.loc[len(bronze_data)] = [site, site_id, job_title, area, created, start_date, end_date, duration, due_date, work_location, work_type, link, ingestion_ts]
+            bronze_data.loc[len(bronze_data)] = [site, site_id, job_title, area, created, start_date, end_date, duration, due_date, work_location, work_type, link, payload, ingestion_ts]
         
         print(f'{self.__class__.site} > Parsing bronze data:', len(bronze_data))
         return bronze_data
