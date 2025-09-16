@@ -3,6 +3,8 @@ import pandas as pd
 import os
 
 class AbstractScraper(ABC):
+    bronze_columns=['site', 'site_id','job_title', 'area', 'created', 'start_date', 'end_date', 'duration', 'due_date', 'work_location', 'work_type', 'link', 'raw_payload', 'ingestion_ts']
+
     @abstractmethod 
     def request_status(self):
         pass
@@ -11,21 +13,10 @@ class AbstractScraper(ABC):
     def return_raw_job_posts_data(self, response):
         pass
 
-
     @abstractmethod
     def parse_bronze_data(self, raw_data):
         pass
 
-
-    def read_stored_bronze_data(self, file_path='../data/bronze/jobs.csv'):
-        bronze_columns=['site', 'site_id','job_title', 'area', 'created', 'start_date', 'end_date', 'duration', 'due_date', 'work_location', 'work_type', 'link', 'raw_payload', 'ingestion_ts']
-
-        if os.path.exists(file_path): 
-            stored_data = pd.read_csv(file_path, index_col=0)    
-        else:
-            stored_data = pd.DataFrame(columns=bronze_columns)
-        return stored_data
-    
 
 
     def return_new_rows(self, new_data, old_data, key_columns=['site', 'site_id']): 
@@ -40,14 +31,24 @@ class AbstractScraper(ABC):
         diff = pd.merge(new_data, old_data[key_columns], on=key_columns, how="left", indicator=True)
         new_rows = diff.loc[diff["_merge"] == "left_only", new_data.columns]
         return new_rows
+    
+
+    def load_bronze_data(self, file_path='../data/bronze/jobs.csv'):
+        
+
+        if os.path.exists(file_path): 
+            stored_data = pd.read_csv(file_path, index_col=0)    
+        else:
+            stored_data = pd.DataFrame(columns=AbstractScraper.bronze_columns)
+        return stored_data
 
 
-    def unload_data(self, file_path, new_data):
+    def unload_bronze_data(self, file_path, new_data):
         
         if os.path.exists(file_path):
             stored_data = pd.read_csv(file_path)    
         else:
-            stored_data = pd.DataFrame(columns=new_data.columns)
+            stored_data = pd.DataFrame(columns=AbstractScraper.bronze_columns)
 
         updated_data = pd.concat([stored_data, new_data], ignore_index=True)
         updated_data.to_csv(file_path, index=False)    # 4. Save back to CSV
@@ -56,16 +57,3 @@ class AbstractScraper(ABC):
 
         return 
     
-
-    def load_last_added_raw_data(self):
-        raw_file_path = "../data/raw/jobs.csv"
-        bronze_file_path = "../data/bronze/jobs.csv"
-
-        raw_data_full = self.read_stored_raw_data()
-        new_data = raw_data_full.loc[raw_data_full['site']==self.__class__.site].copy()
-     
-        old_data = self.read_stored_bronze_data()
-        new_rows = self.return_new_rows(new_data=new_data, old_data=old_data)
-        
-        print(f'{self.__class__.site} > Loading last scraped jobs, nr: {len(new_rows)}')
-        return new_rows
