@@ -1,4 +1,4 @@
-from src.abstract_scraper import AbstractScraper
+from src.scrapers.abstract_scraper import AbstractScraper
 from src.utils import slugify_title_for_link
 import requests
 import pandas as pd

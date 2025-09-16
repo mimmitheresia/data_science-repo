@@ -1,4 +1,4 @@
-from src.abstract_scraper import AbstractScraper
+from src.scrapers.abstract_scraper import AbstractScraper
 import requests
 import pandas as pd
 from datetime import datetime
