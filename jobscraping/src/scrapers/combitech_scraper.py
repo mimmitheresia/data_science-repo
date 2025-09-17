@@ -62,6 +62,7 @@ class CombitechScraper(AbstractScraper):
             work_location = tag_location.get_text(strip=True) if tag_location else ""
             work_type = None
             link = 'https://www.combitech.se' + site_id
+            payload = str(payload)
             ingestion_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S") 
 
             if tag_due_date:

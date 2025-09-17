@@ -81,6 +81,7 @@ class EmagineScraper(AbstractScraper):
             work_location = payload["jobAdWorkLocation"]["city"]
             work_type = payload["jobAdWorkLocation"]["workLocationType"]
             link = f'https://portal.emagine.org/jobs/{site_id}/{slugify_title_for_link(job_title)}' 
+            payload = str(payload)
             ingestion_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # <--- timestamp här
 
             bronze_data.loc[len(bronze_data)] = [site, site_id, job_title, area, due_date, work_location, work_type, link, payload, ingestion_ts]

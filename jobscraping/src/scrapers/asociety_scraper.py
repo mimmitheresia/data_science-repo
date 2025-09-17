@@ -60,6 +60,7 @@ class ASocietyScraper(AbstractScraper):
             work_location = return_regex_string_match(pattern_work_location, payload)
             work_type = return_regex_string_match(pattern_work_type, payload)
             link = f'https://www.asocietygroup.com/sv/uppdrag/{slugify_title_for_link(job_title)}-{site_id}'
+            payload = str(payload)
             ingestion_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # <--- timestamp här
 
             bronze_data.loc[len(bronze_data)] = [site, site_id, job_title, area, due_date, work_location, work_type, link, payload, ingestion_ts]

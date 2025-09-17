@@ -61,6 +61,7 @@ class RegentScraper(AbstractScraper):
            
     
             link = 'https://regent.se' + site_id
+            payload = str(payload)
             ingestion_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
             bronze_data.loc[len(bronze_data)] = [site, site_id, job_title, area, due_date, work_location, work_type, link, payload, ingestion_ts]

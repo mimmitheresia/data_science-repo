@@ -99,6 +99,7 @@ class EworkScraper(AbstractScraper):
                 work_type = None
 
             link = f'https://app.verama.com/sv/job-requests/{site_id}'
+            payload = str(payload)
             ingestion_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # <--- timestamp här
 
             bronze_data.loc[len(bronze_data)] = [site, site_id, job_title, area, due_date, work_location, work_type, link, payload, ingestion_ts]

@@ -65,6 +65,7 @@ class AfryScraper(AbstractScraper):
             work_location = " ".join(cities)
             work_type = None
             link = payload['DetailUrl']
+            payload = str(payload)
             ingestion_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # <--- timestamp här
 
             bronze_data.loc[len(bronze_data)] = [site, site_id, job_title, area, due_date, work_location, work_type, link, payload, ingestion_ts]

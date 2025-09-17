@@ -59,6 +59,7 @@ class AliantScraper(AbstractScraper):
             work_location = payload['Place']
             work_type = payload['WorkType']
             link = f'https://aliant.recman.page/job/{site_id}'
+            payload = str(payload)
             ingestion_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # <--- timestamp här
 
             bronze_data.loc[len(bronze_data)] = [site, site_id, job_title, area, due_date, work_location, work_type, link, payload, ingestion_ts]
