@@ -1,8 +1,19 @@
 
-Install dependencies & create venv
-- `poetry install`
+ 
+## Install Dependencies & Create Virtual Environment
 
+Install all dependencies in pyproject.toml file and create the virtual environment using Poetry:
 
-Install packages: 
-- Option: Add new package to toml-file: `poetry add <package-name>``
-- Option: Install package direcly in notebook code: `%pip install requests-html`
+```bash
+*bash*:  poetry install 
+```
+
+Install additional packages into pyproject.toml file: 
+```bash 
+*bash*:  poetry add <package-name>
+```
+
+Install package direcly in notebook cell with python code: 
+```bash 
+*notebook*:  %pip install <package-name>
+```
