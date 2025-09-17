@@ -26,23 +26,29 @@ class AbstractScraper(ABC):
         new_raw_data = new_data[~new_data[key_column].astype(str).isin(old_data[key_column].astype(str))]
         return new_raw_data
     
+
+    def set_dtypes(data): 
+        for column in data.columns:
+            if column == 'ingestion_ts': 
+                data['ingestion_ts'] = pd.to_datetime(
+                    data['ingestion_ts'],
+                    errors='coerce'
+                )
+            else: 
+                data[column] = data[column].apply(
+                    lambda x: str(x) if x is not None else ''
+                )
+        return data
+    
     
     def concat_new_rows(self, new_data, old_data): 
         if len(old_data)==0: 
             old_data = pd.DataFrame(columns=new_data.columns)
         
+        new_data = AbstractScraper.set_dtypes(new_data)
+        old_data = AbstractScraper.set_dtypes(old_data)
+        
         updated_data = pd.concat([old_data, new_data], ignore_index=True)
-
-        for column in updated_data.columns:
-            if column == 'ingestion_ts': 
-                updated_data['ingestion_ts'] = pd.to_datetime(
-                    updated_data['ingestion_ts'],
-                    errors='coerce'
-                )
-            else: 
-                updated_data[column] = updated_data[column].apply(
-                    lambda x: str(x) if x is not None else ''
-                )
 
         # If ingestion_ts should be a timestamp, convert it explicitly
             
