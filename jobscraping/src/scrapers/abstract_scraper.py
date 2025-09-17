@@ -34,17 +34,18 @@ class AbstractScraper(ABC):
         updated_data = pd.concat([old_data, new_data], ignore_index=True)
 
         for column in updated_data.columns:
-            if updated_data[column].dtype == 'object':
+            if column == 'ingestion_ts': 
+                updated_data['ingestion_ts'] = pd.to_datetime(
+                    updated_data['ingestion_ts'],
+                    errors='coerce'
+                )
+            else: 
                 updated_data[column] = updated_data[column].apply(
                     lambda x: str(x) if x is not None else ''
                 )
 
         # If ingestion_ts should be a timestamp, convert it explicitly
-            if 'ingestion_ts' in updated_data.columns:
-                updated_data['ingestion_ts'] = pd.to_datetime(
-                    updated_data['ingestion_ts'],
-                    errors='coerce'
-                )
+            
         return updated_data
 
 
