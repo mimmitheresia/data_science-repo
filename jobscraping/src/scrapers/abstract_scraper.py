@@ -18,7 +18,6 @@ class AbstractScraper(ABC):
         pass
 
 
-
     def return_new_rows(self, new_data, old_data, key_column='site_id'): 
    
         if len(old_data)==0: 
@@ -33,6 +32,9 @@ class AbstractScraper(ABC):
             old_data = pd.DataFrame(columns=new_data.columns)
         
         updated_data = pd.concat([old_data, new_data], ignore_index=True)
+
+        for column in updated_data.columns: 
+            updated_data[column] = updated_data[column].astype(pd.StringDtype())
         return updated_data
 
 
