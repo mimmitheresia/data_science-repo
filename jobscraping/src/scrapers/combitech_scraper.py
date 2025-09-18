@@ -24,37 +24,37 @@ class CombitechScraper(AbstractScraper):
 
 
     def return_raw_job_posts_data(self, response):
-        scraped_html = BeautifulSoup(response.text, "html.parser")
         tag_job_div = "div.block.w-full.mb-4.md\\:pb-0.md\\:mb-0.lg\\:pb-4"
-        
+        scraped_html = BeautifulSoup(response.text, "html.parser")
         job_posts = scraped_html.select(tag_job_div)
         print(f'{self.__class__.site} > Nmr of scraped adds:', len(job_posts))
 
-        raw_data = pd.DataFrame(columns=['site', 'site_id', 'raw_payload'])
+        job_payloads = {}
         for job in job_posts: 
             tag_site_id = job.select_one("a.cursor-pointer")
             site = CombitechScraper.site
             site_id = tag_site_id.get("onclick","").replace("location.href=", "").replace("'", "")
-            site_id = f'{site}-{site_id}'
-            raw_data.loc[len(raw_data)] = [site, str(site_id), str(job)]
+            id = f'{site}-{site_id}'
+            job_payloads[id] = str(job)
         
-        return raw_data
+        return job_payloads
             
 
-    def parse_bronze_data(self, last_raw_data):
-        bronze_data = pd.DataFrame(columns=['site', 'site_id','job_title', 'area', 'due_date', 'work_location', 'work_type', 'link', 'raw_payload', 'ingestion_ts'])
+    def parse_bronze_data(self, new_payloads):
+        bronze_data = pd.DataFrame(columns=AbstractScraper.bronze_columns)
         
-        for idx, row in last_raw_data.iterrows():
-            site = row['site']
-            site_id = row['site_id']
-        
-            payload = BeautifulSoup(row['raw_payload'], "html.parser")
+        for id, payload in new_payloads.items():
             
+            site = CombitechScraper.site
+          
+            payload = BeautifulSoup(payload, "html.parser")
+            tag_site_id = payload.select_one("a.cursor-pointer")
             tag_title = payload.select_one("#job-title")
             tag_area = payload.select_one("#job-type")
             tag_due_date = payload.select_one("h5.font-normal")
             tag_location = payload.select_one("#job-locations")
 
+            site_id = tag_site_id.get("onclick","").replace("location.href=", "").replace("'", "")
             job_title = tag_title.get_text(strip=True) if tag_title else ""
             area = tag_area.get("data-value", "").strip() if tag_area else ""
             due_date = None
@@ -62,7 +62,6 @@ class CombitechScraper(AbstractScraper):
             work_location = tag_location.get_text(strip=True) if tag_location else ""
             work_type = None
             link = 'https://www.combitech.se' + site_id
-            payload = str(payload)
             ingestion_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S") 
 
             if tag_due_date:
@@ -70,9 +69,7 @@ class CombitechScraper(AbstractScraper):
                 if "Sista ansökningsdag:" in txt:
                     due_date = txt.replace("Sista ansökningsdag:", "").strip()
 
-
-
-            bronze_data.loc[len(bronze_data)] = [site, site_id, job_title, area, due_date, work_location, work_type, link, payload, ingestion_ts]
+            bronze_data.loc[len(bronze_data)] = [id, site, site_id, job_title, area, due_date, work_location, work_type, link, ingestion_ts]
         
         print(f'{self.__class__.site} > Parsing bronze data:', len(bronze_data))
         return bronze_data

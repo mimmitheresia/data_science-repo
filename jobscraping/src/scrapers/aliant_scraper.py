@@ -28,30 +28,28 @@ class AliantScraper(AbstractScraper):
     
 
     def return_raw_job_posts_data(self, response):
-        raw_data = pd.DataFrame(columns=['site', 'site_id', 'raw_payload'])
         scraped_data = response.json()   # parse till Python-dict
-        
-        # alla annonser
         job_posts = scraped_data["data"]["job_posts"] 
+        print(f'{self.__class__.site} > Nmr of scraped adds:', len(job_posts))
+        
+        job_payloads = {}
         for job in job_posts:
             site = AliantScraper.site
             site_id = str(job['AdID'])
-            site_id = f'{site}-{site_id}'
-            raw_data.loc[len(raw_data)] = [site, str(site_id), str(job)]
-
-        print(f'{self.__class__.site} > Nmr of scraped adds:', len(job_posts))
-        return raw_data
+            id = f'{site}-{site_id}'
+            job_payloads[id] = str(job)
+        
+        return job_payloads
     
 
-    def parse_bronze_data(self, last_raw_data):
-        bronze_data = pd.DataFrame(columns=['site', 'site_id','job_title', 'area', 'due_date', 'work_location', 'work_type', 'link', 'raw_payload', 'ingestion_ts'])
+    def parse_bronze_data(self, new_payloads):
+        bronze_data = pd.DataFrame(columns=AbstractScraper.bronze_columns)        
         
-        for idx, row in last_raw_data.iterrows():
-            site = row['site']
-            site_id = row['site_id']
-           
-        
-            payload = ast.literal_eval(row['raw_payload'])
+        for id, payload in new_payloads.items():
+
+            site = AliantScraper.site
+            payload = ast.literal_eval(payload)
+            site_id = payload['AdID']
             job_title = payload['Name']
             area = None 
             due_date = payload['Expire']
@@ -59,10 +57,9 @@ class AliantScraper(AbstractScraper):
             work_location = payload['Place']
             work_type = payload['WorkType']
             link = f'https://aliant.recman.page/job/{site_id}'
-            payload = str(payload)
             ingestion_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # <--- timestamp här
 
-            bronze_data.loc[len(bronze_data)] = [site, site_id, job_title, area, due_date, work_location, work_type, link, payload, ingestion_ts]
+            bronze_data.loc[len(bronze_data)] = [id, site, site_id, job_title, area, due_date, work_location, work_type, link, ingestion_ts]
         print(f'{self.__class__.site} > Parsing bronze data:', len(bronze_data))
         return bronze_data
 

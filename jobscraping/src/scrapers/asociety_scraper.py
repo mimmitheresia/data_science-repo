@@ -19,27 +19,27 @@ class ASocietyScraper(AbstractScraper):
         print(f'{self.__class__.site} > Response:', response.status_code)
         return response
     
-    def return_raw_job_posts_data(self, response):
-        raw_data = pd.DataFrame(columns=['site', 'site_id', 'raw_payload'])
-        
-        scraped_html = response.text 
+    def return_raw_job_posts_data(self, response):    
         pattern_job_title = r'(\{.*?requisition_name.*?\})'
         pattern_site_id = r'\\"abstract_id\\":\\"(.*?)\\"|\"abstract_id\":\"(.*?)\"' 
+        scraped_html = response.text 
         job_posts = re.findall(pattern_job_title, scraped_html, re.DOTALL)
+        print(f'{self.__class__.site} > Nmr of scraped adds:', len(job_posts))
         
+        job_payloads = {}
         for job in job_posts:
             site = ASocietyScraper.site
             site_id = return_regex_string_match(pattern_site_id, job)
-            site_id = f'{site}-{site_id}'
-            raw_data.loc[len(raw_data)] = [site, str(site_id), str(job)]
+            id = f'{site}-{site_id}'
+            job_payloads[id] = str(job)
         
-        print(f'{self.__class__.site} > Nmr of scraped adds:', len(job_posts))
-        return raw_data
+        return job_payloads
     
 
-    def parse_bronze_data(self, last_raw_data):
-        bronze_data = pd.DataFrame(columns=['site', 'site_id','job_title', 'area', 'due_date', 'work_location', 'work_type', 'link', 'raw_payload', 'ingestion_ts'])
+    def parse_bronze_data(self, new_payloads):
+        bronze_data = pd.DataFrame(columns=AbstractScraper.bronze_columns)
         
+        pattern_site_id = r'\\"abstract_id\\":\\"(.*?)\\"|\"abstract_id\":\"(.*?)\"'
         pattern_job_title = r'\\"requisition_name\\":\\"(.*?)\\"|\"requisition_name\":\"(.*?)\"'
         pattern_area = r'\\"requisition_servicecategoryid\\":\\"(.*?)\\"|\"requisition_servicecategoryid\":\"(.*?)\"'
         pattern_due_date = r'\\"requisition_offerduedate\\":\\"(.*?)\\"|\"requisition_offerduedate\":\"(.*?)\"'
@@ -47,11 +47,11 @@ class ASocietyScraper(AbstractScraper):
         pattern_work_type = r'\\"requisition_remotework\\":\\"(.*?)\\"|\"requisition_remotework\":\"(.*?)\"'
 
 
-        for idx, row in last_raw_data.iterrows():
-            site = row['site']
-            site_id = row['site_id']
-         
-            payload = row['raw_payload']
+        for id, payload in new_payloads.items():
+            
+            site = ASocietyScraper.site
+    
+            site_id = return_regex_string_match(pattern_site_id, payload)
             job_title = return_regex_string_match(pattern_job_title, payload)
             area = return_regex_string_match(pattern_area, payload)
 
@@ -60,10 +60,9 @@ class ASocietyScraper(AbstractScraper):
             work_location = return_regex_string_match(pattern_work_location, payload)
             work_type = return_regex_string_match(pattern_work_type, payload)
             link = f'https://www.asocietygroup.com/sv/uppdrag/{slugify_title_for_link(job_title)}-{site_id}'
-            payload = str(payload)
             ingestion_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # <--- timestamp här
 
-            bronze_data.loc[len(bronze_data)] = [site, site_id, job_title, area, due_date, work_location, work_type, link, payload, ingestion_ts]
+            bronze_data.loc[len(bronze_data)] = [id, site, site_id, job_title, area, due_date, work_location, work_type, link, ingestion_ts]
         
         print(f'{self.__class__.site} > Parsing bronze data:', len(bronze_data))
         return bronze_data

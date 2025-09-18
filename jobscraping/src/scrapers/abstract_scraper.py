@@ -3,7 +3,8 @@ import pandas as pd
 import os
 
 class AbstractScraper(ABC):
-    bronze_columns=['site', 'site_id','job_title', 'area', 'due_date', 'work_location', 'work_type', 'link', 'raw_payload', 'ingestion_ts']
+    bronze_columns=['id', 'site', 'site_id','job_title', 'area', 'due_date', 'work_location', 'work_type', 'link', 'ingestion_ts']
+    payload_columns = ['id', 'raw_payload']
 
     @abstractmethod 
     def request_status(self):
@@ -18,7 +19,7 @@ class AbstractScraper(ABC):
         pass
 
 
-    def return_new_rows(self, new_data, old_data, key_column='site_id'): 
+    def return_new_rows(self, new_data, old_data, key_column='id'): 
    
         if len(old_data)==0: 
             old_data = pd.DataFrame(columns=new_data.columns)
@@ -26,19 +27,28 @@ class AbstractScraper(ABC):
         new_raw_data = new_data[~new_data[key_column].astype(str).isin(old_data[key_column].astype(str))]
         return new_raw_data
     
+    
+    def return_new_ads(self, new_dict, old_dict, key_column='id'): 
+   
+        new_ads = {id: payload for id, payload in new_dict.items() if id not in old_dict}
+        return new_ads
+    
 
-    def set_dtypes(data): 
+    def set_dtypes(data):
         for column in data.columns:
-            if column == 'ingestion_ts': 
-                data['ingestion_ts'] = pd.to_datetime(
-                    data['ingestion_ts'],
-                    errors='coerce'
-                )
-            else: 
-                data[column] = data[column].apply(
-                    lambda x: str(x) if x is not None else ''
+            if column == 'ingestion_ts':
+                data['ingestion_ts'] = pd.to_datetime(data['ingestion_ts'], errors='coerce')
+            else:
+                # Convert everything to string safely
+                #data.loc[:, column] = data.loc[:, column].apply(
+                 #   lambda x: "" if pd.isna(x) else str(x)
+               # )
+                # Remove semicolons in string
+                data.loc[:, column] = data.loc[:, column].apply(
+                    lambda x: x.replace(";", "") if isinstance(x, str) else x
                 )
         return data
+
     
     
     def concat_new_rows(self, new_data, old_data): 
@@ -53,6 +63,11 @@ class AbstractScraper(ABC):
         # If ingestion_ts should be a timestamp, convert it explicitly
             
         return updated_data
+    
+    def concat_dicts(self, new_dict, old_dict):
+        updated_dict = old_dict.copy()
+        updated_dict.update(new_dict) 
+        return updated_dict
 
 
 
