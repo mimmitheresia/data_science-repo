@@ -1,9 +1,11 @@
 from src.scrapers.abstract_scraper import AbstractScraper
-import requests
+import requests 
 import pandas as pd
 from datetime import datetime
 import pandas as pd
 from bs4 import BeautifulSoup
+import re
+
 
 
 
@@ -11,23 +13,24 @@ class UpgradedScraper(AbstractScraper):
     site = "Upgraded"
 
     def __init__(self):
-        self.url = "https://upgraded.se/wp-admin/admin-ajax.php"
+        self.base_url = "https://upgraded.se/lediga-uppdrag/"
+        self.ajax_url = "https://upgraded.se/wp-admin/admin-ajax.php"
+        self.session = requests.Session()
+        self.session.headers.update({
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
+        })
 
-    def request_status(self, nonce="72e84adecc"):
-        # If nonce is None, you might need to scrape it first from the page
-        if not nonce:
-            raise ValueError("You need a valid nonce from the page")
+    def get_nonce(self):
+        r = self.session.get(self.base_url)
+        soup = BeautifulSoup(r.text, "html.parser")
+        # find "nonce" inside page script
+        match = re.search(r'"nonce":"([a-f0-9]+)"', r.text)
+        if not match:
+            raise ValueError("Nonce not found")
+        return match.group(1)
 
-        headers = {
-            "accept": "application/json, text/javascript, */*; q=0.01",
-            "accept-language": "sv-SE,sv;q=0.9,en-US;q=0.8,en;q=0.7",
-            "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
-            "origin": "https://upgraded.se",
-            "referer": "https://upgraded.se/lediga-uppdrag/",
-            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
-            "x-requested-with": "XMLHttpRequest"
-        }
-
+    def request_status(self):
+        nonce = self.get_nonce()
         data = {
             "action": "do_filter_posts",
             "nonce": nonce,
@@ -37,10 +40,10 @@ class UpgradedScraper(AbstractScraper):
             "params[ansokdate-term]": "sortering",
             "params[search-term]": ""
         }
-
-        response = requests.post(self.url, headers=headers, data=data)
+        response = self.session.post(self.ajax_url, data=data)
         print(f"{self.__class__.site} > Response:", response.status_code)
         return response
+  
     
 
     def return_raw_job_posts_data(self, response):
