@@ -42,6 +42,7 @@ class AbstractScraper(ABC):
                 data['is_new'] = data['is_new'].astype(bool)
             else:
                 # Remove semicolons in string
+                data[column] = data[column].astype(str)
                 data.loc[:, column] = data.loc[:, column].apply(
                     lambda x: x.replace(";", "") if isinstance(x, str) else x
                 )
