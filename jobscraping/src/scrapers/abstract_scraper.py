@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 class AbstractScraper(ABC):
-    bronze_columns=['id', 'site', 'site_id','job_title', 'area', 'due_date', 'work_location', 'work_type', 'link', 'ingestion_ts']
+    bronze_columns=['id', 'site', 'site_id','job_title', 'area', 'due_date', 'work_location', 'work_type', 'link', 'ingestion_ts', 'is_new']
     payload_columns = ['id', 'raw_payload']
 
     @abstractmethod 
@@ -38,22 +38,25 @@ class AbstractScraper(ABC):
         for column in data.columns:
             if column == 'ingestion_ts':
                 data['ingestion_ts'] = pd.to_datetime(data['ingestion_ts'], errors='coerce')
+            elif column == 'is_new':
+                data['is_new'] = data['is_new'].astype(bool)
             else:
-                # Convert everything to string safely
-                #data.loc[:, column] = data.loc[:, column].apply(
-                 #   lambda x: "" if pd.isna(x) else str(x)
-               # )
                 # Remove semicolons in string
                 data.loc[:, column] = data.loc[:, column].apply(
                     lambda x: x.replace(";", "") if isinstance(x, str) else x
                 )
         return data
 
-    
+    def return_name(self):
+        print(self.__class__.site)
     
     def concat_new_rows(self, new_data, old_data): 
         if len(old_data)==0: 
             old_data = pd.DataFrame(columns=new_data.columns)
+        
+        # Update is_new adds column 
+        new_data['is_new'] = True
+        old_data.loc[old_data['site'] == self.__class__.site, 'is_new'] = False
         
         new_data = AbstractScraper.set_dtypes(new_data)
         old_data = AbstractScraper.set_dtypes(old_data)
