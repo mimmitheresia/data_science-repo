@@ -11,7 +11,7 @@ class AbstractScraper(ABC):
         pass
 
     @abstractmethod
-    def return_raw_job_posts_data(self, response):
+    def scrape_jobs_payloads_dict(self, response):
         pass
 
     @abstractmethod
@@ -28,7 +28,7 @@ class AbstractScraper(ABC):
         return new_raw_data
     
     
-    def return_new_ads(self, new_dict, old_dict, key_column='id'): 
+    def return_new_payloads(self, new_dict, old_dict, key_column='id'): 
    
         new_ads = {id: payload for id, payload in new_dict.items() if id not in old_dict}
         return new_ads

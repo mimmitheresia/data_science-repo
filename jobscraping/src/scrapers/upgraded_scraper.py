@@ -46,7 +46,7 @@ class UpgradedScraper(AbstractScraper):
   
     
 
-    def return_raw_job_posts_data(self, response):
+    def scrape_jobs_payloads_dict(self, response):
         tag_job_div = "td.konsultuppdrag-column-1"
         response = response.json()
         scraped_html = BeautifulSoup(response["content"], "html.parser")

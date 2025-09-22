@@ -27,7 +27,7 @@ class AliantScraper(AbstractScraper):
         return response
     
 
-    def return_raw_job_posts_data(self, response):
+    def scrape_jobs_payloads_dict(self, response):
         scraped_data = response.json()   # parse till Python-dict
         job_posts = scraped_data["data"]["job_posts"] 
         print(f'{self.__class__.site} > Nmr of scraped adds:', len(job_posts))

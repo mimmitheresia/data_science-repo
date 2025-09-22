@@ -41,7 +41,7 @@ class EworkScraper(AbstractScraper):
         return response
     
 
-    def return_raw_job_posts_data(self, response):
+    def scrape_jobs_payloads_dict(self, response):
         data = response.json()   # parse till Python-dict
         # alla annonser
         job_posts = data["content"]

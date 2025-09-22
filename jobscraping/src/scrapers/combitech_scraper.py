@@ -23,7 +23,7 @@ class CombitechScraper(AbstractScraper):
         return response
 
 
-    def return_raw_job_posts_data(self, response):
+    def scrape_jobs_payloads_dict(self, response):
         tag_job_div = "div.block.w-full.mb-4.md\\:pb-0.md\\:mb-0.lg\\:pb-4"
         scraped_html = BeautifulSoup(response.text, "html.parser")
         job_posts = scraped_html.select(tag_job_div)

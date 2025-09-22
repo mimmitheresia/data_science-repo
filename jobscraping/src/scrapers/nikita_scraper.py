@@ -18,7 +18,7 @@ class NikitaScraper(AbstractScraper):
         print(f'{self.__class__.site} > Response:', response.status_code)
         return response
     
-    def return_raw_job_posts_data(self, response):
+    def scrape_jobs_payloads_dict(self, response):
         tag_job_div = "li.open-position-item.opened"
         scraped_html = BeautifulSoup(response.text, "html.parser")    
         job_posts = scraped_html.select(tag_job_div)

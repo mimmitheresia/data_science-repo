@@ -19,7 +19,7 @@ class ASocietyScraper(AbstractScraper):
         print(f'{self.__class__.site} > Response:', response.status_code)
         return response
     
-    def return_raw_job_posts_data(self, response):    
+    def scrape_jobs_payloads_dict(self, response):    
         pattern_job_title = r'(\{.*?requisition_name.*?\})'
         pattern_site_id = r'\\"abstract_id\\":\\"(.*?)\\"|\"abstract_id\":\"(.*?)\"' 
         scraped_html = response.text 

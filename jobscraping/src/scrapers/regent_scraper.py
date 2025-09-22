@@ -20,7 +20,7 @@ class RegentScraper(AbstractScraper):
         print(f'{self.__class__.site} > Response:', response.status_code)
         return response
     
-    def return_raw_job_posts_data(self, response):
+    def scrape_jobs_payloads_dict(self, response):
         scraped_html = BeautifulSoup(response.text, "html.parser")
         tag_job_div = "div.assignment-item"
         
