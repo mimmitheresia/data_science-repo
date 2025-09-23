@@ -1,11 +1,15 @@
 import pandas as pd
 import re
-import geonamescache
 from unidecode import unidecode
 from rapidfuzz import process
+"""
+Required packages to run in notebook on local machine:
+%pip install unidecode
+%pip install rapidfuzz
+"""
 
-gc = geonamescache.GeonamesCache()
-swedish_cities = [c['name'].lower() for c in gc.get_cities().values() if c['countrycode']=='SE']
+
+swedish_cities = ['alingsås', 'björlanda', 'boden', 'boo', 'borlänge', 'borås', 'bromma', 'enköping', 'eskilstuna', 'eslöv', 'falkenberg', 'falköping', 'falun', 'gamla uppsala', 'gustavsberg', 'gävle', 'göteborg', 'halmstad', 'haninge', 'helsingborg', 'huddinge', 'hudiksvall', 'huskvarna', 'härnösand', 'hässleholm', 'jakobsberg', 'jönköping', 'kalmar', 'karlshamn', 'karlskoga', 'karlskrona', 'karlstad', 'katrineholm', 'kinna', 'kiruna', 'kristianstad', 'kristinehamn', 'kumla', 'kungsbacka', 'kungsholmen', 'kungälv', 'köping', 'landskrona', 'lerum', 'lidingö', 'lidköping', 'linköping', 'ljungby', 'ludvika', 'luleå', 'lund', 'majorna', 'malmö', 'mariestad', 'motala', 'märsta', 'mölndal', 'mölnlycke', 'nacka', 'norrköping', 'norrtälje', 'nyköping', 'nässjö', 'oskarshamn', 'partille', 'piteå', 'råsunda', 'sandviken', 'skellefteå', 'skövde', 'sollentuna', 'solna', 'staffanstorp', 'stockholm', 'sundbyberg', 'sundsvall', 'södermalm', 'södertälje', 'tensta', 'trelleborg', 'trollhättan', 'tullinge', 'tumba', 'täby', 'uddevalla', 'umeå', 'upplands väsby', 'uppsala', 'vallentuna', 'varberg', 'vasastan', 'visby', 'vänersborg', 'värnamo', 'västervik', 'västerås', 'västra frölunda', 'växjö', 'ystad', 'ängelholm', 'åkersberga', 'årsta', 'örebro', 'örnsköldsvik', 'östermalm', 'östersund']
 swedish_cities_ascii = [unidecode(city.lower()) for city in swedish_cities]
 manual_cities_ascii = {'copenhagen':'köpenhamn', 'kopenhamn': 'köpenhamn', 'gothenburg':'göteborg', 'skane lan': 'skåne'}
 
@@ -53,6 +57,7 @@ def match_decoded_cities(city, match_score=80):
     if match and match[1] > match_score:
         return swedish_cities[swedish_cities_ascii.index(match[0])]  # return original city from swedish_cities, not ascii version
     return city
+
 
 def summarize_cities(row, max_cities=2):
     """
