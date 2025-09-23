@@ -37,7 +37,7 @@ def split_multiple_cities(city):
     city_parts = re.split(r',|/|;|\s', city_protected)  # Split on comma, slash, semicolon, or remaining spaces
     city_parts = [p.replace('__LAN__', ' ') for p in city_parts if p.strip()]   # Restore 'lan' and 'län'
     
-    drop_parts = ['area', 'dk', 'metropolitan', 'se']
+    drop_parts = ['area', 'dk', 'metropolitan', 'se', 'sverige']
     city_parts = sorted([p for p in city_parts if p not in drop_parts])
 
     return ', '.join(city_parts)
