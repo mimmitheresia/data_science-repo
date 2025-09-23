@@ -17,5 +17,3 @@ Install package direcly in notebook cell with python code:
 ```bash 
 *notebook*:  %pip install <package-name>
 ```
-
-test
