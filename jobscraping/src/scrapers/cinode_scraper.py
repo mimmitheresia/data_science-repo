@@ -42,8 +42,7 @@ class CinodeScraper(AbstractScraper):
         
         for id, payload in new_payloads.items():
             payload = BeautifulSoup(payload, "html.parser")
-            tag_link = payload.find("a", class_="list__heading", href=True)
-            tag_info = payload.find('div', class_='ng-star-inserted', attrs={'_ngcontent-ng-c129287783': True})
+            tag_link = payload.find("a", class_="list__heading", href=True)   
             
             site = CinodeScraper.site
             site_id = id.replace(f"{CinodeScraper.site}-", "")
@@ -57,7 +56,8 @@ class CinodeScraper(AbstractScraper):
             is_new = True
 
             job_title = (tag_link.get_text(strip=True)).encode('latin1').decode('utf-8')
-            work_location = (tag_info.find('p').get_text(strip=True)).encode('latin1').decode('utf-8')
+        
+    
           
             bronze_data.loc[len(bronze_data)] = [id, site, site_id, job_title, area, due_date, work_location, work_type, link, ingestion_ts, is_new]
         

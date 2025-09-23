@@ -57,16 +57,6 @@ class ProfinderScraper(AbstractScraper):
             job_title_id = tag_job_title.get("aria-label")  # extracts the content of aria-label
             job_title = re.sub(r'\s*ID:\d+', '', job_title_id)
 
-            info_str = tag_info.get_text(strip=True) if tag_info else ""
-            info_list = re.split(r'(?=\b\w+:)', info_str)
-            for info in info_list:
-                key_value = info.split(':')
-                if len(key_value) >=2:
-                    key = key_value[0].strip()
-                    value = key_value[1].strip()
-
-                    if key in ['Placering', 'Location']:
-                        work_location = value
 
             bronze_data.loc[len(bronze_data)] = [
                 id, site, site_id, job_title, area, due_date,
