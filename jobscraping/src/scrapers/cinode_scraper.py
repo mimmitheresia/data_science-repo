@@ -13,12 +13,76 @@ from bs4 import BeautifulSoup
 class CinodeScraper(AbstractScraper):
     site = 'Cinode'
 
-    
+    def __init__(self):
+        self.site = 'Cinode'
+
+
     def request_status(self):
         url = 'https://cinode.market/requests'
         response = requests.get(url)
         print(f'{self.__class__.site} > Response:', response.status_code)
         return response
+    
+
+    def extract_job_payloads(self, response):
+        scraped_html = BeautifulSoup(response.text, "html.parser")
+        job_payloads = scraped_html.find_all('app-list-row')
+    
+        print(f'{self.site} > Nmr of scraped adds:', len(job_payloads))   
+        return job_payloads 
+
+
+    def extract_id(self, payload):
+        try:
+            site_id = self.extract_site_id(payload) 
+            return f'{self.site}-{site_id}'
+        except: return None
+
+
+    def extract_site_id(self, payload):   
+        try: 
+            return self.extract_link(payload)
+        except: return None
+
+
+    def extract_job_title(self, payload):
+        try: 
+            tag_link = payload.find("a", class_="list__heading", href=True) 
+            job_title = (tag_link.get_text(strip=True)).encode('latin1').decode('utf-8')
+            return job_title
+        except: return None
+
+
+    def extract_link(self, payload):
+        try:
+            tag_link = payload.find("a", class_="list__heading", href=True)
+            link = f'https://cinode.market{tag_link['href']}'   
+            return link
+        except: None
+        
+
+        
+    def scrape_all_jobs(self, job_payloads):
+        scraped_data = pd.DataFrame(columns=AbstractScraper.bronze_columns + ['raw_payload'])
+                    
+        
+
+        for payload in job_payloads:
+            id = self.extract_id(payload)
+            site = self.site
+            site_id = self.extract_site_id(payload)
+            job_title = self.extract_job_title(payload)
+            area = self.extract_area(payload)
+            due_date = self.extract_due_date(payload)
+            work_location = self.extract_work_location(payload)
+            work_type = self.extract_work_type(payload)
+            link = self.extract_link(payload)
+            ingestion_ts = self.extract_ingestion_ts()
+            is_new = False
+            raw_payload = str(payload)
+            scraped_data.loc[len(scraped_data)] = [id, site, site_id, job_title, area, due_date, work_location, work_type, link, ingestion_ts, is_new, raw_payload]
+        
+        return scraped_data
 
 
     def scrape_jobs_payloads_dict(self, response):

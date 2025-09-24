@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 import pandas as pd
 import os
+from datetime import datetime
 
 class AbstractScraper(ABC):
     bronze_columns=['id', 'site', 'site_id','job_title', 'area', 'due_date', 'work_location', 'work_type', 'link', 'ingestion_ts', 'is_new']
@@ -8,6 +9,8 @@ class AbstractScraper(ABC):
 
     @abstractmethod 
     def request_status(self):
+       
+
         pass
 
     @abstractmethod
@@ -25,6 +28,7 @@ class AbstractScraper(ABC):
             old_data = pd.DataFrame(columns=new_data.columns)
 
         new_raw_data = new_data[~new_data[key_column].astype(str).isin(old_data[key_column].astype(str))]
+        new_raw_data.loc[:,'is_new'] = True
         return new_raw_data
     
     
@@ -72,6 +76,25 @@ class AbstractScraper(ABC):
         updated_dict = old_dict.copy()
         updated_dict.update(new_dict) 
         return updated_dict
+    
+    def extract_id(self, payload):
+        return None 
+    def extract_site_id(self, payload):
+        return None
+    def extract_job_title(self, payload):
+        return None 
+    def extract_area(self, payload):
+        return None
+    def extract_due_date(self, payload):
+        return None 
+    def extract_work_location(self, payload):
+        return None 
+    def extract_work_type(self, payload):
+        return None 
+    def extract_link(self, payload):
+        return None 
+    def extract_ingestion_ts(self):
+        return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 
 

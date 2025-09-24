@@ -9,11 +9,74 @@ import re
 class ProfinderScraper(AbstractScraper):
     site = "Profinder"
 
+    def __init__(self):
+        self.site = 'Profinder'
+
     def request_status(self):
         url = "https://www.profinder.se/lediga-uppdrag"
         response = requests.get(url)
         print(f'{self.__class__.site} > Response:', response.status_code)
         return response
+    
+
+    def extract_job_payloads(self, response):
+        scraped_html = BeautifulSoup(response.text, "html.parser")
+        job_payloads = scraped_html.select('div.item-link-wrapper')
+   
+        print(f'{self.site} > Nmr of scraped adds:', len(job_payloads))   
+        return job_payloads 
+
+
+    def extract_id(self, payload):
+        try:
+            site_id = self.extract_site_id(payload) 
+            return f'{self.site}-{site_id}'
+        except: return None
+
+
+    def extract_site_id(self, payload):   
+        try: 
+            return self.extract_link(payload)
+        except: return None
+
+
+    def extract_job_title(self, payload):
+        try: 
+            tag_job_title = payload.find("div", class_="item-action")
+            job_title_id = tag_job_title.get("aria-label")  # extracts the content of aria-label
+            job_title = re.sub(r'\s*ID:\d+', '', job_title_id)
+            return job_title
+        except: return None
+        
+
+    def extract_link(self, payload):
+        try:
+            tag_link = payload.find("a",  href=True) 
+            link = tag_link['href']
+            return link
+        except: None
+        
+
+        
+    def scrape_all_jobs(self, job_payloads):
+        scraped_data = pd.DataFrame(columns=AbstractScraper.bronze_columns + ['raw_payload'])
+
+        for payload in job_payloads:
+            id = self.extract_id(payload)
+            site = self.site
+            site_id = self.extract_site_id(payload)
+            job_title = self.extract_job_title(payload)
+            area = self.extract_area(payload)
+            due_date = self.extract_due_date(payload)
+            work_location = self.extract_work_location(payload)
+            work_type = self.extract_work_type(payload)
+            link = self.extract_link(payload)
+            ingestion_ts = self.extract_ingestion_ts()
+            is_new = False
+            raw_payload = str(payload)
+            scraped_data.loc[len(scraped_data)] = [id, site, site_id, job_title, area, due_date, work_location, work_type, link, ingestion_ts, is_new, raw_payload]
+        
+        return scraped_data
 
     def scrape_jobs_payloads_dict(self, response):
         scraped_html = BeautifulSoup(response.text, "html.parser")
@@ -53,7 +116,7 @@ class ProfinderScraper(AbstractScraper):
             link = id.replace(f"{ProfinderScraper.site}-", "")
             ingestion_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             is_new = True
-
+            tag_job_title = payload.find("div", class_="item-action")
             job_title_id = tag_job_title.get("aria-label")  # extracts the content of aria-label
             job_title = re.sub(r'\s*ID:\d+', '', job_title_id)
 

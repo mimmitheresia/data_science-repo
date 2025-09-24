@@ -9,6 +9,9 @@ from datetime import datetime
 
 class SenterpriseScraper(AbstractScraper):
     site = "Senterprise"
+    def __init__(self):
+        self.site = 'Senterprise'
+
     def request_status(self):
         url = "https://jobb.senterprise.se/jobs?department_id=6559"
         response = requests.get(url)

@@ -10,6 +10,9 @@ import ast
 class AfryScraper(AbstractScraper):
     site = 'Afry'
 
+    def __init__(self): 
+        self.site = 'Afry'
+
     def request_status(self):
         url = "https://afry.com/sv/api/assignment-list"
 
@@ -28,6 +31,7 @@ class AfryScraper(AbstractScraper):
         
     
     def scrape_jobs_payloads_dict(self, response):
+   
         scraped_data = response.json()   # parse till Python-dict
         job_posts = scraped_data["Adverts"]
         print(f'{self.__class__.site} > Nmr of scraped adds:', len(job_posts))
@@ -72,6 +76,81 @@ class AfryScraper(AbstractScraper):
         
         print(f'{self.__class__.site} > Parsing bronze data:', len(bronze_data))
         return bronze_data
+    
+
+    def extract_job_payloads(self, response):
+        scraped_data = response.json()   # parse till Python-dict
+        job_payloads = scraped_data["Adverts"]
+        
+        print(f'{self.site} > Nmr of scraped adds:', len(job_payloads))   
+        return job_payloads 
+
+
+    def extract_id(self, payload):
+        try: return f'{self.site}-{payload['Id']}'
+        except: return None
+
+
+    def extract_site_id(self, payload):
+        try: return payload['Id']
+        except: return None
+
+
+    def extract_job_title(self, payload):
+        try: return payload['Title']
+        except: return None
+        
+
+    def extract_area(self, payload):
+        areas = []
+        try:  
+            for skill in payload['CompetenceAreas']:
+                areas.append(skill['Name'])
+            return ", ".join(areas) 
+
+        except: return None
+        
+
+    def extract_due_date(self, payload):
+        try: return payload['LastApplyDate']
+        except: return None
+        
+
+    def extract_work_location(self, payload):
+        cities = []
+        try: 
+            for city in payload['Cities']:
+                cities.append(city['Name'])
+            return ", ".join(cities)
+        except: None
+
+
+    def extract_link(self, payload):
+        try: 
+            return payload['DetailUrl']
+        except: None
+        
+        
+    def scrape_all_jobs(self, job_payloads):
+        scraped_data = pd.DataFrame(columns=AbstractScraper.bronze_columns + ['raw_payload'])
+                    
+        
+        for payload in job_payloads:
+            id = self.extract_id(payload)
+            site = self.site
+            site_id = self.extract_site_id(payload)
+            job_title = self.extract_job_title(payload)
+            area = self.extract_area(payload)
+            due_date = self.extract_due_date(payload)
+            work_location = self.extract_work_location(payload)
+            work_type = self.extract_work_type(payload)
+            link = self.extract_link(payload)
+            ingestion_ts = self.extract_ingestion_ts()
+            is_new = False
+            raw_payload = str(payload)
+            scraped_data.loc[len(scraped_data)] = [id, site, site_id, job_title, area, due_date, work_location, work_type, link, ingestion_ts, is_new, raw_payload]
+        
+        return scraped_data
     
 
         

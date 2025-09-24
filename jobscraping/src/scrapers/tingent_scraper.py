@@ -9,6 +9,8 @@ import ast
 
 class TingentScraper(AbstractScraper):
     site = 'Tingent'
+    def __init__(self):
+        self.site = 'Tingent'
 
     def request_status(self):
         url = "https://tingent.se/api/jobs"

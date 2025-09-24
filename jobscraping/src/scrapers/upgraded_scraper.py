@@ -11,6 +11,8 @@ import re
 
 class UpgradedScraper(AbstractScraper):
     site = "Upgraded"
+    def __init__(self):
+        self.site = 'Upgraded'
 
     def __init__(self):
         self.base_url = "https://upgraded.se/lediga-uppdrag/"

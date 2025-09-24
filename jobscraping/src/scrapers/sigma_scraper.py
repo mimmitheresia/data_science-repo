@@ -10,6 +10,8 @@ import ast
 
 class SigmaScraper(AbstractScraper):
     site = 'Sigma'
+    def __init__(self):
+        self.site = 'Sigma'
 
     def request_status(self):
         url = 'https://www.sigma.se/service/jobs.json?limit=53&type=assignment&language=sv&nocache=202509231400'
