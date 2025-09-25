@@ -36,14 +36,14 @@ class SenterpriseScraper(AbstractScraper):
 
     def extract_site_id(self, payload):   
         try:    
-            return self.extract_site_id(payload)
+            return self.extract_link(payload)
         except: return None
 
 
     def extract_job_title(self, payload):
         try: 
-            tag_title_span = payload.find("span", title=True)
-            job_title = tag_title_span["title"].replace('Konsultuppdrag | ', '').strip('')
+            tag_title_span = payload.find("a", href=True)
+            job_title = (tag_title_span.get_text(strip=True)).replace('Konsultuppdrag | ', '').strip('')
             return job_title
         except: return None
    
@@ -64,7 +64,7 @@ class SenterpriseScraper(AbstractScraper):
 
     def extract_link(self, payload):
         try:
-            tag_link = payload.select("a",  href=True)
+            tag_link = payload.find("a",  href=True)
             return tag_link['href']
         except: None
         
