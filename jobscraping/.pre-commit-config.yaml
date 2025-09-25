@@ -1,0 +1,20 @@
+repos:
+  # Black: formats Python code
+  - repo: https://github.com/psf/black
+    rev: 24.8.0   # use latest stable
+    hooks:
+      - id: black
+        args: [--line-length=88]
+
+  # isort: sorts imports automatically
+  - repo: https://github.com/pycqa/isort
+    rev: 5.12.0
+    hooks:
+      - id: isort
+        args: [--profile=black]
+
+  # flake8: checks style (optional)
+  # - repo: https://github.com/pycqa/flake8
+  #  rev: 6.1.0
+  #  hooks:
+  #    - id: flake8

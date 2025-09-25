@@ -1,15 +1,16 @@
-from src.scrapers.abstract_scraper import AbstractScraper
-import requests
-import pandas as pd
-from datetime import datetime
 import ast
-    
+from datetime import datetime
+
+import pandas as pd
+import requests
+from src.scrapers.abstract_scraper import AbstractScraper
+
 
 class EworkScraper(AbstractScraper):
-    site = 'Ework'
+    site = "Ework"
 
     def __init__(self):
-        self.site = 'Ework'
+        self.site = "Ework"
 
     def request_status(self):
         url = "https://app.verama.com/api/public/job-requests"
@@ -19,7 +20,7 @@ class EworkScraper(AbstractScraper):
             "Accept": "application/json, text/plain, */*",
             "Referer": "https://app.verama.com/sv/job-requests",
             "x-frontend-version": "a4c15af0",
-            "x-session": "a9b80196-b28a-42a3-a83f-c1059ef946af"
+            "x-session": "a9b80196-b28a-42a3-a83f-c1059ef946af",
         }
 
         # Parametrar för att hämta alla jobb (storlek 100)
@@ -36,156 +37,161 @@ class EworkScraper(AbstractScraper):
             "dedicated": "false",
             "favouritesOnly": "false",
             "recommendedOnly": "false",
-            "query": ""
+            "query": "",
         }
 
         response = requests.get(url, headers=headers, params=params)
-        print(f'{self.__class__.site} > Response:', response.status_code)
+        print(f"{self.__class__.site} > Response:", response.status_code)
         return response
-    
 
     def extract_job_payloads(self, response):
-        scraped_data = response.json()   # parse till Python-dict
-        job_payloads = scraped_data["content"] 
-        
-        print(f'{self.site} > Nmr of scraped adds:', len(job_payloads))   
-        return job_payloads 
+        scraped_data = response.json()  # parse till Python-dict
+        job_payloads = scraped_data["content"]
 
+        print(f"{self.site} > Nmr of scraped adds:", len(job_payloads))
+        return job_payloads
 
     def extract_id(self, payload):
         try:
-            site_id = self.extract_site_id(payload) 
-            return f'{self.site}-{site_id}'
-        except: return None
-
+            site_id = self.extract_site_id(payload)
+            return f"{self.site}-{site_id}"
+        except:
+            return None
 
     def extract_site_id(self, payload):
-        try: return payload['id']
-        except: return None
-
+        try:
+            return payload["id"]
+        except:
+            return None
 
     def extract_job_title(self, payload):
-        try: return payload['title']
-        except: return None
-                
+        try:
+            return payload["title"]
+        except:
+            return None
 
     def extract_area(self, payload):
         try:
-            area = ''
-            for skills_dict in payload['skills']:
-                skill = skills_dict['skill']['name']
-                area += f'{skill}, ' 
-            return area.strip(', ')
+            area = ""
+            for skills_dict in payload["skills"]:
+                skill = skills_dict["skill"]["name"]
+                area += f"{skill}, "
+            return area.strip(", ")
 
-        except: return None
-      
+        except:
+            return None
 
     def extract_due_date(self, payload):
-        try: return payload['lastDayOfApplications']
-        except: return None
-    
+        try:
+            return payload["lastDayOfApplications"]
+        except:
+            return None
 
     def extract_work_location(self, payload):
-        work_location = ''
-        try:  
-            for location_dict in payload['locations']:
-                location = location_dict['city']
-                work_location += f'{location}, '
-            return work_location.strip(', ')
-        except: 
+        work_location = ""
+        try:
+            for location_dict in payload["locations"]:
+                location = location_dict["city"]
+                work_location += f"{location}, "
+            return work_location.strip(", ")
+        except:
             return None
-    
 
     def extract_work_type(self, payload):
-        work_type = ''
-        try: 
-            remoteness = payload['remoteness']
-            if remoteness == 0: 
-                work_type = 'På plats'
-            elif remoteness == 100: 
-                work_type = 'Remote'
-            else: 
-                work_type = 'Hybrid'
+        work_type = ""
+        try:
+            remoteness = payload["remoteness"]
+            if remoteness == 0:
+                work_type = "På plats"
+            elif remoteness == 100:
+                work_type = "Remote"
+            else:
+                work_type = "Hybrid"
             return work_type
-        except: 
+        except:
             return None
-
 
     def extract_link(self, payload):
         try:
             site_id = self.extract_site_id(payload)
-            link = f'https://app.verama.com/sv/job-requests/{site_id}'   
+            link = f"https://app.verama.com/sv/job-requests/{site_id}"
             return link
-        except: None
-        
-    
+        except:
+            None
 
     def scrape_jobs_payloads_dict(self, response):
-        data = response.json()   # parse till Python-dict
+        data = response.json()  # parse till Python-dict
         # alla annonser
         job_posts = data["content"]
-        print(f'{self.__class__.site} > Nmr of scraped adds:', len(job_posts))
-        
+        print(f"{self.__class__.site} > Nmr of scraped adds:", len(job_posts))
+
         job_payloads = {}
         for job in job_posts:
             site = EworkScraper.site
-            site_id = str(job['id'])
-            id = f'{site}-{site_id}'
+            site_id = str(job["id"])
+            id = f"{site}-{site_id}"
             job_payloads[id] = str(job)
         return job_payloads
-    
 
     def parse_bronze_data(self, new_payloads):
         bronze_data = pd.DataFrame(columns=AbstractScraper.bronze_columns)
 
-        
         for id, payload in new_payloads.items():
-            
+
             site = EworkScraper.site
             payload = ast.literal_eval(payload)
-            site_id = str(payload['id'])
-            job_title = payload['title']
-            area = ''
-            try: 
-                for skills_dict in payload['skills']:
-                    skill = skills_dict['skill']['name']
-                    area += f'{skill}, ' 
-                area = area.strip(', ')
-            except: 
-                area = None 
-            
-            due_date = payload['lastDayOfApplications']
+            site_id = str(payload["id"])
+            job_title = payload["title"]
+            area = ""
+            try:
+                for skills_dict in payload["skills"]:
+                    skill = skills_dict["skill"]["name"]
+                    area += f"{skill}, "
+                area = area.strip(", ")
+            except:
+                area = None
 
-            work_location = ''
-            try:  
-                for location_dict in payload['locations']:
-                    location = location_dict['city']
-                    work_location += f'{location}, '
-                work_location = work_location.strip(', ')
-            except: 
-                work_location = None 
+            due_date = payload["lastDayOfApplications"]
 
-            work_type = ''
-            try: 
-                remoteness = payload['remoteness']
-                if remoteness == 0: 
-                    work_type = 'På plats'
-                elif remoteness == 100: 
-                    work_type = 'Remote'
-                else: 
-                    work_type = 'Hybrid'
-            except: 
+            work_location = ""
+            try:
+                for location_dict in payload["locations"]:
+                    location = location_dict["city"]
+                    work_location += f"{location}, "
+                work_location = work_location.strip(", ")
+            except:
+                work_location = None
+
+            work_type = ""
+            try:
+                remoteness = payload["remoteness"]
+                if remoteness == 0:
+                    work_type = "På plats"
+                elif remoteness == 100:
+                    work_type = "Remote"
+                else:
+                    work_type = "Hybrid"
+            except:
                 work_type = None
 
-            link = f'https://app.verama.com/sv/job-requests/{site_id}'
-            ingestion_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # <--- timestamp här¨
+            link = f"https://app.verama.com/sv/job-requests/{site_id}"
+            ingestion_ts = datetime.now().strftime(
+                "%Y-%m-%d %H:%M:%S"
+            )  # <--- timestamp här¨
             is_new = True
 
-            bronze_data.loc[len(bronze_data)] = [id, site, site_id, job_title, area, due_date, work_location, work_type, link, ingestion_ts, is_new]
-        print(f'{self.__class__.site} > Parsing bronze data:', len(bronze_data))
+            bronze_data.loc[len(bronze_data)] = [
+                id,
+                site,
+                site_id,
+                job_title,
+                area,
+                due_date,
+                work_location,
+                work_type,
+                link,
+                ingestion_ts,
+                is_new,
+            ]
+        print(f"{self.__class__.site} > Parsing bronze data:", len(bronze_data))
         return bronze_data
-
-        
-
-        
-        

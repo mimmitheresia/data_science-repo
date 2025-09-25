@@ -1,17 +1,16 @@
 import os
-import pandas as pd 
-import json
 
-def load_local_data(file_path='../data/bronze/', file_name='jobs.csv'):
-    
-    if os.path.exists(file_path): 
-        data = pd.read_csv(file_path+file_name)  
+import pandas as pd
+
+
+def load_local_data(file_path="../data/bronze/", file_name="jobs.csv"):
+
+    if os.path.exists(file_path):
+        data = pd.read_csv(file_path + file_name)
     else:
         data = pd.DataFrame()
     return data
 
 
-def unload_local_data(data, file_path='../data/bronze/', file_name='jobs.csv'):
-    data.to_csv(file_path+file_name, index=False)  
-
-
+def unload_local_data(data, file_path="../data/bronze/", file_name="jobs.csv"):
+    data.to_csv(file_path + file_name, index=False)
