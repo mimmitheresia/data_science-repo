@@ -40,7 +40,7 @@ class RegentScraper(AbstractScraper):
 
     def extract_site_id(self, payload):   
         try: 
-            tag_site_id = job.select_one("a.btn.btn-warning.visa-desktop")
+            tag_site_id = payload.select_one("a.btn.btn-warning.visa-desktop")
             site_id = tag_site_id.get("href") if tag_site_id else ""
             return site_id
         except: return None

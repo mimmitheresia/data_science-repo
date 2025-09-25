@@ -60,13 +60,10 @@ class CinodeScraper(AbstractScraper):
             return link
         except: None
         
-
         
     def scrape_all_jobs(self, job_payloads):
         scraped_data = pd.DataFrame(columns=AbstractScraper.bronze_columns + ['raw_payload'])
                     
-        
-
         for payload in job_payloads:
             id = self.extract_id(payload)
             site = self.site
