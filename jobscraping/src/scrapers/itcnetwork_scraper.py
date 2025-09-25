@@ -62,28 +62,6 @@ class ITCNetworkScraper(AbstractScraper):
         except: None
         
 
-        
-    def scrape_all_jobs(self, job_payloads):
-        scraped_data = pd.DataFrame(columns=AbstractScraper.bronze_columns + ['raw_payload'])
-
-        for payload in job_payloads:
-            id = self.extract_id(payload)
-            site = self.site
-            site_id = self.extract_site_id(payload)
-            job_title = self.extract_job_title(payload)
-            area = self.extract_area(payload)
-            due_date = self.extract_due_date(payload)
-            work_location = self.extract_work_location(payload)
-            work_type = self.extract_work_type(payload)
-            link = self.extract_link(payload)
-            ingestion_ts = self.extract_ingestion_ts()
-            is_new = False
-            raw_payload = str(payload)
-            scraped_data.loc[len(scraped_data)] = [id, site, site_id, job_title, area, due_date, work_location, work_type, link, ingestion_ts, is_new, raw_payload]
-        
-        return scraped_data
-    
-
     def scrape_jobs_payloads_dict(self, response):
         scraped_html = BeautifulSoup(response.text, "html.parser")
         tag_job_div = "div.maf_feed_single.maf_wid100"

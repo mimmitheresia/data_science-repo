@@ -9,8 +9,6 @@ class AbstractScraper(ABC):
 
     @abstractmethod 
     def request_status(self):
-       
-
         pass
 
     @abstractmethod
@@ -29,6 +27,8 @@ class AbstractScraper(ABC):
 
         new_raw_data = new_data[~new_data[key_column].astype(str).isin(old_data[key_column].astype(str))].copy()
         new_raw_data.loc[:,'is_new'] = True
+
+        print(f'{self.site} > Nmr of new adds:', len(new_raw_data))
         return new_raw_data
     
     
@@ -52,8 +52,6 @@ class AbstractScraper(ABC):
                 )
         return data
 
-    def return_name(self):
-        print(self.__class__.site)
     
     def concat_new_rows(self, new_data, old_data): 
         if len(old_data)==0: 
@@ -67,16 +65,41 @@ class AbstractScraper(ABC):
         old_data = AbstractScraper.set_dtypes(old_data)
         
         updated_data = pd.concat([old_data, new_data], ignore_index=True)
-
-        # If ingestion_ts should be a timestamp, convert it explicitly
-            
+        # If ingestion_ts should be a timestamp, convert it explicitly   
         return updated_data
     
+
     def concat_dicts(self, new_dict, old_dict):
         updated_dict = old_dict.copy()
         updated_dict.update(new_dict) 
         return updated_dict
+     
+
+    def scrape_all_jobs(self, job_payloads):
+        scraped_data = pd.DataFrame(columns=AbstractScraper.bronze_columns + ['raw_payload'])
+
+        for payload in job_payloads:
+            id = self.extract_id(payload)
+            site = self.site
+            site_id = self.extract_site_id(payload)
+            job_title = self.extract_job_title(payload)
+            area = self.extract_area(payload)
+            due_date = self.extract_due_date(payload)
+            work_location = self.extract_work_location(payload)
+            work_type = self.extract_work_type(payload)
+            link = self.extract_link(payload)
+            ingestion_ts = self.extract_ingestion_ts()
+            is_new = False
+            raw_payload = str(payload)
+
+            if None in [site_id, job_title]:
+                print(f'{self.site} > Failed to parse payload. [site_id, job_title] {[site_id,job_title]}')
+            else: 
+                scraped_data.loc[len(scraped_data)] = [id, site, site_id, job_title, area, due_date, work_location, work_type, link, ingestion_ts, is_new, raw_payload]
+        
+        return scraped_data
     
+
     def extract_id(self, payload):
         return None 
     def extract_site_id(self, payload):
