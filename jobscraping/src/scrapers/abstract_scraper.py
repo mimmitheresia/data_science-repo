@@ -27,7 +27,7 @@ class AbstractScraper(ABC):
         if len(old_data)==0: 
             old_data = pd.DataFrame(columns=new_data.columns)
 
-        new_raw_data = new_data[~new_data[key_column].astype(str).isin(old_data[key_column].astype(str))]
+        new_raw_data = new_data[~new_data[key_column].astype(str).isin(old_data[key_column].astype(str))].copy()
         new_raw_data.loc[:,'is_new'] = True
         return new_raw_data
     
