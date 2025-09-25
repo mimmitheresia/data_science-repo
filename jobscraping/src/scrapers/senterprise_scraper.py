@@ -17,6 +17,78 @@ class SenterpriseScraper(AbstractScraper):
         response = requests.get(url)
         print(f'{self.__class__.site} > Response:', response.status_code)
         return response
+    
+    def extract_job_payloads(self, response):
+        scraped_html = BeautifulSoup(response.text, "html.parser")
+        jobs_container = scraped_html.find("ul", id="jobs_list_container")
+        job_payloads = jobs_container.find_all("li", class_="w-full") if jobs_container else []
+    
+        print(f'{self.site} > Nmr of scraped adds:', len(job_payloads))   
+        return job_payloads 
+
+
+    def extract_id(self, payload):
+        try:
+            site_id = self.extract_site_id(payload) 
+            return f'{self.site}-{site_id}'
+        except: return None
+
+
+    def extract_site_id(self, payload):   
+        try:    
+            return self.extract_site_id(payload)
+        except: return None
+
+
+    def extract_job_title(self, payload):
+        try: 
+            tag_title_span = payload.find("span", title=True)
+            job_title = tag_title_span["title"].replace('Konsultuppdrag | ', '').strip('')
+            return job_title
+        except: return None
+   
+
+    def extract_work_location(self, payload):
+        try:
+            tags_all_span = payload.select("div.mt-1.text-md span")
+            return tags_all_span[2].get_text(strip=True)
+        except: None  
+
+
+    def extract_work_type(self, payload):
+        try:
+            tags_all_span = payload.select("div.mt-1.text-md span")
+            return tags_all_span[4].get_text(strip=True)
+        except: None  
+    
+
+    def extract_link(self, payload):
+        try:
+            tag_link = payload.select("a",  href=True)
+            return tag_link['href']
+        except: None
+        
+
+        
+    def scrape_all_jobs(self, job_payloads):
+        scraped_data = pd.DataFrame(columns=AbstractScraper.bronze_columns + ['raw_payload'])
+
+        for payload in job_payloads:
+            id = self.extract_id(payload)
+            site = self.site
+            site_id = self.extract_site_id(payload)
+            job_title = self.extract_job_title(payload)
+            area = self.extract_area(payload)
+            due_date = self.extract_due_date(payload)
+            work_location = self.extract_work_location(payload)
+            work_type = self.extract_work_type(payload)
+            link = self.extract_link(payload)
+            ingestion_ts = self.extract_ingestion_ts()
+            is_new = False
+            raw_payload = str(payload)
+            scraped_data.loc[len(scraped_data)] = [id, site, site_id, job_title, area, due_date, work_location, work_type, link, ingestion_ts, is_new, raw_payload]
+        
+        return scraped_data
 
     def scrape_jobs_payloads_dict(self, response):
         scraped_html = BeautifulSoup(response.text, "html.parser")
@@ -26,8 +98,7 @@ class SenterpriseScraper(AbstractScraper):
         job_posts = jobs_container.find_all("li", class_="w-full") if jobs_container else []
 
         print(f'{self.__class__.site} > Nmr of scraped adds:', len(job_posts))
-        tag_link = scraped_html.select("a",  href=True)
-     
+       
         job_payloads = {}
         for job in job_posts:
             tag_link = job.find("a",  href=True)       
@@ -61,6 +132,7 @@ class SenterpriseScraper(AbstractScraper):
             is_new = True
 
             if tag_title_span:
+                tag_title_span = payload.find("span", title=True)
                 job_title = tag_title_span["title"].replace('Konsultuppdrag | ', '').strip('')
        
         
