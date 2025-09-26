@@ -45,7 +45,7 @@ class EmagineScraper(AbstractScraper):
         print(f"{self.__class__.site} > Response:", response.status_code)
         return response
 
-    def extract_job_payloads(self, response):
+    def _extract_job_payloads(self, response):
         scraped_data = response.json()  # parse till Python-dict
         job_payloads = scraped_data["items"]
 
@@ -103,58 +103,3 @@ class EmagineScraper(AbstractScraper):
             return link
         except:
             None
-
-    def scrape_jobs_payloads_dict(self, response):
-        data = response.json()  # parse till Python-dict
-        # alla annonser
-        job_posts = data["items"]
-        print(f"{self.__class__.site} > Nmr of scraped adds:", len(job_posts))
-
-        job_payloads = {}
-        for job in job_posts:
-            site = EmagineScraper.site
-            site_id = str(job["id"])
-            id = f"{site}-{site_id}"
-            job_payloads[id] = str(job)
-        return job_payloads
-
-    def parse_bronze_data(self, new_payloads):
-        bronze_data = pd.DataFrame(columns=AbstractScraper.bronze_columns)
-
-        for id, payload in new_payloads.items():
-
-            site = EmagineScraper.site
-
-            payload = ast.literal_eval(payload)
-            site_id = str(payload["id"])
-            job_title = payload["title"]
-            try:
-                area = payload["area"]["name"]
-            except:
-                area = None
-
-            due_date = payload["applicationDate"]
-
-            work_location = payload["jobAdWorkLocation"]["city"]
-            work_type = payload["jobAdWorkLocation"]["workLocationType"]
-            link = f"https://portal.emagine.org/jobs/{site_id}/{slugify_title_for_link(job_title)}"
-            ingestion_ts = datetime.now().strftime(
-                "%Y-%m-%d %H:%M:%S"
-            )  # <--- timestamp här
-            is_new = True
-
-            bronze_data.loc[len(bronze_data)] = [
-                id,
-                site,
-                site_id,
-                job_title,
-                area,
-                due_date,
-                work_location,
-                work_type,
-                link,
-                ingestion_ts,
-                is_new,
-            ]
-        print(f"{self.__class__.site} > Parsing bronze data:", len(bronze_data))
-        return bronze_data

@@ -25,91 +25,17 @@ class AbstractScraper(ABC):
         pass
 
     @abstractmethod
-    def scrape_jobs_payloads_dict(self, response):
+    def _extract_job_payloads(self, response):
         pass
 
-    @abstractmethod
-    def parse_bronze_data(self, raw_data):
-        pass
-
-    def return_new_rows(self, new_data, old_data, key_column="id"):
-
-        if len(old_data) == 0:
-            old_data = pd.DataFrame(columns=new_data.columns)
-
-        new_raw_data = new_data[
-            ~new_data[key_column].astype(str).isin(old_data[key_column].astype(str))
-        ].copy()
-        new_raw_data.loc[:, "is_new"] = True
-
-        print(f"{self.site} > Nmr of new adds:", len(new_raw_data))
-        return new_raw_data
-
-    def return_new_payloads(self, new_dict, old_dict, key_column="id"):
-
-        new_ads = {
-            id: payload for id, payload in new_dict.items() if id not in old_dict
-        }
-        return new_ads
-
-    def set_dtypes(data):
-        for column in data.columns:
-            if column == "ingestion_ts":
-                data["ingestion_ts"] = pd.to_datetime(
-                    data["ingestion_ts"], errors="coerce"
-                )
-            elif column == "is_new":
-                data["is_new"] = data["is_new"].astype(bool)
-            else:
-                # Remove semicolons in string
-                data[column] = data[column].astype(str)
-                data.loc[:, column] = data.loc[:, column].apply(
-                    lambda x: x.replace(";", "") if isinstance(x, str) else x
-                )
-        return data
-
-    def concat_new_rows(self, new_data, old_data):
-        if len(old_data) == 0:
-            old_data = pd.DataFrame(columns=new_data.columns)
-
-        # Update is_new adds column
-        new_data["is_new"] = True
-        old_data.loc[old_data["site"] == self.__class__.site, "is_new"] = False
-
-        new_data = AbstractScraper.set_dtypes(new_data)
-        old_data = AbstractScraper.set_dtypes(old_data)
-
-        updated_data = pd.concat([old_data, new_data], ignore_index=True)
-        # If ingestion_ts should be a timestamp, convert it explicitly
-        return updated_data
-
-    def concat_dicts(self, new_dict, old_dict):
-        updated_dict = old_dict.copy()
-        updated_dict.update(new_dict)
-        return updated_dict
-
-    def is_valid_scraped_row(self, row, scraped_data):
-        index_id = AbstractScraper.bronze_columns.index("id")
-        index_site_id = AbstractScraper.bronze_columns.index("site_id")
-        index_title = AbstractScraper.bronze_columns.index("job_title")
-
-        id = row[index_id]
-        site_id = row[index_site_id]
-        job_title = row[index_title]
-
-        if None in [site_id, job_title]:
-            print(
-                f"{self.site} > Failed to add job into data due to invalid parsing of 'site_id' or 'job_title' from payload. Resulting [site_id, job_title] = {[site_id,job_title]}"
-            )
-            return False
-
-        if id in scraped_data["id"].values:
-            print(
-                f"{self.site} > Failed to add job into data due to non-unique 'id' from payload. Resulting 'id' = {id}"
-            )
-            return False
-
-        return True
+    def extract_job_payloads(self, response):
+        """Template method: wraps subclass extraction with error handling."""
+        try:
+            return self._extract_job_payloads(response)
+        except Exception as e:
+            print(f"{self.site} > Failed to extract job payloads: {e}")
+            job_payloads = []
+            return job_payloads
 
     def scrape_all_jobs(self, job_payloads):
         scraped_data = pd.DataFrame(
@@ -162,3 +88,55 @@ class AbstractScraper(ABC):
 
     def extract_ingestion_ts(self):
         return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    def is_valid_scraped_row(self, row, scraped_data):
+        index_id = AbstractScraper.bronze_columns.index("id")
+        index_site_id = AbstractScraper.bronze_columns.index("site_id")
+        index_title = AbstractScraper.bronze_columns.index("job_title")
+
+        id = row[index_id]
+        site_id = row[index_site_id]
+        job_title = row[index_title]
+
+        if None in [site_id, job_title]:
+            print(
+                f"{self.site} > Failed to add job into data due to invalid parsing of 'site_id' or 'job_title' from payload. Resulting [site_id, job_title] = {[site_id,job_title]}"
+            )
+            return False
+
+        if id in scraped_data["id"].values:
+            print(
+                f"{self.site} > Failed to add job into data due to non-unique 'id' from payload. Resulting 'id' = {id}"
+            )
+            return False
+
+        return True
+
+    def return_new_rows(self, new_data, old_data, key_column="id"):
+
+        if len(old_data) == 0:
+            old_data = pd.DataFrame(columns=new_data.columns)
+
+        new_raw_data = new_data[
+            ~new_data[key_column].astype(str).isin(old_data[key_column].astype(str))
+        ].copy()
+        new_raw_data.loc[:, "is_new"] = True
+
+        print(f"{self.site} > Nmr of new adds:", len(new_raw_data))
+        return new_raw_data
+
+    def set_dtypes(data):
+        for column in data.columns:
+            if column == "ingestion_ts":
+                data["ingestion_ts"] = pd.to_datetime(
+                    data["ingestion_ts"], errors="coerce"
+                )
+            elif column == "is_new":
+                data["is_new"] = data["is_new"].astype(bool)
+            else:
+                # Remove semicolons in string
+                data[column] = data[column].astype(str)
+                data.loc[:, column] = data.loc[:, column].apply(
+                    lambda x: x.replace(";", "") if isinstance(x, str) else x
+                )
+        return data
