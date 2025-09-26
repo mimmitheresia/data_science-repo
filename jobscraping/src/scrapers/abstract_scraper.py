@@ -88,45 +88,52 @@ class AbstractScraper(ABC):
         updated_dict.update(new_dict)
         return updated_dict
 
+    def is_valid_scraped_row(self, row, scraped_data):
+        index_id = AbstractScraper.bronze_columns.index("id")
+        index_site_id = AbstractScraper.bronze_columns.index("site_id")
+        index_title = AbstractScraper.bronze_columns.index("job_title")
+
+        id = row[index_id]
+        site_id = row[index_site_id]
+        job_title = row[index_title]
+
+        if None in [site_id, job_title]:
+            print(
+                f"{self.site} > Failed to add job into data due to invalid parsing of 'site_id' or 'job_title' from payload. Resulting [site_id, job_title] = {[site_id,job_title]}"
+            )
+            return False
+
+        if id in scraped_data["id"].values:
+            print(
+                f"{self.site} > Failed to add job into data due to non-unique 'id' from payload. Resulting 'id' = {id}"
+            )
+            return False
+
+        return True
+
     def scrape_all_jobs(self, job_payloads):
         scraped_data = pd.DataFrame(
             columns=AbstractScraper.bronze_columns + ["raw_payload"]
         )
 
         for payload in job_payloads:
-            id = self.extract_id(payload)
-            site = self.site
-            site_id = self.extract_site_id(payload)
-            job_title = self.extract_job_title(payload)
-            area = self.extract_area(payload)
-            due_date = self.extract_due_date(payload)
-            work_location = self.extract_work_location(payload)
-            work_type = self.extract_work_type(payload)
-            link = self.extract_link(payload)
-            ingestion_ts = self.extract_ingestion_ts()
-            is_new = False
-            raw_payload = str(payload)
+            job_row = [
+                self.extract_id(payload),
+                self.site,
+                self.extract_site_id(payload),
+                self.extract_job_title(payload),
+                self.extract_area(payload),
+                self.extract_due_date(payload),
+                self.extract_work_location(payload),
+                self.extract_work_type(payload),
+                self.extract_link(payload),
+                self.extract_ingestion_ts(),
+                False,
+                str(payload),
+            ]
 
-            if None in [site_id, job_title]:
-                print(
-                    f"{self.site} > Failed to parse payload. [site_id, job_title] {[site_id,job_title]}"
-                )
-            else:
-                scraped_data.loc[len(scraped_data)] = [
-                    id,
-                    site,
-                    site_id,
-                    job_title,
-                    area,
-                    due_date,
-                    work_location,
-                    work_type,
-                    link,
-                    ingestion_ts,
-                    is_new,
-                    raw_payload,
-                ]
-
+            if self.is_valid_scraped_row(job_row, scraped_data):
+                scraped_data.loc[len(scraped_data)] = job_row
         return scraped_data
 
     def extract_id(self, payload):
