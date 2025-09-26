@@ -2,6 +2,7 @@ from abc import ABC, abstractmethod
 from datetime import datetime
 
 import pandas as pd
+import pytz
 
 
 class AbstractScraper(ABC):
@@ -87,7 +88,8 @@ class AbstractScraper(ABC):
         return None
 
     def extract_ingestion_ts(self):
-        return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        tz = pytz.timezone("Europe/Stockholm")
+        return datetime.now(tz).strftime("%Y-%m-%d %H:%M:%S")
 
     def is_valid_scraped_row(self, row, scraped_data):
         index_id = AbstractScraper.bronze_columns.index("id")
