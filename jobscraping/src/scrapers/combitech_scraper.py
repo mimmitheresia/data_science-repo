@@ -13,7 +13,7 @@ class CombitechScraper(AbstractScraper):
     def __init__(self):
         self.site = "Combitech"
 
-    def request_status(self):
+    def _request_status(self):
         url = "https://www.combitech.se/karriar/lediga-jobb/"
         headers = {}
 

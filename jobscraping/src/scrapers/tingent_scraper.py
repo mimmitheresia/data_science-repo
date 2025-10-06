@@ -12,7 +12,7 @@ class TingentScraper(AbstractScraper):
     def __init__(self):
         self.site = "Tingent"
 
-    def request_status(self):
+    def _request_status(self):
         url = "https://tingent.se/api/jobs"
 
         headers = {

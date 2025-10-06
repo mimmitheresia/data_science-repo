@@ -12,7 +12,7 @@ class EworkScraper(AbstractScraper):
     def __init__(self):
         self.site = "Ework"
 
-    def request_status(self):
+    def _request_status(self):
         url = "https://app.verama.com/api/public/job-requests"
 
         headers = {

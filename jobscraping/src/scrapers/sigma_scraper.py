@@ -12,7 +12,7 @@ class SigmaScraper(AbstractScraper):
     def __init__(self):
         self.site = "Sigma"
 
-    def request_status(self):
+    def _request_status(self):
         url = "https://www.sigma.se/service/jobs.json?limit=53&type=assignment&language=sv&nocache=202509231400"
         response = requests.get(url)
         print(f"{self.__class__.site} > Response:", response.status_code)

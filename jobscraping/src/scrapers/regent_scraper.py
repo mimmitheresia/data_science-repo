@@ -13,7 +13,7 @@ class RegentScraper(AbstractScraper):
     def __init__(self):
         self.site = "Regent"
 
-    def request_status(self):
+    def _request_status(self):
         url = "https://regent.se/uppdrag/"
         headers = {}
 

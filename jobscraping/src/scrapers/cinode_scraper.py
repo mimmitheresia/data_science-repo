@@ -12,7 +12,7 @@ class CinodeScraper(AbstractScraper):
     def __init__(self):
         self.site = "Cinode"
 
-    def request_status(self):
+    def _request_status(self):
         url = "https://cinode.market/requests"
         response = requests.get(url)
         print(f"{self.__class__.site} > Response:", response.status_code)

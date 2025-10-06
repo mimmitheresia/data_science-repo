@@ -28,7 +28,7 @@ class UpgradedScraper(AbstractScraper):
             raise ValueError("Nonce not found")
         return match.group(1)
 
-    def request_status(self):
+    def _request_status(self):
         nonce = self.get_nonce()
         data = {
             "action": "do_filter_posts",

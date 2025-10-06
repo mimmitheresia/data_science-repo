@@ -13,7 +13,7 @@ class ITCNetworkScraper(AbstractScraper):
     def __init__(self):
         self.site = "ITC Network"
 
-    def request_status(self):
+    def _request_status(self):
         url = "https://itcnetwork.se/uppdrag/"
         headers = {
             "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"

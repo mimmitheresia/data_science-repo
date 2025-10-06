@@ -21,12 +21,16 @@ class AbstractScraper(ABC):
     ]
     payload_columns = ["id", "raw_payload"]
 
-    @abstractmethod
     def request_status(self):
-        pass
+        """Template method: wraps subclass extraction with error handling."""
+        try:
+            return self._request_status()
+        except Exception as e:
+            print(f"{self.site} > Request failed: {e}")
+            return None
 
     @abstractmethod
-    def _extract_job_payloads(self, response):
+    def _request_status(self):
         pass
 
     def extract_job_payloads(self, response):
@@ -37,6 +41,10 @@ class AbstractScraper(ABC):
             print(f"{self.site} > Failed to extract job payloads: {e}")
             job_payloads = []
             return job_payloads
+
+    @abstractmethod
+    def _extract_job_payloads(self, response):
+        pass
 
     def scrape_all_jobs(self, job_payloads):
         scraped_data = pd.DataFrame(

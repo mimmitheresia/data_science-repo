@@ -12,7 +12,7 @@ class SenterpriseScraper(AbstractScraper):
     def __init__(self):
         self.site = "Senterprise"
 
-    def request_status(self):
+    def _request_status(self):
         url = "https://jobb.senterprise.se/jobs?department_id=6559"
         response = requests.get(url)
         print(f"{self.__class__.site} > Response:", response.status_code)

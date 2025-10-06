@@ -13,7 +13,7 @@ class ProfinderScraper(AbstractScraper):
     def __init__(self):
         self.site = "Profinder"
 
-    def request_status(self):
+    def _request_status(self):
         url = "https://www.profinder.se/lediga-uppdrag"
         response = requests.get(url)
         print(f"{self.__class__.site} > Response:", response.status_code)

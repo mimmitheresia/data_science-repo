@@ -12,7 +12,7 @@ class AliantScraper(AbstractScraper):
     def __init__(self):
         self.site = "Aliant"
 
-    def request_status(self):
+    def _request_status(self):
         url = "https://aliant.recman.page/api/jobs?sort=newest"
 
         headers = {

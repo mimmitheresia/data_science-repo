@@ -13,7 +13,7 @@ class ASocietyScraper(AbstractScraper):
     def __init__(self):
         self.site = "A Society"
 
-    def request_status(self):
+    def _request_status(self):
         url = "https://www.asocietygroup.com/sv/uppdrag?_rsc=9il7j"
         headers = {}
 

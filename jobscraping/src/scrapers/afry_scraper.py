@@ -12,7 +12,7 @@ class AfryScraper(AbstractScraper):
     def __init__(self):
         self.site = "Afry"
 
-    def request_status(self):
+    def _request_status(self):
         url = "https://afry.com/sv/api/assignment-list"
 
         headers = {

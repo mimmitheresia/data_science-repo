@@ -13,7 +13,7 @@ class NikitaScraper(AbstractScraper):
     def __init__(self):
         self.site = "Nikita"
 
-    def request_status(self):
+    def _request_status(self):
         url = "https://www.nikita.se/lediga-uppdrag/"
         headers = {}
 
