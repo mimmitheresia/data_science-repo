@@ -10,6 +10,7 @@ class CinodeScraper(AbstractScraper):
     site = "Cinode"
 
     def __init__(self):
+        super().__init__()
         self.site = "Cinode"
 
     def _request_status(self):

@@ -10,6 +10,7 @@ class AliantScraper(AbstractScraper):
     site = "Aliant"
 
     def __init__(self):
+        super().__init__()
         self.site = "Aliant"
 
     def _request_status(self):

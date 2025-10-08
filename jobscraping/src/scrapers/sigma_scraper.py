@@ -10,6 +10,7 @@ class SigmaScraper(AbstractScraper):
     site = "Sigma"
 
     def __init__(self):
+        super().__init__()
         self.site = "Sigma"
 
     def _request_status(self):

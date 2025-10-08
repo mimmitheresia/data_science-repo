@@ -10,6 +10,7 @@ class EworkScraper(AbstractScraper):
     site = "Ework"
 
     def __init__(self):
+        super().__init__()
         self.site = "Ework"
 
     def _request_status(self):

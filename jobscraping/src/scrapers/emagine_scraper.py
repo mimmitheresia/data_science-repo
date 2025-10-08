@@ -11,6 +11,7 @@ class EmagineScraper(AbstractScraper):
     site = "Emagine"
 
     def __init__(self):
+        super().__init__()
         self.site = "Emagine"
 
     def _request_status(self):

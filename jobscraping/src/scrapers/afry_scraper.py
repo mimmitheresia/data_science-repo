@@ -10,6 +10,7 @@ class AfryScraper(AbstractScraper):
     site = "Afry"
 
     def __init__(self):
+        super().__init__()
         self.site = "Afry"
 
     def _request_status(self):

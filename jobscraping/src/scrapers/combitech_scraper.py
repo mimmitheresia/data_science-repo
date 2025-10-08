@@ -11,6 +11,7 @@ class CombitechScraper(AbstractScraper):
     site = "Combitech"
 
     def __init__(self):
+        super().__init__()
         self.site = "Combitech"
 
     def _request_status(self):

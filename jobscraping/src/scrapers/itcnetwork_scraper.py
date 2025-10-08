@@ -11,6 +11,7 @@ class ITCNetworkScraper(AbstractScraper):
     site = "ITC Network"
 
     def __init__(self):
+        super().__init__()
         self.site = "ITC Network"
 
     def _request_status(self):

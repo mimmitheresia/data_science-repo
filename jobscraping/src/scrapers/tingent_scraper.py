@@ -10,6 +10,7 @@ class TingentScraper(AbstractScraper):
     site = "Tingent"
 
     def __init__(self):
+        super().__init__()
         self.site = "Tingent"
 
     def _request_status(self):

@@ -11,6 +11,7 @@ class NikitaScraper(AbstractScraper):
     site = "Nikita"
 
     def __init__(self):
+        super().__init__()
         self.site = "Nikita"
 
     def _request_status(self):

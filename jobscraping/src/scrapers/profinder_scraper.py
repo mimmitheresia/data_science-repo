@@ -11,6 +11,7 @@ class ProfinderScraper(AbstractScraper):
     site = "Profinder"
 
     def __init__(self):
+        super().__init__()
         self.site = "Profinder"
 
     def _request_status(self):

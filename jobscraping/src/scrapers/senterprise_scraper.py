@@ -10,6 +10,7 @@ class SenterpriseScraper(AbstractScraper):
     site = "Senterprise"
 
     def __init__(self):
+        super().__init__()
         self.site = "Senterprise"
 
     def _request_status(self):

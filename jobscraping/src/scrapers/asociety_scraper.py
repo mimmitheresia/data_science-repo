@@ -11,6 +11,7 @@ class ASocietyScraper(AbstractScraper):
     site = "A Society"
 
     def __init__(self):
+        super().__init__()
         self.site = "A Society"
 
     def _request_status(self):

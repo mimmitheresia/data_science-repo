@@ -11,6 +11,7 @@ class RegentScraper(AbstractScraper):
     site = "Regent"
 
     def __init__(self):
+        super().__init__()
         self.site = "Regent"
 
     def _request_status(self):

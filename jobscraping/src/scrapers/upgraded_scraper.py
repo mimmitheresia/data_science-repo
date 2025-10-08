@@ -11,6 +11,7 @@ class UpgradedScraper(AbstractScraper):
     site = "Upgraded"
 
     def __init__(self):
+        super().__init__()
         self.site = "Upgraded"
         self.base_url = "https://upgraded.se/lediga-uppdrag/"
         self.ajax_url = "https://upgraded.se/wp-admin/admin-ajax.php"

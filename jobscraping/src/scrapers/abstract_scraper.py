@@ -21,6 +21,10 @@ class AbstractScraper(ABC):
     ]
     payload_columns = ["id", "raw_payload"]
 
+    def __init__(self):
+        self.is_failed = False
+        self.failed_message = ""
+
     def request_status(self):
         """Template method: wraps subclass extraction with error handling."""
         try:
@@ -38,8 +42,11 @@ class AbstractScraper(ABC):
         try:
             return self._extract_job_payloads(response)
         except Exception as e:
-            print(f"{self.site} > Failed to extract job payloads: {e}")
             job_payloads = []
+            self.is_failed = True
+            self.failed_message = "Failed to extract any jobs from website."
+            print(f"{self.site} > {self.failed_message}: {e}")
+
             return job_payloads
 
     @abstractmethod
@@ -50,6 +57,8 @@ class AbstractScraper(ABC):
         scraped_data = pd.DataFrame(
             columns=AbstractScraper.bronze_columns + ["raw_payload"]
         )
+        if job_payloads == []:
+            return scraped_data
 
         for payload in job_payloads:
             job_row = [
@@ -62,14 +71,14 @@ class AbstractScraper(ABC):
                 self.extract_work_location(payload),
                 self.extract_work_type(payload),
                 self.extract_link(payload),
-                self.extract_ingestion_ts(),
+                AbstractScraper.extract_ingestion_ts(),
                 False,
                 str(payload),
             ]
+            scraped_data.loc[len(scraped_data)] = job_row
 
-            if self.is_valid_scraped_row(job_row, scraped_data):
-                scraped_data.loc[len(scraped_data)] = job_row
-        return scraped_data
+        valid_scraped_data = self.return_valid_scraped_data(scraped_data)
+        return valid_scraped_data
 
     def extract_id(self, payload):
         return None
@@ -95,32 +104,45 @@ class AbstractScraper(ABC):
     def extract_link(self, payload):
         return None
 
-    def extract_ingestion_ts(self):
+    def extract_ingestion_ts():
         tz = pytz.timezone("Europe/Stockholm")
         return datetime.now(tz).strftime("%Y-%m-%d %H:%M:%S")
 
-    def is_valid_scraped_row(self, row, scraped_data):
-        index_id = AbstractScraper.bronze_columns.index("id")
-        index_site_id = AbstractScraper.bronze_columns.index("site_id")
-        index_title = AbstractScraper.bronze_columns.index("job_title")
+    def return_valid_scraped_data(self, scraped_data):
 
-        id = row[index_id]
-        site_id = row[index_site_id]
-        job_title = row[index_title]
+        valid_scraped_data = scraped_data[scraped_data["site_id"].notna()].reset_index(
+            drop=True
+        )
+        if len(valid_scraped_data) == 0:
+            self.is_failed = True
+            self.failed_message = "Failed to parse 'site_id' from jobs."
+            return valid_scraped_data
 
-        if None in [site_id, job_title]:
-            print(
-                f"{self.site} > Failed to add job into data due to invalid parsing of 'site_id' or 'job_title' from payload. Resulting [site_id, job_title] = {[site_id,job_title]}"
-            )
-            return False
+        valid_scraped_data = valid_scraped_data[
+            scraped_data["job_title"].notna()
+        ].reset_index(drop=True)
+        if len(valid_scraped_data) == 0:
+            self.is_failed = True
+            self.failed_message = "Failed to parse 'job_title' from jobs."
 
-        if id in scraped_data["id"].values:
-            print(
-                f"{self.site} > Failed to add job into data due to non-unique 'id' from payload. Resulting 'id' = {id}"
-            )
-            return False
+        return valid_scraped_data
 
-        return True
+    def update_failed_scrapers_data(self, failed_scrapers_data):
+        if self.is_failed:
+            # Failed scraper: 0 jobs was scraped from website. Adding failed scraper do table if not already exists
+            if self.site not in failed_scrapers_data["site"].values:
+                failed_scrapers_data.loc[len(failed_scrapers_data)] = [
+                    self.site,
+                    self.failed_message,
+                    AbstractScraper.extract_ingestion_ts(),
+                ]
+
+        else:
+            # Succeed scraper: jobs was scraped from website. Removing scraper from failed table if exists
+            failed_scrapers_data = failed_scrapers_data[
+                failed_scrapers_data["site"] != self.site
+            ].reset_index(drop=True)
+        return failed_scrapers_data
 
     def return_new_rows(self, new_data, old_data, key_column="id"):
 
