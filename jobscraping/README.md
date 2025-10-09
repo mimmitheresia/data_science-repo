@@ -1,6 +1,8 @@
 
  
-## Install Dependencies & Create Virtual Environment
+# To run program on LOCAL MACHINE 
+
+### Install Dependencies & Create Virtual Environment
 
 Install all dependencies in pyproject.toml file and create the virtual environment using Poetry:
 
