@@ -13,40 +13,34 @@ class UpgradedScraper(AbstractScraper):
     def __init__(self):
         super().__init__()
         self.site = "Upgraded"
-        self.base_url = "https://upgraded.se/lediga-uppdrag/"
-        self.ajax_url = "https://upgraded.se/wp-admin/admin-ajax.php"
-        self.session = requests.Session()
-        self.session.headers.update(
-            {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"}
-        )
 
-    def get_nonce(self):
-        r = self.session.get(self.base_url)
-
-        # find "nonce" inside page script
-        match = re.search(r'"nonce":"([a-f0-9]+)"', r.text)
-        if not match:
-            raise ValueError("Nonce not found")
-        return match.group(1)
 
     def _request_status(self):
-        nonce = self.get_nonce()
-        data = {
+        url = "https://upgraded.se/wp-admin/admin-ajax.php"
+
+        payload = {
             "action": "do_filter_posts",
-            "nonce": nonce,
+            "nonce": "39f36792ad",  # OBS: kan ändras per session
             "params[ort-term]": "alla-orter",
             "params[roll-term]": "alla-roller",
             "params[kund-term]": "alla-kunder",
             "params[ansokdate-term]": "sortering",
-            "params[search-term]": "",
+            "params[search-term]": ""
         }
-        response = self.session.post(self.ajax_url, data=data)
+
+        headers = {
+            "User-Agent": "Mozilla/5.0",
+            "Content-Type": "application/x-www-form-urlencoded"
+        }
+
+        response = requests.post(url, data=payload, headers=headers)
+   
         print(f"{self.__class__.site} > Response:", response.status_code)
         return response
 
     def _extract_job_payloads(self, response):
         scraped_html = BeautifulSoup(response.json()["content"], "html.parser")
-        tag_job_div = "td.konsultuppdrag-column-1"
+        tag_job_div = "tr.konsultuppdrag__table-row"
         job_payloads = scraped_html.select(tag_job_div)
 
         print(f"{self.site} > Nmr of scraped adds:", len(job_payloads))
@@ -83,8 +77,7 @@ class UpgradedScraper(AbstractScraper):
 
     def extract_due_date(self, payload):
         try:
-            tags_all_span = payload.select("span")
-            due_date = tags_all_span[-1].get_text(strip=True)
+            due_date = payload.select_one(".konsultuppdrag-column-3").get_text(strip=True)
             return due_date
         except:
             None
